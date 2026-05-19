@@ -15,12 +15,13 @@ import { FinalCta } from "@/components/marketing/final-cta";
 import { MarketingFooter } from "@/components/marketing/marketing-footer";
 import { JsonLd } from "@/components/marketing/json-ld";
 import { BRAND_NAME, SITE_URL as DEFAULT_SITE_URL } from "@/lib/brand.server";
+import { resolveOrigin } from "@/lib/env-url";
 
 // SITE_URL prefers the env override (preview deploys, custom domains), falling
-// back to the brand-derived public URL.
-const SITE_URL = (
-  process.env.NEXT_PUBLIC_SITE_URL ?? DEFAULT_SITE_URL
-).replace(/\/$/, "");
+// back to the brand-derived public URL. resolveOrigin treats empty strings and
+// malformed URLs as missing — otherwise `new URL(SITE_URL)` below would crash
+// prerender with an opaque message.
+const SITE_URL = resolveOrigin("NEXT_PUBLIC_SITE_URL", DEFAULT_SITE_URL);
 
 export async function generateMetadata({
   params,

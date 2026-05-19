@@ -4,11 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev -p 3006",
-    "build": "npm run check:i18n && next build",
+    "build": "npm run check:env && npm run check:i18n && next build",
     "start": "next start -p 3006",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
     "check:i18n": "node scripts/check-i18n.mjs",
+    "check:env": "node scripts/check-env.mjs",
     "test": "vitest run",
     "test:watch": "vitest"
   },
