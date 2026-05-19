@@ -1,7 +1,7 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import { Quote, Star } from "lucide-react";
+import { Building2 } from "lucide-react";
 import { Marquee, ScrollReveal } from "./motion";
 
 type Item = { quote: string; name: string; role: string };
@@ -38,38 +38,24 @@ export function Testimonials() {
 }
 
 function TestimonialCard({ item }: { item: Item }) {
-  const initials = item.name
-    .split(/\s+/)
-    .map((p) => p[0])
-    .slice(0, 2)
-    .join("");
   return (
-    <figure className="flex w-[340px] shrink-0 flex-col rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition-shadow hover:shadow-md sm:w-[400px] dark:border-slate-800 dark:bg-slate-900">
-      <div className="flex items-center gap-1 text-amber-400">
-        {Array.from({ length: 5 }).map((_, i) => (
-          <Star key={i} className="h-4 w-4 fill-current" aria-hidden />
-        ))}
-      </div>
-      <Quote
-        className="mt-3 h-5 w-5 text-accent-500/60 dark:text-accent-400/60"
-        aria-hidden
-      />
-      <blockquote className="mt-2 flex-1 text-sm leading-relaxed text-slate-700 dark:text-slate-200">
-        “{item.quote}”
-      </blockquote>
-      <figcaption className="mt-6 flex items-center gap-3">
-        <div className="grid h-10 w-10 place-items-center rounded-full bg-gradient-to-br from-accent-500 to-violet-500 text-xs font-semibold text-white">
-          {initials}
+    <article className="flex w-[340px] shrink-0 flex-col rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition-shadow hover:shadow-md sm:w-[400px] dark:border-slate-800 dark:bg-slate-900">
+      <div className="flex items-center gap-3">
+        <div className="grid h-10 w-10 place-items-center rounded-lg bg-accent-50 text-accent-700 dark:bg-accent-900/30 dark:text-accent-300">
+          <Building2 className="h-5 w-5" aria-hidden />
         </div>
         <div>
-          <p className="text-sm font-medium text-slate-900 dark:text-slate-50">
+          <h3 className="text-sm font-semibold text-slate-900 dark:text-slate-50">
             {item.name}
-          </p>
+          </h3>
           <p className="text-xs text-slate-500 dark:text-slate-400">
             {item.role}
           </p>
         </div>
-      </figcaption>
-    </figure>
+      </div>
+      <p className="mt-5 flex-1 text-sm leading-relaxed text-slate-700 dark:text-slate-200">
+        {item.quote}
+      </p>
+    </article>
   );
 }

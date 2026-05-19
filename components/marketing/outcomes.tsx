@@ -7,7 +7,7 @@ import { CountUp, ScrollReveal, StaggerContainer, StaggerItem } from "./motion";
 type Item = { metric: string; label: string };
 
 /**
- * Parse the i18n metric string (e.g. "30s", "10×", "0", "Daily") into a
+ * Parse the i18n metric string (e.g. "GST", "Stock", "Credit", "Daily") into a
  * shape the CountUp primitive can animate. Non-numeric strings render as a
  * static fallback.
  */

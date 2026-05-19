@@ -1,30 +1,31 @@
 # Tiram
 
-> Run your business with clarity and capability. GST-ready, UPI-native, multi-warehouse, and bilingual (Tamil + English).
+> Run your business with clarity and capability. GST-ready, multi-warehouse, UPI payment-ready, and bilingual (Tamil + English).
 
-Tiram helps shop owners, distributors, and small businesses in India issue GST-compliant invoices, track inventory across multiple warehouses, accept UPI payments, and see daily revenue and margin reports — without the complexity of legacy accounting software. The full UI is available in Tamil and English, receipts can be printed on 80mm thermal printers or A4, and every business is fully data-isolated with role-based access for staff.
+Tiram helps shop owners, distributors, and small businesses in India issue GST invoices, track inventory across multiple warehouses, record cash/card/UPI/credit payments, manage customer dues, and see daily sales, GST, stock, profit, and audit reports. The product app is available in Tamil and English, supports browser printing and ESC/POS thermal receipt setup, and scopes each business through organization membership and role-based access. Tiram is available as a cloud web app and as an offline desktop app for Windows and Mac; the mobile app is under development.
 
 ## Pages
 
 - [Home (English)](https://tiram.app/en): Product overview, features, pricing, FAQ.
 - [Home (Tamil)](https://tiram.app/ta): முகப்பு பக்கம் — அம்சங்கள், விலை, கேள்விகள்.
-- [Sign up](https://tiram.app/en/sign-up): Create a free Tiram account.
-- [Sign in](https://tiram.app/en/sign-in): Sign in to an existing account.
+- [Sign up](https://app.tiram.co.in/en/sign-up): Create a Tiram account in the product app.
+- [Sign in](https://app.tiram.co.in/en/sign-in): Sign in to an existing account in the product app.
 
 ## Features
 
-- GST e-invoicing with HSN/SAC, automatic CGST/SGST/IGST calculation, FY-aware reports.
-- UPI QR codes embedded on every receipt for one-scan customer payments.
+- GST invoicing with HSN/SAC, automatic CGST/SGST/IGST calculation, FY-aware reports.
+- UPI payment mode and business UPI ID support for payment recording.
 - Multi-warehouse inventory tracking with one-tap stock transfers and low-stock alerts.
-- Daily, monthly, and FY-to-date dashboards covering revenue, margin, top products, and defaulters.
+- Daily and period reports covering sales, GST, cash, inventory, profit, receivables, payables, audit activity, top products, and defaulters.
 - Multi-organization support: run multiple businesses with isolated data and role-based staff access.
-- Full Tamil and English UI; per-customer receipt language selection.
-- 80mm thermal and A4 print layouts from the same invoice data.
-- Optimistic UI tuned for slow Indian networks (3G-friendly).
+- Full Tamil and English UI; Tamil-friendly receipt rendering where supported.
+- Browser printing for invoices and ESC/POS thermal receipt setup, including raster printing for Tamil-friendly receipts where supported.
+- Cloud subscription via Razorpay and offline desktop app for Windows and Mac, activated through the Tiram team.
+- Mobile app under development.
 
 ## Pricing
 
-Free during early access; no credit card required.
+Standard starts at ₹249 per user per month, exclusive of GST. Annual billing waives 2 months, so yearly billing charges 10 months. A 30-day free trial is available without a credit card.
 
 ## Contact
 
