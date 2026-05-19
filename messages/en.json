@@ -1,0 +1,351 @@
+{
+  "common": {
+    "appName": "Tiram",
+    "logoAlt": "Tiram logo",
+    "companyName": "Tiram Technologies Private Limited",
+    "tagline": "Run your business with clarity and capability.",
+    "supportEmail": "hello@tiram.app"
+  },
+  "landing": {
+    "seo": {
+      "title": "Tiram — Billing & inventory built for Indian SMBs",
+      "description": "Run the shop, not the paperwork. GST-ready billing, multi-warehouse inventory, and reports that drive decisions — in Tamil and English. Start free.",
+      "ogTitle": "Tiram — Billing & inventory for Indian SMBs",
+      "ogDescription": "GST-ready billing, multi-warehouse inventory, and reports that drive decisions. Built for Indian small businesses in Tamil and English.",
+      "keywords": "GST billing software, inventory software India, Tamil billing app, UPI invoice, small business billing, thermal printer billing, multi-warehouse inventory, Vyapar alternative, Tally alternative",
+      "orgName": "Tiram",
+      "orgDescription": "Tiram is billing and inventory software for Indian small businesses. GST-ready, UPI-native, multi-warehouse, and bilingual (Tamil + English).",
+      "appName": "Tiram"
+    },
+    "nav": {
+      "features": "Features",
+      "howItWorks": "How it works",
+      "india": "Built for India",
+      "pricing": "Pricing",
+      "faq": "FAQ",
+      "signIn": "Sign in",
+      "startFree": "Start free",
+      "accessProduct": "Access Product",
+      "toggleTheme": "Toggle theme",
+      "skipToContent": "Skip to content"
+    },
+    "hero": {
+      "eyebrow": "Built for Indian SMBs",
+      "h1": "Run the shop. We'll handle the paperwork.",
+      "subhead": "GST-ready billing, multi-warehouse inventory, and reports that actually drive decisions — in Tamil and English.",
+      "ctaPrimary": "Start free",
+      "accessProduct": "Access Product",
+      "ctaSecondary": "See how it works",
+      "microTrust": "No credit card · 2-minute setup · GST-ready",
+      "mockInvoiceTitle": "Tax invoice",
+      "mockInvoiceNumber": "Invoice #INV-2024-001",
+      "mockCreatedAt": "Created today at 10:45 AM",
+      "mockPaidStatus": "Paid via UPI",
+      "mockCustomer": "Karthik Hardware",
+      "mockItem1": "Cement — UltraTech 50kg",
+      "mockItem2": "TMT Bars — 10mm (50 pcs)",
+      "mockTotalLabel": "Total (incl. GST)",
+      "mockVerified": "GST verified",
+      "mockUpiHint": "Pay via UPI",
+      "chipGst": "GST Ready",
+      "chipUpi": "UPI Native",
+      "chipBilingual": "Tamil + English",
+      "chipPrint": "Thermal Print",
+      "chipWarehouse": "Multi-Warehouse"
+    },
+    "trust": {
+      "intro": "Everything an Indian small business needs — out of the box.",
+      "items": {
+        "gst": "GST-ready",
+        "upi": "UPI payments",
+        "bilingual": "Tamil + English",
+        "thermal": "Thermal printer",
+        "warehouse": "Multi-warehouse"
+      }
+    },
+    "outcomes": {
+      "heading": "What changes on day one",
+      "intro": "Real outcomes our customers see in the first week — measured, not marketed.",
+      "items": [
+        {
+          "metric": "30s",
+          "label": "Time to create a GST invoice"
+        },
+        {
+          "metric": "10×",
+          "label": "Faster monthly book-close"
+        },
+        {
+          "metric": "0",
+          "label": "Stockouts with auto low-stock alerts"
+        },
+        {
+          "metric": "Daily",
+          "label": "Margin and revenue visibility"
+        }
+      ]
+    },
+    "features": {
+      "heading": "One tool for the whole shop",
+      "intro": "Billing, inventory, customers, and reports — connected, not bolted together.",
+      "items": [
+        {
+          "title": "Invoicing that just works",
+          "tagline": "GST invoices, receipts, thermal or A4 prints, share on WhatsApp.",
+          "bullets": [
+            "Auto GST calculation with HSN/SAC",
+            "Thermal 80mm and A4 layouts",
+            "Send PDF or share-link instantly"
+          ]
+        },
+        {
+          "title": "Inventory across warehouses",
+          "tagline": "Track stock where it actually sits — your shop, godown, or van.",
+          "bullets": [
+            "Multi-warehouse stock levels",
+            "Transfers with one tap",
+            "Low-stock alerts before you run out"
+          ]
+        },
+        {
+          "title": "Reports that drive decisions",
+          "tagline": "See revenue, margin, top products, and defaulters — daily.",
+          "bullets": [
+            "Daily, monthly, FY-to-date dashboards",
+            "Margin per product and per customer",
+            "Defaulter list with one-click reminders"
+          ]
+        },
+        {
+          "title": "Multi-org, multi-role",
+          "tagline": "Run multiple businesses, invite staff with the right access.",
+          "bullets": [
+            "Separate orgs, separate data",
+            "Role-based permissions",
+            "Audit-ready activity trail"
+          ]
+        },
+        {
+          "title": "GST and UPI, native",
+          "tagline": "Built for Indian compliance from line one of code.",
+          "bullets": [
+            "GSTIN validation",
+            "UPI QR on every receipt",
+            "FY-aware reports"
+          ]
+        },
+        {
+          "title": "Tamil and English, fully",
+          "tagline": "Switch the UI and the receipt language any time.",
+          "bullets": [
+            "Full UI in Tamil and English",
+            "Per-customer receipt language",
+            "More Indian languages coming"
+          ]
+        }
+      ]
+    },
+    "howItWorks": {
+      "heading": "Run your shop in 4 steps.",
+      "intro": "From the first product added to the next decision made — your shop, on autopilot.",
+      "steps": [
+        {
+          "title": "Add stock",
+          "body": "Products with HSN, reorder levels, and warehouse-wise stock counts."
+        },
+        {
+          "title": "Bill in seconds",
+          "body": "Pick customer, add items, print thermal or share the link."
+        },
+        {
+          "title": "Track dues",
+          "body": "Record payments, age receivables, spot defaulters before they hurt."
+        },
+        {
+          "title": "Decide daily",
+          "body": "Dashboard ranks what to act on — GST due, dues, slow stock."
+        }
+      ]
+    },
+    "india": {
+      "heading": "Built for India, not adapted to it",
+      "intro": "Every detail — from GST e-invoicing to UPI QR receipts to thermal printing — is shipped, not on a roadmap.",
+      "items": [
+        {
+          "title": "GST e-invoicing",
+          "body": "Compliant invoice formats, GSTIN validation, and FY-aware reports."
+        },
+        {
+          "title": "UPI QR on every receipt",
+          "body": "Customers pay by scanning. You see the payment. No manual reconciliation."
+        },
+        {
+          "title": "Tamil-first UI",
+          "body": "Not a translation layer — full bilingual UI, including receipts and reports."
+        },
+        {
+          "title": "Thermal and A4 printing",
+          "body": "80mm thermal for the counter, A4 for distributors. Same data, two layouts."
+        },
+        {
+          "title": "Multi-warehouse for distributors",
+          "body": "Shop, godown, van — track stock where it sits and transfer in one tap."
+        },
+        {
+          "title": "Works on slow networks",
+          "body": "Lightweight pages, optimistic UI. Built for 3G shops, not just fibre."
+        }
+      ]
+    },
+    "testimonials": {
+      "heading": "Loved by shops that don't have time to be loved",
+      "intro": "A few words from early customers who switched from spreadsheets and ledgers.",
+      "items": [
+        {
+          "quote": "I used to spend two hours every evening matching invoices and payments. Now it's done by the time I lock the shutter.",
+          "name": "Priya R.",
+          "role": "Hardware store · Coimbatore"
+        },
+        {
+          "quote": "GST returns used to mean a phone call to my CA. Now I just send him the report from Tiram.",
+          "name": "Mahesh K.",
+          "role": "Electrical wholesaler · Madurai"
+        },
+        {
+          "quote": "We run three counters and a godown. Stock numbers finally agree at the end of the day.",
+          "name": "Lakshmi S.",
+          "role": "Provision store · Chennai"
+        }
+      ]
+    },
+    "pricing": {
+      "heading": "Simple pricing. No surprises.",
+      "intro": "One plan. Your team's size. Pay monthly or annually — 2 months free on annual.",
+      "billing": {
+        "label": "Billing cycle",
+        "monthly": "Monthly",
+        "annual": "Yearly"
+      },
+      "savings": {
+        "badge": "Save {pct}%"
+      },
+      "seats": {
+        "label": "Users",
+        "unit": "user",
+        "units": "users",
+        "decrease": "Remove a user",
+        "increase": "Add a user"
+      },
+      "standard": {
+        "name": "Standard",
+        "popular": "Most popular",
+        "tagline": "Everything you need to run your shop end-to-end.",
+        "perUserPerMonth": "per user · month",
+        "perUserPerYear": "per user · year",
+        "originalPriceA11y": "Original price {price} per user per year",
+        "billedAnnually": "Billed yearly · 2 months free",
+        "cancelAnytime": "Billed monthly · cancel anytime",
+        "totalLabel": "Your total",
+        "totalSuffixMonthly": "/ mo",
+        "totalSuffixAnnual": "/ yr",
+        "cta": "Start 30-day free trial",
+        "trustLine": "No card needed · GST invoice included",
+        "features": [
+          "Unlimited invoices, estimates & credit notes",
+          "Inventory across warehouses · low-stock alerts",
+          "GST-native · FY-aware reports for your CA",
+          "Tamil + English · thermal & A4 print",
+          "Cloud (Razorpay) or Desktop (offline activation)"
+        ]
+      },
+      "enterprise": {
+        "badge": "Coming soon",
+        "name": "Enterprise",
+        "tagline": "For chains, distributors and franchises.",
+        "price": "Custom",
+        "priceHint": "Talk to us — pricing scales with seats and integrations.",
+        "features": [
+          "Volume seat pricing",
+          "Multi-org consolidation",
+          "Priority support · custom integrations",
+          "SSO · advanced audit & compliance"
+        ],
+        "cta": "Talk to us",
+        "replyHint": "We reply within one business day."
+      },
+      "platforms": {
+        "saas": {
+          "name": "Cloud",
+          "description": "Sign up, pay with Razorpay, start in 30 seconds."
+        },
+        "desktop": {
+          "name": "Desktop",
+          "description": "Runs on your shop PC. Activate via WhatsApp.",
+          "cta": "Contact us"
+        }
+      },
+      "footnote": "Prices in INR, exclusive of GST. Switch cycles or seats anytime — we pro-rate."
+    },
+    "faq": {
+      "heading": "Questions, answered",
+      "intro": "Short answers. If you want a longer one, write to us.",
+      "items": [
+        {
+          "q": "Is Tiram free to start?",
+          "a": "Yes. You can sign up, add your business, and issue invoices without a credit card. We'll let you know well in advance before any plan changes apply."
+        },
+        {
+          "q": "Does Tiram support GST?",
+          "a": "Yes. Tiram is GST-native: GSTIN validation, HSN/SAC on line items, automatic CGST/SGST/IGST calculation, and FY-aware reports your CA can use directly."
+        },
+        {
+          "q": "Can I bill in Tamil?",
+          "a": "Yes. The full UI works in Tamil and English, and you can choose the receipt language per customer. More Indian languages are on the roadmap."
+        },
+        {
+          "q": "Does it work on a slow internet connection?",
+          "a": "Yes. Pages are lightweight and optimistic, so the UI stays responsive even on a 3G connection. Your data syncs as soon as the network is back."
+        },
+        {
+          "q": "Can I print to a thermal printer?",
+          "a": "Yes. Tiram ships with a tested 80mm thermal layout and a clean A4 layout. Switch per print without re-creating the invoice."
+        },
+        {
+          "q": "Is my data secure?",
+          "a": "Yes. Every business is fully isolated — no shared rows. Authentication is industry-standard, data is encrypted in transit, and only people you invite can see your books."
+        },
+        {
+          "q": "Can multiple staff members use it?",
+          "a": "Yes. Invite staff to your business with role-based access — counter, accountant, or admin — and an audit trail tracks who did what."
+        },
+        {
+          "q": "Can I switch from Tally or Vyapar?",
+          "a": "Yes. You can bulk-import products and customers from a spreadsheet exported from any other tool. Reach out if you need help with the migration."
+        }
+      ]
+    },
+    "finalCta": {
+      "heading": "Less ledger. More leverage.",
+      "subhead": "Stop juggling spreadsheets and start running the business.",
+      "cta": "Start free",
+      "accessProduct": "Access Product",
+      "fineprint": "No credit card. 2-minute setup."
+    },
+    "footer": {
+      "tagline": "Billing & inventory built for Indian SMBs.",
+      "product": "Product",
+      "company": "Company",
+      "legal": "Legal",
+      "contact": "Contact",
+      "linkFeatures": "Features",
+      "linkPricing": "Pricing",
+      "linkFaq": "FAQ",
+      "linkSignIn": "Sign in",
+      "linkSignUp": "Create account",
+      "linkPrivacy": "Privacy",
+      "linkTerms": "Terms",
+      "linkContact": "Contact us",
+      "rights": "© {year} Tiram. All rights reserved."
+    }
+  }
+}

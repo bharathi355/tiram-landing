@@ -1,0 +1,56 @@
+/**
+ * Unit test for `MarketingNav` — covers the brand mark + wordmark in the
+ * landing top navigation. Siblings (language switcher, theme toggle,
+ * motion-driven mobile drawer) are stubbed so the test isolates branding.
+ *
+ * Mirror of `frontend-landing/components/marketing/marketing-nav.tsx`.
+ */
+import { describe, expect, it, vi } from "vitest";
+
+vi.mock("next/image", () => ({
+  default: (props: Record<string, unknown>) => {
+    // eslint-disable-next-line @next/next/no-img-element, jsx-a11y/alt-text
+    return <img {...props} />;
+  },
+}));
+
+vi.mock("@/components/marketing/language-switcher", () => ({
+  MarketingLanguageSwitcher: () => <div data-testid="marketing-lang-stub" />,
+}));
+
+vi.mock("@/components/marketing/theme-toggle", () => ({
+  ThemeToggle: () => <div data-testid="theme-toggle-stub" />,
+}));
+
+vi.mock("@/components/marketing/motion", () => ({
+  AnimatePresence: ({ children }: { children: React.ReactNode }) => <>{children}</>,
+  motion: new Proxy(
+    {},
+    {
+      get: () => (props: Record<string, unknown>) => {
+        const { children, ...rest } = props as { children?: React.ReactNode };
+        return <div {...rest}>{children}</div>;
+      },
+    },
+  ),
+}));
+
+import { MarketingNav } from "@/components/marketing/marketing-nav";
+import { renderWithProviders } from "@/tests/framework/render";
+
+describe("MarketingNav brand link", () => {
+  it("renders the logo next to the wordmark with the localized alt text", () => {
+    const { getByAltText, getByText } = renderWithProviders(<MarketingNav />);
+    const logo = getByAltText("Tiram logo") as HTMLImageElement;
+    expect(logo).toBeInTheDocument();
+    expect(logo.getAttribute("src")).toBe("/logo.png");
+    expect(getByText("Tiram")).toBeInTheDocument();
+  });
+
+  it("uses the Tamil alt text under the ta locale", () => {
+    const { getByAltText } = renderWithProviders(<MarketingNav />, {
+      locale: "ta",
+    });
+    expect(getByAltText("திறம் சின்னம்")).toBeInTheDocument();
+  });
+});

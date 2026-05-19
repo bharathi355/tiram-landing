@@ -1,0 +1,31 @@
+# Tiram
+
+> Run your business with clarity and capability. GST-ready, UPI-native, multi-warehouse, and bilingual (Tamil + English).
+
+Tiram helps shop owners, distributors, and small businesses in India issue GST-compliant invoices, track inventory across multiple warehouses, accept UPI payments, and see daily revenue and margin reports — without the complexity of legacy accounting software. The full UI is available in Tamil and English, receipts can be printed on 80mm thermal printers or A4, and every business is fully data-isolated with role-based access for staff.
+
+## Pages
+
+- [Home (English)](https://tiram.app/en): Product overview, features, pricing, FAQ.
+- [Home (Tamil)](https://tiram.app/ta): முகப்பு பக்கம் — அம்சங்கள், விலை, கேள்விகள்.
+- [Sign up](https://tiram.app/en/sign-up): Create a free Tiram account.
+- [Sign in](https://tiram.app/en/sign-in): Sign in to an existing account.
+
+## Features
+
+- GST e-invoicing with HSN/SAC, automatic CGST/SGST/IGST calculation, FY-aware reports.
+- UPI QR codes embedded on every receipt for one-scan customer payments.
+- Multi-warehouse inventory tracking with one-tap stock transfers and low-stock alerts.
+- Daily, monthly, and FY-to-date dashboards covering revenue, margin, top products, and defaulters.
+- Multi-organization support: run multiple businesses with isolated data and role-based staff access.
+- Full Tamil and English UI; per-customer receipt language selection.
+- 80mm thermal and A4 print layouts from the same invoice data.
+- Optimistic UI tuned for slow Indian networks (3G-friendly).
+
+## Pricing
+
+Free during early access; no credit card required.
+
+## Contact
+
+hello@tiram.app

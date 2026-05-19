@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+db.sqlite3
+*.sqlite3
+staticfiles/
+
+# Test artefacts (coverage.py + hypothesis state)
+.coverage
+.coverage.*
+htmlcov/
+.hypothesis/
+frontend/coverage/
+.mutmut-cache
+
+# Offline-mode runtime files (logs, local pgdata, data dir).
+services/web/var/
+*.pgdata/
+
+# Legacy signing keys should not land in source control.
+scripts/desktop/trusted-keys/*.key
+scripts/desktop/trusted-keys/*.p12
+desktop/dist/
+
+# Legacy generated update key file from older builds.
+desktop/src/main/__updates_pub_key__.ts
+
+# Build cache + outputs
+.tiram-build-cache/
+dist/desktop/
+
+# Node / Next
+node_modules/
+.next/
+.turbo/
+dist/
+playwright-report/
+test-results/
+
+# Editors
+.vscode/
+.idea/
+.DS_Store
+
+# Env
+.env
+.env.*
+!.env.example
+
+# Locale compiled
+*.mo
+**/tsconfig.tsbuildinfo
+frontend/tsconfig.tsbuildinfo
+**/graphify-out/**
+.claude/scheduled_tasks.lock
