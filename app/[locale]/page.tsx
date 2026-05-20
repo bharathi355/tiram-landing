@@ -7,9 +7,10 @@ import { TrustStrip } from "@/components/marketing/trust-strip";
 import { Outcomes } from "@/components/marketing/outcomes";
 import { Features } from "@/components/marketing/features";
 import { HowItWorks } from "@/components/marketing/how-it-works";
-import { BuiltForIndia } from "@/components/marketing/built-for-india";
+import { BuiltForRegion } from "@/components/marketing/built-for-region";
 import { Testimonials } from "@/components/marketing/testimonials";
 import { Pricing } from "@/components/marketing/pricing";
+import { WhyTiram } from "@/components/marketing/why-tiram";
 import { Faq } from "@/components/marketing/faq";
 import { FinalCta } from "@/components/marketing/final-cta";
 import { MarketingFooter } from "@/components/marketing/marketing-footer";
@@ -23,6 +24,13 @@ import { resolveOrigin } from "@/lib/env-url";
 // prerender with an opaque message.
 const SITE_URL = resolveOrigin("NEXT_PUBLIC_SITE_URL", DEFAULT_SITE_URL);
 
+// The page reads the `tiram-country` cookie in i18n/request.ts to pick India
+// vs. global content. Static prerender would freeze in the global variant —
+// force dynamic so each request gets server-rendered with its own cookie.
+// Netlify's CDN caches the two variants separately via the `Vary` header set
+// by middleware, so this is a per-cookie-value render, not per-request.
+export const dynamic = "force-dynamic";
+
 export async function generateMetadata({
   params,
 }: {
@@ -32,13 +40,18 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: "landing.seo" });
 
   // hreflang map: every supported locale + an x-default that points to English.
+  // en-IN and ta-IN re-use the same /en and /ta URLs — India is served via a
+  // country cookie set in middleware, not a separate URL. This tells Google
+  // and other search engines that those URLs answer India-targeted queries.
   const languages: Record<string, string> = Object.fromEntries(
     routing.locales.map((l) => [l, `${SITE_URL}/${l}`]),
   );
+  languages["en-IN"] = `${SITE_URL}/en`;
+  languages["ta-IN"] = `${SITE_URL}/ta`;
   languages["x-default"] = `${SITE_URL}/${routing.defaultLocale}`;
 
   const canonical = `${SITE_URL}/${locale}`;
-  const ogLocale = locale === "ta" ? "ta_IN" : "en_IN";
+  const ogLocale = locale === "ta" ? "ta_IN" : "en_US";
 
   return {
     title: t("title"),
@@ -90,9 +103,10 @@ export default async function LocaleRoot({
         <HowItWorks />
         <Outcomes />
         <Features />
-        <BuiltForIndia />
+        <BuiltForRegion />
         <Testimonials />
         <Pricing />
+        <WhyTiram />
         <Faq />
         <FinalCta />
       </main>

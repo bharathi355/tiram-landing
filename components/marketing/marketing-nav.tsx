@@ -10,11 +10,15 @@ import { MarketingLanguageSwitcher } from "./language-switcher";
 import { ThemeToggle } from "./theme-toggle";
 import { AnimatePresence, motion } from "./motion";
 
+// Ordered to mirror the section order on app/[locale]/page.tsx so the topbar
+// reads the same way users scroll. Outcomes and Testimonials are intentionally
+// omitted (no id, kept curated to a 6-item nav).
 const ANCHORS = [
-  { id: "features", labelKey: "features" },
   { id: "how-it-works", labelKey: "howItWorks" },
-  { id: "india", labelKey: "india" },
+  { id: "features", labelKey: "features" },
+  { id: "region", labelKey: "region" },
   { id: "pricing", labelKey: "pricing" },
+  { id: "why-tiram", labelKey: "whyTiram" },
   { id: "faq", labelKey: "faq" },
 ] as const;
 

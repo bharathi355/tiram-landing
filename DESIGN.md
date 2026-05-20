@@ -7,7 +7,7 @@ brand:
   nativeName: திறம்
   legalName: Tiram Technologies Private Limited
   domain: tiram.app
-  supportEmail: hello@tiram.app
+  supportEmail: tiram.business@gmail.com
 colors:
   background: '#f8fafc'
   foreground: '#0f172a'
@@ -126,7 +126,7 @@ Brand constants live in `lib/brand.ts` and the server-safe mirror in
 | Native brand name | திறம் |
 | Legal name | Tiram Technologies Private Limited |
 | Domain | tiram.app |
-| Support email | hello@tiram.app |
+| Support email | tiram.business@gmail.com |
 
 ## Color System
 

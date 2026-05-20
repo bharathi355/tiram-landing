@@ -4,24 +4,25 @@
     "logoAlt": "திறம் சின்னம்",
     "companyName": "Tiram Technologies Private Limited",
     "tagline": "Run your business with clarity and capability.",
-    "supportEmail": "hello@tiram.app"
+    "supportEmail": "tiram.business@gmail.com"
   },
   "landing": {
     "seo": {
-      "title": "திறம் — இந்திய SMB-களுக்கான GST பில்லிங் & இருப்பு மென்பொருள்",
-      "description": "இந்திய கடைகளுக்கு GST பில், பல கிடங்கு இருப்பு, பேமென்ட் பதிவு, தமிழ்/ஆங்கில பயன்பாடு, மேலும் Windows மற்றும் Mac-க்கான cloud அல்லது offline desktop app.",
-      "ogTitle": "திறம் — இந்திய கடைகளுக்கான GST பில்லிங் & இருப்பு",
-      "ogDescription": "GST பில், பல கிடங்கு இருப்பு, கடன் கண்காணிப்பு, அறிக்கைகள், தமிழ்/ஆங்கில workflow — இந்திய சிறு வணிகங்களுக்கு.",
-      "keywords": "GST பில்லிங் மென்பொருள், இந்திய இருப்பு மென்பொருள், தமிழ் பில் ஆப், UPI payment billing, சிறு வணிக பில்லிங், thermal printer billing, கிடங்கு இருப்பு, Vyapar மாற்று, Tally மாற்று",
+      "title": "திறம் — உலகம் முழுவதும் உள்ள வணிகங்களுக்கான பில்லிங் & இருப்பு மென்பொருள்",
+      "description": "எந்த அளவிலான வணிகத்திற்கும், எங்கிருந்தாலும் — வரி இணக்க பில், பல கிடங்கு இருப்பு, பேமென்ட் பதிவு, அறிக்கைகள். GST, VAT, sales tax தயார்; ஆங்கிலம்/தமிழ் UI; Windows மற்றும் Mac-க்கான offline desktop apps.",
+      "ogTitle": "திறம் — உலகளாவிய பில்லிங் & இருப்பு மென்பொருள்",
+      "ogDescription": "எந்த வரி முறையிலும் பில் போடுங்கள், கிடங்கு-வாரியான ஸ்டாக் கண்காணியுங்கள், ஆங்கிலம் அல்லது தமிழில் கணக்கு வைத்திருங்கள். 30 நாள் இலவச சோதனை.",
+      "keywords": "பில்லிங் மென்பொருள், invoicing software, இருப்பு மென்பொருள், inventory management software, multi-warehouse inventory, வரி இணக்க பில், cloud பில்லிங் மென்பொருள், offline பில்லிங் மென்பொருள், GST invoicing, VAT invoicing, sales tax invoicing, HSN/SAC invoicing, UPI பில்லிங், thermal printer billing, multilingual billing, தமிழ் பில் ஆப், stock transfer software, defaulter tracking software, Tally மாற்று, Vyapar மாற்று, KhataBook மாற்று, Odoo மாற்று, இந்திய பில்லிங் மென்பொருள், இந்திய இருப்பு மென்பொருள், இந்திய GST பில்லிங் மென்பொருள்",
       "orgName": "திறம்",
-      "orgDescription": "திறம் என்பது இந்திய சிறு வணிகங்களுக்கான பில்லிங் மற்றும் இருப்பு மென்பொருள். GST-தயார், பல கிடங்கு, UPI பேமென்ட்-தயார், தமிழ் + ஆங்கிலம், மேலும் Windows மற்றும் Mac-க்கான cloud + offline desktop app.",
+      "orgDescription": "திறம் என்பது உலகளாவிய பில்லிங் மற்றும் இருப்பு மென்பொருள். வரி இணக்க பில் (GST, VAT, sales tax), பல கிடங்கு ஸ்டாக், பேமென்ட் பதிவு, இரு மொழி (தமிழ் + ஆங்கிலம்) UI — Windows மற்றும் Mac-க்கான cloud மற்றும் offline desktop app-களாக கிடைக்கிறது.",
       "appName": "திறம்"
     },
     "nav": {
       "features": "அம்சங்கள்",
       "howItWorks": "எப்படி வேலை செய்கிறது",
-      "india": "இந்தியாவுக்காக",
+      "region": "உங்கள் பிராந்தியத்திற்காக",
       "pricing": "விலை",
+      "whyTiram": "ஏன் திறம்",
       "faq": "கேள்விகள்",
       "signIn": "உள்நுழை",
       "startFree": "இலவசமாக தொடங்கு",
@@ -30,9 +31,9 @@
       "skipToContent": "முக்கிய உள்ளடக்கத்திற்கு செல்"
     },
     "hero": {
-      "eyebrow": "இந்திய SMB-களுக்கான GST பில்லிங் மற்றும் இருப்பு",
-      "h1": "இந்திய கடைகளுக்கான GST பில்லிங் மற்றும் இருப்பு மென்பொருள்",
-      "subhead": "திறம் கடை உரிமையாளர்கள் மற்றும் விநியோகஸ்தர்களுக்கு GST பில் உருவாக்க, கடை/கிடங்கு/வேன் ஸ்டாக் கண்காணிக்க, பேமென்ட் பதிவு செய்ய, தமிழ் அல்லது ஆங்கிலத்தில் cloud அல்லது Windows/Mac offline desktop app-ல் வேலை செய்ய உதவுகிறது. Mobile app உருவாக்கத்தில் உள்ளது.",
+      "eyebrow": "பில்லிங் மற்றும் இருப்பு — உலகளாவியதாக.",
+      "h1": "எந்த அளவிலான வணிகத்திற்கும் ஏற்ற பில்லிங் மற்றும் இருப்பு மென்பொருள்.",
+      "subhead": "ஒற்றை-counter கடைகள் முதல் விநியோகஸ்தர்கள் மற்றும் பல-கிளை செயின்கள் வரை — எந்த அளவிலான வணிகத்திற்கும் திறம் உதவுகிறது: வரி இணக்க பில் உருவாக்க, கிடங்கு-வாரியான ஸ்டாக் கண்காணிக்க, பேமென்ட் பதிவு செய்ய, விரும்பிய மொழியில் கணக்கு வைத்திருக்க. Cloud web app மற்றும் Windows/Mac offline desktop apps கிடைக்கின்றன. Mobile app உருவாக்கத்தில் உள்ளது.",
       "ctaPrimary": "இலவசமாக தொடங்கு",
       "accessProduct": "தயாரிப்பை அணுகு",
       "ctaSecondary": "எப்படி வேலை செய்கிறது",
@@ -47,29 +48,29 @@
       "mockTotalLabel": "மொத்தம் (GST உட்பட)",
       "mockVerified": "GST சரிபார்க்கப்பட்டது",
       "mockUpiHint": "UPI மூலம் செலுத்து",
-      "chipGst": "GST தயார்",
-      "chipUpi": "UPI பேமென்ட்",
-      "chipBilingual": "தமிழ் + ஆங்கிலம்",
+      "chipTax": "வரி இணக்கம்",
+      "chipUpi": "UPI · கார்டு · பணம்",
+      "chipBilingual": "ஆங்கிலம், தமிழ் + மேலும்",
       "chipPrint": "தெர்மல் பிரிண்ட்",
       "chipWarehouse": "பல கிடங்கு"
     },
     "trust": {
-      "intro": "இந்திய சிறு வணிகத்திற்கு தேவையான அனைத்தும் — முதல் நாளிலேயே.",
+      "intro": "எந்த வணிகத்திற்கும் தேவையான அனைத்தும் — முதல் நாளிலேயே.",
       "items": {
-        "gst": "GST தயார்",
-        "upi": "UPI பேமென்ட் முறை",
-        "bilingual": "தமிழ் + ஆங்கிலம்",
+        "tax": "வரி இணக்கம்",
+        "upi": "UPI · கார்டு · பணம்",
+        "bilingual": "ஆங்கிலம் + தமிழ் + மேலும்",
         "thermal": "தெர்மல் பிரிண்டர்",
         "warehouse": "பல கிடங்கு"
       }
     },
     "outcomes": {
-      "heading": "திறம் கவனிக்கும் தினசரி கடை workflow-கள்",
-      "intro": "இந்திய SMB-கள் தினமும் செய்யும் பில், ஸ்டாக், பாக்கி, அறிக்கை வேலைகளுக்கு ஒரே இடம்.",
+      "heading": "திறம் தினமும் கவனிக்கும் வேலைகள்",
+      "intro": "பில், ஸ்டாக், பாக்கி, அறிக்கை — ஒற்றை-counter கடைகள் முதல் விநியோகஸ்தர்கள் மற்றும் பல-கிளை செயின்கள் வரை, அனைத்திற்கும் ஒரே இடம்.",
       "items": [
         {
-          "metric": "GST",
-          "label": "HSN/SAC, CGST/SGST/IGST, FY அறிக்கைகளுடன் பில்கள்"
+          "metric": "வரி",
+          "label": "வரி இணக்க பில்கள் — line-item வரி codes, place-of-supply விதிகள், உங்கள் accountant பயன்படுத்தக்கூடிய period reports"
         },
         {
           "metric": "Stock",
@@ -81,26 +82,26 @@
         },
         {
           "metric": "தினமும்",
-          "label": "Sales, GST, cash, inventory, profit, audit அறிக்கைகள்"
+          "label": "Sales, வரி, cash, inventory, profit, audit அறிக்கைகள்"
         }
       ]
     },
     "features": {
-      "heading": "முழு கடைக்கும் ஒரே கருவி",
+      "heading": "முழு வணிகத்திற்கும் ஒரே கருவி",
       "intro": "பில், இருப்பு, வாடிக்கையாளர், அறிக்கைகள் — தனித்தனியாக அல்ல, ஒன்றாக இணைந்து.",
       "items": [
         {
           "title": "சிக்கலில்லாத பில்லிங்",
-          "tagline": "GST பில், ரசீது, browser print, thermal setup, WhatsApp பகிர்தல்.",
+          "tagline": "வரி இணக்க பில், ரசீது, browser print, thermal setup, WhatsApp பகிர்தல்.",
           "bullets": [
-            "HSN/SAC உடன் தானியங்கி GST கணக்கீடு",
+            "Item-level வரி codes (HSN/SAC, VAT codes, etc.) உடன் தானியங்கி வரி கணக்கீடு",
             "Browser print மற்றும் ESC/POS thermal setup",
             "Receipt links-ஐ WhatsApp-ல் பகிரலாம்"
           ]
         },
         {
           "title": "பல கிடங்கு இருப்பு",
-          "tagline": "உங்கள் கடை, கிடங்கு, அல்லது வேன் — எங்கே இருக்கிறதோ அங்கேயே கண்காணிக்க.",
+          "tagline": "ஸ்டாக் எங்கே இருக்கிறதோ அங்கேயே — கடை, கிடங்கு, வாகனம், அல்லது கிளை.",
           "bullets": [
             "ஒவ்வொரு கிடங்கின் தனி இருப்பு",
             "ஒரு டச்-ல் இருப்பு மாற்றம்",
@@ -111,7 +112,7 @@
           "title": "முடிவெடுக்க உதவும் அறிக்கைகள்",
           "tagline": "வருவாய், மார்ஜின், டாப் பொருள்கள், கடன்காரர்கள் — தினமும்.",
           "bullets": [
-            "தினம், மாதம், FY டாஷ்போர்டு",
+            "தினம், மாதம், period டாஷ்போர்டுகள்",
             "ஒவ்வொரு பொருள் & வாடிக்கையாளரின் மார்ஜின்",
             "கடன்காரர் பட்டியல், ஒரு-கிளிக் நினைவூட்டல்"
           ]
@@ -126,32 +127,32 @@
           ]
         },
         {
-          "title": "GST மற்றும் UPI பேமென்ட் flows",
-          "tagline": "முதல் வரி கோடிலிருந்தே இந்திய billing மற்றும் payment records-க்காக கட்டப்பட்டது.",
+          "title": "வரி இணக்கம், உங்கள் முறையில்",
+          "tagline": "உங்கள் வரி முறையை அமைக்கவும் — இந்தியாவில் GST, EU/GCC-ல் VAT, US-ல் sales tax — மீதியை திறம் கவனிக்கும்.",
           "bullets": [
-            "GSTIN சரிபார்ப்பு",
-            "UPI payment mode மற்றும் UPI ID ஆதரவு",
-            "FY-அறிந்த அறிக்கைகள்"
+            "வரி-ID சரிபார்ப்பு (GSTIN, VAT number, EIN, மேலும்)",
+            "உங்கள் accountant-க்கு உதவும் period-aware அறிக்கைகள்",
+            "Place-of-supply விதிகள் மற்றும் item-level வரி codes"
           ]
         },
         {
-          "title": "தமிழும் ஆங்கிலமும், முழுமையாக",
-          "tagline": "App-ஐ தமிழ் மற்றும் ஆங்கிலத்தில் எப்போது வேண்டுமானாலும் மாற்றலாம்.",
+          "title": "உங்கள் மொழியில் பேசுங்கள்",
+          "tagline": "உங்கள் குழுவும் வாடிக்கையாளர்களும் பயன்படுத்தும் மொழியில் app-ஐ இயக்கி, ரசீதுகளை பிரிண்ட் செய்யுங்கள்.",
           "bullets": [
-            "முழு UI தமிழிலும் ஆங்கிலத்திலும்",
-            "ஆதரிக்கும் இடங்களில் Tamil-friendly receipt rendering",
-            "English மற்றும் Tamil locale switching"
+            "இன்று ஆங்கிலம் மற்றும் தமிழில் முழு UI; மேலும் locales வருகின்றன",
+            "Non-Latin script rendering நிரூபிக்கப்பட்டது (ஆதரிக்கும் thermal-ல் தமிழ்)",
+            "Per-user locale switching"
           ]
         }
       ]
     },
     "howItWorks": {
-      "heading": "உங்கள் கடையை 4 படிகளில் நடத்துங்கள்.",
+      "heading": "உங்கள் வணிகத்தை 4 படிகளில் நடத்துங்கள்.",
       "intro": "பொருள் அமைப்பிலிருந்து பில், பேமென்ட், தினசரி அறிக்கை வரை — workflow இணைந்தே இருக்கும்.",
       "steps": [
         {
           "title": "ஸ்டாக் சேர்",
-          "body": "HSN, மறு-ஆர்டர் அளவு, கிடங்கு வாரியான ஸ்டாக் எண்ணிக்கையுடன் பொருள்கள்."
+          "body": "வரி codes, மறு-ஆர்டர் அளவு, கிடங்கு வாரியான ஸ்டாக் எண்ணிக்கையுடன் பொருள்கள்."
         },
         {
           "title": "விநாடியில் பில்",
@@ -163,58 +164,58 @@
         },
         {
           "title": "தினம் முடிவெடு",
-          "body": "டாஷ்போர்டு அடுத்து என்ன செய்ய வேண்டும் என்று வரிசைப்படுத்தும் — GST, பாக்கி, மெதுவாக நகரும் ஸ்டாக்."
+          "body": "டாஷ்போர்டு அடுத்து என்ன செய்ய வேண்டும் என்று வரிசைப்படுத்தும் — வரி தாக்கல் நேரம், பாக்கி, மெதுவாக நகரும் ஸ்டாக்."
         }
       ]
     },
-    "india": {
-      "heading": "இந்தியாவுக்கு மட்டுமே — மாற்றியது அல்ல",
-      "intro": "GST பில் முதல் UPI பேமென்ட் பதிவு, தெர்மல் மற்றும் browser print வரை — இந்திய counter workflow-க்கு ஏற்றபடி உருவாக்கப்பட்டது.",
+    "region": {
+      "heading": "உங்கள் பிராந்தியத்திற்காக கட்டப்பட்டது — மாற்றியது அல்ல",
+      "intro": "வரி விதிகள், பேமென்ட் முறைகள், மொழிகள், பிரிண்டிங் conventions ஒவ்வொரு நாட்டிலும் மாறுபடுகின்றன. திறம் அவை அனைத்தையும் அமைக்க அனுமதிக்கிறது — இன்று இந்தியாவுக்கு ஆழமான, செயல்படும் defaults-உடன், மேலும் regions விரைவில் வருகின்றன.",
       "items": [
         {
-          "title": "GST பில்லிங்",
-          "body": "இணக்கமான பில் வடிவம், GSTIN சரிபார்ப்பு, FY-அறிந்த அறிக்கைகள்."
+          "title": "இந்தியா: GST, UPI, தமிழ்",
+          "body": "GSTIN சரிபார்ப்பு, HSN/SAC line items, place-of-supply அடிப்படையில் CGST/SGST/IGST, UPI பேமென்ட் பதிவு, தமிழ்-ஏற்ற ரசீதுகள்."
         },
         {
-          "title": "UPI பேமென்ட் பதிவு",
-          "body": "வணிக UPI ID-ஐ சேமித்து, பில் பேமென்டை UPI ஆக பதிவு செய்து, ஒவ்வொரு வாடிக்கையாளர் payment history-யுடன் இணைக்கலாம்."
+          "title": "EU + GCC: VAT-தயார்",
+          "body": "VAT number capture, item-level VAT rates, reverse-charge roadmap-ல், EUR / AED display."
         },
         {
-          "title": "தமிழ்-முதல் UI",
-          "body": "மொழிபெயர்ப்பு அடுக்கு அல்ல — ரசீது & அறிக்கைகள் உட்பட முழு இரு மொழி UI."
+          "title": "US: sales tax",
+          "body": "Per-jurisdiction sales tax setup, tax-exempt customer flags, USD display."
         },
         {
-          "title": "Browser மற்றும் thermal printing",
-          "body": "Invoice-ஐ browser-ல் print செய்யலாம்; counter billing-க்கு ESC/POS thermal receipts setup செய்யலாம்."
+          "title": "வேறு எந்த இடத்திற்கும்: configurable வரி engine",
+          "body": "உங்களுக்கான வரி வகைகள், விகிதங்கள், விதிகளை வரையறுத்து — உங்கள் accountant பயன்படுத்தும் period reports-ஐ இயக்குங்கள்."
         },
         {
-          "title": "விநியோகஸ்தர்களுக்கு பல கிடங்கு",
-          "body": "கடை, கிடங்கு, வேன் — ஸ்டாக் எங்கே இருக்கிறதோ அங்கே கண்காணித்து ஒரே டச்-ல் மாற்றுங்கள்."
+          "title": "Multi-currency display",
+          "body": "இன்று விலை INR-ல்; பிற currencies வேண்டுமா கேளுங்கள்; multi-currency invoicing roadmap-ல்."
         },
         {
-          "title": "Windows மற்றும் Mac-க்கான offline desktop",
-          "body": "இணையம் நிலையாக இல்லாத கடை counter-களில் திறம் desktop-ல் பயன்படுத்தலாம். Offline desktop app Windows மற்றும் Mac-க்கு கிடைக்கும்; activation-க்கு திறம் குழு உதவும்."
+          "title": "Multilingual UI + ரசீதுகள்",
+          "body": "இன்று ஆங்கிலம் மற்றும் தமிழ், மேலும் locales வருகின்றன; non-Latin script rendering தமிழ் ரசீதுகளில் நிரூபிக்கப்பட்டது."
         }
       ]
     },
     "testimonials": {
-      "heading": "உண்மையான இந்திய கடை workflow-களை மையமாக வைத்து உருவாக்கப்பட்டது",
-      "intro": "Counter, godown, கடன் வாடிக்கையாளர், CA-க்கு தேவையான GST அறிக்கைகள் — இதற்காக திறம் வடிவமைக்கப்பட்டது.",
+      "heading": "உண்மையான வணிக workflow-களை மையமாக வைத்து உருவாக்கப்பட்டது",
+      "intro": "Counter, கிடங்கு, கடன் வாடிக்கையாளர், உங்கள் accountant பயன்படுத்தக்கூடிய வரி-தயார் அறிக்கைகள் — இதற்காக திறம் வடிவமைக்கப்பட்டது.",
       "items": [
         {
-          "quote": "HSN/SAC, கிடங்கு stock deduction, customer credit, browser அல்லது thermal print paths உடன் GST பில் உருவாக்கலாம்.",
-          "name": "ஹார்டுவேர் மற்றும் electrical கடைகள்",
+          "quote": "Item-level வரி codes, கிடங்கு stock deduction, customer credit, browser அல்லது thermal print paths உடன் வரி இணக்க பில் உருவாக்கலாம்.",
+          "name": "Retail மற்றும் counter வணிகங்கள்",
           "role": "Counter billing மற்றும் stock-on-hand"
         },
         {
-          "quote": "கடை, கிடங்கு, வேன் across stock-ஐ கண்காணித்து, transfer workflow மூலம் பொருள்களை நகர்த்தி, reorder levels-ஐ பார்க்கலாம்.",
+          "quote": "கடை, கிடங்கு, வாகனம் across stock-ஐ கண்காணித்து, transfer workflow மூலம் பொருள்களை நகர்த்தி, reorder levels-ஐ பார்க்கலாம்.",
           "name": "விநியோகஸ்தர்கள் மற்றும் wholesalers",
           "role": "பல கிடங்கு இருப்பு"
         },
         {
-          "quote": "Receivables aging, GST summary, profitability, inventory valuation, audit reports ஆகியவற்றை ஒரே dashboard-ல் பார்க்கலாம்.",
+          "quote": "Receivables aging, வரி summary, profitability, inventory valuation, audit reports ஆகியவற்றை ஒரே dashboard-ல் பார்க்கலாம்.",
           "name": "Owner மற்றும் accountant workflow-கள்",
-          "role": "Daily review மற்றும் CA handoff அறிக்கைகள்"
+          "role": "Daily review மற்றும் accountant handoff அறிக்கைகள்"
         }
       ]
     },
@@ -239,7 +240,7 @@
       "standard": {
         "name": "ஸ்டாண்டர்ட்",
         "popular": "பிரபலமானது",
-        "tagline": "உங்கள் கடையை முழுமையாக இயக்க தேவையான அனைத்தும்.",
+        "tagline": "உங்கள் வணிகத்தை முழுமையாக இயக்க தேவையான அனைத்தும்.",
         "perUserPerMonth": "ஒரு பயனர் · மாதம்",
         "perUserPerYear": "ஒரு பயனர் · ஆண்டு",
         "originalPriceA11y": "அசல் விலை ஒரு பயனருக்கு ஒரு ஆண்டுக்கு {price}",
@@ -249,12 +250,12 @@
         "totalSuffixMonthly": "/ மா",
         "totalSuffixAnnual": "/ ஆ",
         "cta": "30 நாள் இலவச சோதனை தொடங்கு",
-        "trustLine": "கார்டு தேவையில்லை · GST ரசீது சேர்க்கப்பட்டுள்ளது",
+        "trustLine": "கார்டு தேவையில்லை · வரி இணக்க பில் சேர்க்கப்பட்டுள்ளது",
         "features": [
           "வரம்பற்ற இன்வாய்ஸ், மதிப்பீடுகள் & கிரெடிட் நோட்டுகள்",
           "கிடங்குகளில் இன்வென்டரி · குறைந்த-ஸ்டாக் எச்சரிக்கைகள்",
-          "GST-நேட்டிவ் · உங்கள் CA-க்கு FY-அறிந்த அறிக்கைகள்",
-          "தமிழ் + ஆங்கிலம் · browser & thermal print",
+          "வரி-அறிந்த · உங்கள் accountant-க்கு period அறிக்கைகள்",
+          "ஆங்கிலம், தமிழ் + மேலும் · browser & thermal print",
           "கிளவுட் subscription அல்லது Windows/Mac-க்கான offline desktop app"
         ]
       },
@@ -276,7 +277,7 @@
       "platforms": {
         "saas": {
           "name": "கிளவுட்",
-          "description": "பதிவு செய்து Razorpay மூலம் செலுத்தி 30 வினாடிகளில் தொடங்கு."
+          "description": "பதிவு செய்து online-ல் செலுத்தி 30 வினாடிகளில் தொடங்கு."
         },
         "desktop": {
           "name": "டெஸ்க்டாப்",
@@ -284,7 +285,38 @@
           "cta": "தொடர்பு கொள்ளுங்கள்"
         }
       },
-      "footnote": "விலை INR-இல், GST தவிர. சீட்கள் அல்லது சுழற்சியை எப்போது வேண்டுமானாலும் மாற்றலாம் — நாங்கள் ப்ரோ-ரேட் செய்கிறோம்."
+      "footnote": "விலை INR-இல் (பிற currencies வேண்டுமா கேளுங்கள்), பொருந்தும் வரிகள் தவிர. சீட்கள் அல்லது சுழற்சியை எப்போது வேண்டுமானாலும் மாற்றலாம் — நாங்கள் ப்ரோ-ரேட் செய்கிறோம்."
+    },
+    "whyTiram": {
+      "heading": "வணிகங்கள் ஏன் திறம்-ஐ தேர்ந்தெடுக்கின்றன",
+      "intro": "திறம் இருப்பது invoice அச்சிட மட்டும் அல்ல — உங்கள் வணிகத்தை ஆரோக்கியமாக வளர்க்க. ஐந்து வழிகளில் அது தினமும் தெரியும்.",
+      "items": [
+        {
+          "n": "01",
+          "title": "ஒரே கருவி, முழுமை",
+          "body": "Billing, inventory, பாக்கி, reports, staff — எல்லாமும் ஒரே இடத்தில். Ledger app + billing app + spreadsheet-ஐ ஒட்டி வைக்க வேண்டாம். ஒரு உண்மை, ஒரு bill, மாத இறுதியில் reconciliation கடினம் இல்லை."
+        },
+        {
+          "n": "02",
+          "title": "உங்கள் வணிகத்துடன் வளர்கிறது",
+          "body": "பல வணிகம், பல கிளை, பல கிடங்கு, role-based staff access — முதல் நாள் முதலே built-in. இரண்டாவது counter, distributor branch, புதிய cashier — \"பெரிய\" கருவிக்கு migration தேவையில்லை."
+        },
+        {
+          "n": "03",
+          "title": "நிமிடங்களில் தொடங்கு, மாதங்கள் அல்ல",
+          "body": "Billing மற்றும் inventory-க்கு கவனமாக build செய்யப்பட்டது. GST, UPI, thermal receipt — sensible defaults ready. Consultant rollout இல்லை, implementation phase இல்லை. மதிய உணவுக்கு முன் bill போடலாம்."
+        },
+        {
+          "n": "04",
+          "title": "தீர்மானங்கள், data entry மட்டுமல்ல",
+          "body": "பழைய பாக்கி, low-stock alert, மெதுவாக நகரும் items, branch-wise லாபம், GST exposure — நீங்கள் செயல்பட முடிந்த இடத்தில் தெரிகிறது. பிரச்சினைகளை வருடம் முடிவில் அல்ல, வாரங்கள் முன்னே கண்டுபிடிக்கிறீர்கள்."
+        },
+        {
+          "n": "05",
+          "title": "பணப்புழக்க ஆரோக்கியம், invoice மட்டுமல்ல",
+          "body": "Receivables tracking, payment allocation, defaulter views, UPI-மூலம் follow-up — அனைத்தும் built-in. வேகமாக வசூல், working-capital குறைவாக lock ஆகி கிடக்கும். பெரும்பாலான billing tools தவிர்க்கும் \"வணிக மேம்பாட்டின்\" பகுதி — இங்கு உள்ளது."
+        }
+      ]
     },
     "faq": {
       "heading": "கேள்விகள், பதில்கள்",
@@ -295,16 +327,16 @@
           "a": "ஆம். திறம் 30 நாள் இலவச சோதனையுடன் வருகிறது; கிரெடிட் கார்டு தேவையில்லை. Standard திட்டம் per-user விலையில், மாதம் மற்றும் ஆண்டு billing தேர்வுகளுடன் உள்ளது."
         },
         {
-          "q": "திறம் GST-ஐ ஆதரிக்குமா?",
-          "a": "ஆம். திறம் GSTIN, line-item HSN/SAC, place of supply அடிப்படையிலான தானியங்கி CGST/SGST/IGST கணக்கீடு, உங்கள் CA பயன்படுத்தக்கூடிய GST summary reports ஆகியவற்றை ஆதரிக்கிறது."
+          "q": "திறம் GST, VAT, sales tax மற்றும் பிற வரி முறைகளை ஆதரிக்குமா?",
+          "a": "ஆம். திறம்-ல் configurable வரி engine உள்ளது — உங்களுக்கான வரி வகைகள், விகிதங்கள், விதிகளை வரையறுக்கலாம். இந்தியாவின் GST இன்று மிக ஆழமான உதாரணம் (GSTIN சரிபார்ப்பு, HSN/SAC, place of supply அடிப்படையில் தானியங்கி CGST/SGST/IGST, உங்கள் accountant பயன்படுத்தும் period reports). VAT மற்றும் sales tax ஆதரிக்கப்படுகின்றன; ஆழம் மேலும் வளர்கிறது."
         },
         {
-          "q": "தமிழில் பில் போட முடியுமா?",
-          "a": "ஆம். App தமிழிலும் ஆங்கிலத்திலும் வேலை செய்கிறது. Thermal receipt path-ல் printer setup ஆதரிக்கும் இடங்களில் Tamil-friendly raster rendering உள்ளது."
+          "q": "திறம் எந்த மொழிகளை ஆதரிக்கிறது?",
+          "a": "இன்று ஆங்கிலம் மற்றும் தமிழ்; மேலும் locales வருகின்றன. Thermal receipt path-ல் printer setup ஆதரிக்கும் இடங்களில் Tamil-friendly raster rendering உள்ளது. Per-user locale switching உள்ளமைக்கப்பட்டுள்ளது."
         },
         {
-          "q": "திறம் UPI பேமென்ட்களை ஆதரிக்குமா?",
-          "a": "ஆம். திறம் வணிக UPI ID-ஐ சேமிக்கிறது. Staff invoice மற்றும் receipt payments-ஐ UPI, cash, card, bank transfer, credit அல்லது other modes-ல் பதிவு செய்யலாம்."
+          "q": "திறம் எந்த பேமென்ட் முறைகளை ஆதரிக்கிறது?",
+          "a": "Cash, card, UPI, bank transfer, credit மற்றும் பிற modes. UPI இந்தியாவுக்கான ஆழமான உதாரணம் — வணிக UPI ID-ஐ சேமித்து invoice பேமென்டை UPI ஆக குறிக்கலாம். பிற பிராந்திய பேமென்ட் modes-ஐ configure செய்யலாம்."
         },
         {
           "q": "தெர்மல் பிரிண்டருக்கு பிரிண்ட் செய்ய முடியுமா?",
@@ -319,16 +351,24 @@
           "a": "ஆம். கவுண்டர், அக்கவுன்டண்ட், அல்லது அட்மின் — பாத்திர அடிப்படையில் அழைக்கலாம். யார் என்ன செய்தார் என்பதை ஆடிட் பதிவு கண்காணிக்கிறது."
         },
         {
-          "q": "Tally அல்லது Vyapar-லிருந்து மாறலாமா?",
-          "a": "ஆம். எந்த கருவியிலிருந்தும் ஏற்றுமதி செய்த ஸ்பிரெட்ஷீட்டிலிருந்து பொருள்கள் & வாடிக்கையாளர்களை பல்க்-இம்போர்ட் செய்யலாம். உதவி வேண்டுமானால் தொடர்பு கொள்ளுங்கள்."
+          "q": "வேறு ஒரு கருவியிலிருந்து மாறலாமா?",
+          "a": "ஆம். எந்த கருவியிலிருந்தும் — Tally, Vyapar, KhataBook, QuickBooks, Zoho Books, அல்லது வேறு எதிலிருந்தும் — ஏற்றுமதி செய்த ஸ்பிரெட்ஷீட்டிலிருந்து பொருள்கள் & வாடிக்கையாளர்களை பல்க்-இம்போர்ட் செய்யலாம். உதவி வேண்டுமானால் தொடர்பு கொள்ளுங்கள்."
         },
         {
           "q": "திறம்-க்கு offline desktop app உள்ளதா?",
-          "a": "ஆம். திறம் Windows மற்றும் Mac-க்கான offline desktop app-ஆக கிடைக்கும். இணையம் நிலையாக இல்லாத shop counter-களுக்கு இது பயனுள்ளதாக இருக்கும். Desktop activation-க்கு திறம் குழுவை தொடர்பு கொள்ளுங்கள்."
+          "a": "ஆம். திறம் Windows மற்றும் Mac-க்கான offline desktop app-ஆக கிடைக்கும். இணையம் நிலையாக இல்லாத counter-களுக்கு இது பயனுள்ளதாக இருக்கும். Desktop activation-க்கு திறம் குழுவை தொடர்பு கொள்ளுங்கள்."
         },
         {
           "q": "திறம் mobile app உள்ளதா?",
           "a": "திறம் mobile app தற்போது உருவாக்கத்தில் உள்ளது. இப்போது வணிகங்கள் cloud web app அல்லது Windows மற்றும் Mac-க்கான offline desktop app-ஐ பயன்படுத்தலாம்."
+        },
+        {
+          "q": "திறம் எந்த நாடுகளில் வேலை செய்யும்?",
+          "a": "எங்கும். பில், இருப்பு, பாக்கி உலகளாவியவை. வரி இணக்கம் configurable — இந்தியாவின் GST இன்று ஆழமான உதாரணம், VAT (EU/GCC), sales tax (US), மற்றும் பிற முறைகள் ஆதரிக்கப்படுகின்றன, ஆழம் வளர்ந்து வருகிறது."
+        },
+        {
+          "q": "பல currencies-ல் பில் போட முடியுமா?",
+          "a": "இன்று விலை INR-ல்; பிற display currencies வேண்டுமா கேளுங்கள். Multi-currency invoicing roadmap-ல் — உங்கள் வணிகத்திற்கு தேவையானால் எங்களிடம் பேசுங்கள்."
         }
       ]
     },
@@ -340,7 +380,7 @@
       "fineprint": "கிரெடிட் கார்டு வேண்டாம். 2 நிமிட அமைப்பு."
     },
     "footer": {
-      "tagline": "இந்திய சிறு வணிகங்களுக்கான பில்லிங் & இருப்பு.",
+      "tagline": "எங்கும், எந்த வணிகத்திற்கும் — பில்லிங் & இருப்பு.",
       "product": "தயாரிப்பு",
       "company": "நிறுவனம்",
       "legal": "சட்டம்",

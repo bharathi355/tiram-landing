@@ -1,0 +1,399 @@
+{
+  "common": {
+    "appName": "திறம்",
+    "logoAlt": "திறம் சின்னம்",
+    "companyName": "Tiram Technologies Private Limited",
+    "tagline": "Run your business with clarity and capability.",
+    "supportEmail": "tiram.business@gmail.com"
+  },
+  "landing": {
+    "seo": {
+      "title": "திறம் — இந்திய கடைகள், விநியோகஸ்தர்கள் & செயின்களுக்கான GST பில்லிங் & இருப்பு மென்பொருள்",
+      "description": "GST-தயார் பில்லிங், பல கிடங்கு ஸ்டாக், UPI பேமென்ட், தினசரி அறிக்கைகள் — இந்திய counter-கள், விநியோகஸ்தர்கள், பல-கிளை செயின்களுக்காக. GSTIN சரிபார்ப்பு, HSN/SAC, தானியங்கி CGST/SGST/IGST, GSTR-1 / GSTR-3B exports, தமிழ் ரசீதுகள், thermal printing, Windows மற்றும் Mac-க்கான offline desktop.",
+      "ogTitle": "இந்திய வணிகங்களுக்கான GST பில்லிங் & இருப்பு மென்பொருள்",
+      "ogDescription": "GSTIN, HSN/SAC, UPI, ஆங்கிலம் + தமிழ், thermal ரசீதுகள், பல கிடங்கு. 30 நாள் இலவச சோதனை — கார்டு தேவையில்லை.",
+      "keywords": "GST பில்லிங் மென்பொருள், GST invoicing software, GST பில்லிங் மென்பொருள் இந்தியா, best GST billing software, GST invoice maker, GSTR-1 software, GSTR-3B software, e-invoicing software, HSN SAC billing, GSTIN சரிபார்ப்பு, UPI பில்லிங் மென்பொருள், தமிழ் பில்லிங் மென்பொருள், hardware கடைக்கான பில்லிங், electrical கடைக்கான பில்லிங், provision கடைக்கான பில்லிங், distributor-க்கான பில்லிங், FMCG-க்கான பில்லிங், pharma-க்கான பில்லிங், retail-க்கான பில்லிங், பில்லிங் மென்பொருள் Bengaluru, பில்லிங் மென்பொருள் Chennai, பில்லிங் மென்பொருள் Mumbai, பில்லிங் மென்பொருள் Coimbatore, பில்லிங் மென்பொருள் Madurai, பில்லிங் மென்பொருள் Hyderabad, பில்லிங் மென்பொருள் Pune, பில்லிங் மென்பொருள் Delhi, பில்லிங் மென்பொருள் தமிழ்நாடு, multi-warehouse inventory software India, thermal printer billing India, offline பில்லிங் மென்பொருள் இந்தியா, Tally மாற்று, Vyapar மாற்று, KhataBook மாற்று, Odoo மாற்று",
+      "orgName": "திறம்",
+      "orgDescription": "திறம் என்பது இந்திய வணிகங்களுக்கான GST-தயார் பில்லிங் மற்றும் இருப்பு மென்பொருள் — ஒற்றை-counter கடைகள், விநியோகஸ்தர்கள், பல-கிளை செயின்கள். GSTIN, HSN/SAC, place of supply அடிப்படையில் தானியங்கி CGST/SGST/IGST, UPI பேமென்ட், தமிழ் + ஆங்கிலம் UI, thermal ரசீதுகள், பல கிடங்கு ஸ்டாக், Windows மற்றும் Mac-க்கான offline desktop apps.",
+      "appName": "திறம்"
+    },
+    "nav": {
+      "features": "அம்சங்கள்",
+      "howItWorks": "எப்படி வேலை செய்கிறது",
+      "region": "இந்தியாவுக்காக",
+      "pricing": "விலை",
+      "whyTiram": "ஏன் திறம்",
+      "faq": "கேள்விகள்",
+      "signIn": "உள்நுழை",
+      "startFree": "இலவசமாக தொடங்கு",
+      "accessProduct": "தயாரிப்பை அணுகு",
+      "toggleTheme": "தீம் மாற்று",
+      "skipToContent": "முக்கிய உள்ளடக்கத்திற்கு செல்"
+    },
+    "hero": {
+      "eyebrow": "இந்தியாவுக்காக கட்டப்பட்ட GST பில்லிங் & இருப்பு.",
+      "h1": "இந்திய கடைகள், விநியோகஸ்தர்கள், செயின்களுக்கான GST பில்லிங் & இருப்பு மென்பொருள்.",
+      "subhead": "இந்திய வணிகங்களுக்கு திறம் உதவுகிறது — GST-இணக்க invoice உருவாக்க, கிடங்கு-வாரியான ஸ்டாக் கண்காணிக்க, UPI மூலம் பாக்கி வசூலிக்க, GSTR-தயார் reports இயக்க — ஆங்கிலம் அல்லது தமிழில். Cloud web app மற்றும் Windows / Mac-க்கான offline desktop, இணையம் வேலை செய்யாதபோதும் counter நின்றுவிடாது.",
+      "ctaPrimary": "இலவசமாக தொடங்கு",
+      "accessProduct": "தயாரிப்பை அணுகு",
+      "ctaSecondary": "எப்படி வேலை செய்கிறது",
+      "microTrust": "30 நாள் இலவச சோதனை · கார்டு தேவையில்லை · GSTIN, UPI, தமிழ், thermal — அனைத்தும் சேர்ந்தே",
+      "mockInvoiceTitle": "GST பில்",
+      "mockInvoiceNumber": "பில் #INV-2024-001",
+      "mockCreatedAt": "இன்று 10:45 AM-க்கு உருவாக்கப்பட்டது",
+      "mockPaidStatus": "UPI வழி செலுத்தப்பட்டது",
+      "mockCustomer": "கார்த்திக் ஹார்டுவேர், கோயம்புத்தூர்",
+      "mockItem1": "சிமெண்ட் — அல்ட்ராடெக் 50kg",
+      "mockItem2": "TMT கம்பி — 10mm (50 pcs)",
+      "mockTotalLabel": "மொத்தம் (GST உட்பட)",
+      "mockVerified": "GSTIN சரிபார்க்கப்பட்டது",
+      "mockUpiHint": "UPI மூலம் செலுத்து",
+      "chipTax": "GST-இணக்கம்",
+      "chipUpi": "UPI · கார்டு · பணம்",
+      "chipBilingual": "ஆங்கிலம் + தமிழ்",
+      "chipPrint": "தெர்மல் பிரிண்ட்",
+      "chipWarehouse": "பல கிடங்கு"
+    },
+    "trust": {
+      "intro": "இந்திய வணிகத்திற்கு தேவையான அனைத்தும் — முதல் நாளிலேயே.",
+      "items": {
+        "tax": "GSTIN சரிபார்க்கப்பட்டது",
+        "upi": "UPI · கார்டு · பணம்",
+        "bilingual": "ஆங்கிலம் + தமிழ்",
+        "thermal": "தெர்மல் பிரிண்டர்",
+        "warehouse": "பல கிடங்கு"
+      }
+    },
+    "outcomes": {
+      "heading": "திறம் தினமும் கவனிக்கும் வேலைகள்",
+      "intro": "பில், ஸ்டாக், பாக்கி, GSTR-தயார் reports — மதுரையில் உள்ள ஒற்றை-counter கடை முதல் புனேயில் உள்ள FMCG distributor வரை, பெங்களூரு செயின் வரை — அனைத்திற்கும் ஒரே இடம்.",
+      "items": [
+        {
+          "metric": "GST",
+          "label": "GST-இணக்க invoice — HSN/SAC, place-of-supply CGST/SGST/IGST, உங்கள் CA பயன்படுத்தும் GSTR-1 / GSTR-3B period reports"
+        },
+        {
+          "metric": "Stock",
+          "label": "கிடங்கு வாரியான ஸ்டாக், ஒரு டச்-ல் branch transfers, ரீஆர்டர் அளவு, மெதுவாக நகரும் items"
+        },
+        {
+          "metric": "Credit",
+          "label": "வாடிக்கையாளர் பாக்கி (खाता), UPI follow-ups, ageing buckets, defaulter கண்காணிப்பு"
+        },
+        {
+          "metric": "தினமும்",
+          "label": "Sales, GST, cash, inventory, profit, audit reports — ஒவ்வொரு காலையும் தயார்"
+        }
+      ]
+    },
+    "features": {
+      "heading": "முழு இந்திய வணிகத்திற்கும் ஒரே கருவி",
+      "intro": "Billing, inventory, வாடிக்கையாளர், GST, reports — தனித்தனியாக அல்ல, ஒன்றாக இணைந்து.",
+      "items": [
+        {
+          "title": "சிக்கலில்லாத GST பில்லிங்",
+          "tagline": "HSN/SAC உடன் GST-இணக்க invoice, browser & thermal print, WhatsApp பகிர்தல்.",
+          "bullets": [
+            "Place of supply அடிப்படையில் தானியங்கி CGST/SGST/IGST; line-level HSN/SAC",
+            "Browser print மற்றும் ESC/POS thermal setup — Tamil-friendly receipts",
+            "GST invoice மற்றும் receipt-ஐ WhatsApp-ல் பகிர்"
+          ]
+        },
+        {
+          "title": "பல கிடங்கு இருப்பு",
+          "tagline": "ஸ்டாக் எங்கே இருக்கிறதோ அங்கேயே — கடை, கிடங்கு, வாகனம், அல்லது கிளை.",
+          "bullets": [
+            "ஒவ்வொரு SKU-க்கும் கிடங்கு-வாரியான ஸ்டாக் அளவு",
+            "ஒரு டச்-ல் branch transfers",
+            "Counter தீர்ந்துபோகும் முன் low-stock எச்சரிக்கை"
+          ]
+        },
+        {
+          "title": "முடிவெடுக்க உதவும் reports",
+          "tagline": "GST exposure, தினசரி sales, top products, defaulters — ஒவ்வொரு காலையும் தெரியும்.",
+          "bullets": [
+            "தினம், மாதம், FY-period dashboards",
+            "ஒவ்வொரு பொருள், கிளை, வாடிக்கையாளரின் margin",
+            "உங்கள் CA-க்கு கொடுக்கக்கூடிய GSTR-1 / GSTR-3B exports"
+          ]
+        },
+        {
+          "title": "Multi-org, multi-branch, multi-role",
+          "tagline": "பல வணிகம் மற்றும் கிளைகள்; சரியான அணுகலுடன் ஊழியர்களை அழைக்கவும்.",
+          "bullets": [
+            "தனி வணிகம், தனிமைப்படுத்தப்பட்ட தரவு",
+            "Role-based அனுமதி — counter, accountant, owner",
+            "ஒவ்வொரு செயலுக்கும் audit-தயார் activity trail"
+          ]
+        },
+        {
+          "title": "GST + UPI, இந்திய counter-களுக்கான வழி",
+          "tagline": "GSTIN சரிபார்ப்பு, place-of-supply விதிகள், business UPI ID, dues follow-ups — built in.",
+          "bullets": [
+            "வாடிக்கையாளர் உருவாக்கத்தில் GSTIN சரிபார்ப்பு",
+            "Business UPI ID-ஐ சேமி; ஒரு டச்-ல் invoice-ஐ UPI paid ஆக குறி",
+            "ஒவ்வொரு invoice-லும் place-of-supply CGST/SGST/IGST தானியங்கி"
+          ]
+        },
+        {
+          "title": "தமிழ் + ஆங்கிலம், counter-லும் ரசீதிலும்",
+          "tagline": "உங்கள் குழுவும் வாடிக்கையாளர்களும் பயன்படுத்தும் மொழியில் app-ஐ இயக்கி, thermal ரசீதுகளை பிரிண்ட் செய்.",
+          "bullets": [
+            "ஆங்கிலம் மற்றும் தமிழில் முழு UI; மேலும் locales வருகின்றன",
+            "Thermal printer setup ஆதரிக்கும் இடங்களில் Tamil-friendly raster receipts",
+            "Per-user locale switching — cashier-க்கு தமிழ், owner-க்கு ஆங்கிலம்"
+          ]
+        }
+      ]
+    },
+    "howItWorks": {
+      "heading": "உங்கள் கடையை 4 படிகளில் நடத்துங்கள்.",
+      "intro": "பொருள் சேர்ப்பதிலிருந்து GSTR file செய்வது வரை — திறம் முழு loop-ஐ கவனிக்கிறது.",
+      "steps": [
+        {
+          "title": "Stock & customers சேர்",
+          "body": "HSN/SAC, GST rates, ரீஆர்டர் அளவு, கிடங்கு-வாரியான stock count-உடன் பொருள்கள்."
+        },
+        {
+          "title": "GST invoice உருவாக்கு",
+          "body": "வாடிக்கையாளர் தேர்வு, பொருள்கள் சேர், thermal print, WhatsApp-ல் பகிர், அல்லது link அனுப்பு."
+        },
+        {
+          "title": "UPI மூலம் வசூலி, பாக்கி கண்காணி",
+          "body": "Invoice-ஐ UPI paid ஆக குறி, receivables-ஐ age செய், pending-க்கு தானியங்கி follow-up."
+        },
+        {
+          "title": "ஒரு export-ல் GSTR file",
+          "body": "உங்கள் CA-க்கு GSTR-1 / GSTR-3B exports, மற்றும் தினசரி முடிவெடுக்க தயார் dashboard-கள்."
+        }
+      ]
+    },
+    "region": {
+      "heading": "இந்தியாவுக்காக கட்டப்பட்டது, உலகத்திற்கு தயார்",
+      "intro": "GST, UPI, HSN/SAC, தமிழ் thermal ரசீதுகள், offline desktop — ஒவ்வொரு இந்திய counter-க்கும் தேவையானவை, முதல் நாளிலேயே வேலை செய்கின்றன. உலகளாவிய கிளைகளுக்கு VAT, sales tax மற்றும் பிற முறைகள் configurable.",
+      "items": [
+        {
+          "title": "GST — சரியாக வேலை செய்கிறது",
+          "body": "GSTIN சரிபார்ப்பு, line-level HSN/SAC, place of supply அடிப்படையில் தானியங்கி CGST/SGST/IGST, உங்கள் CA-க்கு கொடுக்கக்கூடிய GSTR-1 / GSTR-3B period exports."
+        },
+        {
+          "title": "UPI — முதன்மை பேமென்ட்",
+          "body": "Business UPI ID-ஐ சேமி, invoice-ஐ UPI paid ஆக குறி, pending-க்கு follow-up அனுப்பு — UPI திறம்-ல் ஒரு உண்மையான payment mode, side note அல்ல."
+        },
+        {
+          "title": "ரசீதில் தமிழ் + ஆங்கிலம்",
+          "body": "இன்று ஆங்கிலம் மற்றும் தமிழ் UI; printer setup ஆதரிக்கும் இடங்களில் Tamil-friendly thermal raster receipts. மேலும் இந்திய மொழிகள் வருகின்றன."
+        },
+        {
+          "title": "Multi-branch மற்றும் multi-warehouse",
+          "body": "சென்னையில் இரண்டாவது counter, ஹைதராபாத்தில் godown, மதுரையில் cashier — multi-org, multi-branch, role-based staff முதல் நாள் முதலே built-in."
+        },
+        {
+          "title": "Power cut மற்றும் மெதுவான internet-க்கு offline desktop",
+          "body": "Windows மற்றும் Mac-க்கான offline desktop app — internet வேலை செய்யாதபோதும் counter நின்றுவிடாது. WhatsApp மூலம் activate செய்."
+        },
+        {
+          "title": "உலகளாவிய கிளைகளுக்கு configurable",
+          "body": "இந்தியாவுக்கு வெளியே கிளை உள்ளதா? VAT, sales tax, multi-currency display, மற்றும் மேலும் locales configurable — அதே product, அதே data model."
+        }
+      ]
+    },
+    "testimonials": {
+      "heading": "உண்மையான இந்திய வணிகங்களை மையமாக வைத்து உருவாக்கப்பட்டது",
+      "intro": "Counter-கள், godown-கள், credit வாடிக்கையாளர்கள், உங்கள் CA பயன்படுத்தக்கூடிய GST-தயார் reports — இதற்காக திறம் வடிவமைக்கப்பட்டது.",
+      "items": [
+        {
+          "quote": "HSN/SAC-உடன் GST-இணக்க invoice, கிடங்கு stock deduction, customer பாக்கி கண்காணிப்பு, Tamil-friendly thermal print — அனைத்தும் ஒரே counter-ல்.",
+          "name": "Retail மற்றும் counter வணிகங்கள்",
+          "role": "Hardware, electrical, provision கடைகள்"
+        },
+        {
+          "quote": "கடை, godown, வாகனம் across stock; ஒரு டச்-ல் branch transfers; அடுத்த dispatch truck வருமுன் low-stock எச்சரிக்கைகள்.",
+          "name": "விநியோகஸ்தர்கள் மற்றும் wholesalers",
+          "role": "FMCG, pharma, B2B distributors"
+        },
+        {
+          "quote": "Receivables ageing, GST summary, கிளை-வாரியான profitability, inventory valuation, audit reports — ஒவ்வொரு காலையும் ஒரே இடத்தில்.",
+          "name": "Owner மற்றும் CA workflow-கள்",
+          "role": "தினசரி review மற்றும் GSTR handoff"
+        }
+      ]
+    },
+    "pricing": {
+      "heading": "எளிய விலை. ஆச்சரியம் இல்லை.",
+      "intro": "ஒரே திட்டம். உங்கள் குழுவின் அளவு. மாதம் அல்லது ஆண்டு — ஆண்டு திட்டத்தில் 2 மாதங்கள் இலவசம்.",
+      "billing": {
+        "label": "பில்லிங் சுழற்சி",
+        "monthly": "மாதம்",
+        "annual": "ஆண்டு"
+      },
+      "savings": {
+        "badge": "{pct}% சேமி"
+      },
+      "seats": {
+        "label": "பயனர்கள்",
+        "unit": "பயனர்",
+        "units": "பயனர்கள்",
+        "decrease": "ஒரு பயனரை குறை",
+        "increase": "ஒரு பயனரை சேர்"
+      },
+      "standard": {
+        "name": "ஸ்டாண்டர்ட்",
+        "popular": "பிரபலமானது",
+        "tagline": "இந்திய வணிகம் முழுமையாக இயக்க தேவையான அனைத்தும்.",
+        "perUserPerMonth": "ஒரு பயனர் · மாதம்",
+        "perUserPerYear": "ஒரு பயனர் · ஆண்டு",
+        "originalPriceA11y": "அசல் விலை ஒரு பயனருக்கு ஒரு ஆண்டுக்கு {price}",
+        "billedAnnually": "ஆண்டு தோறும் பில் · 2 மாதங்கள் இலவசம்",
+        "cancelAnytime": "மாதம் தோறும் பில் · எப்போது வேண்டுமானாலும் ரத்து",
+        "totalLabel": "உங்கள் மொத்தம்",
+        "totalSuffixMonthly": "/ மா",
+        "totalSuffixAnnual": "/ ஆ",
+        "cta": "30 நாள் இலவச சோதனை தொடங்கு",
+        "trustLine": "கார்டு தேவையில்லை · GST invoicing சேர்க்கப்பட்டுள்ளது",
+        "features": [
+          "வரம்பற்ற GST invoices, மதிப்பீடுகள் & credit notes",
+          "பல கிடங்கு inventory · low-stock எச்சரிக்கைகள்",
+          "உங்கள் CA-க்கான GSTR-1 / GSTR-3B exports",
+          "ஆங்கிலம், தமிழ் + மேலும் · browser & thermal print",
+          "Cloud subscription அல்லது Windows / Mac-க்கான offline desktop"
+        ]
+      },
+      "enterprise": {
+        "badge": "விரைவில்",
+        "name": "எண்டர்பிரைஸ்",
+        "tagline": "செயின்கள், distributors மற்றும் franchises-க்கு.",
+        "price": "தனிப்பயன்",
+        "priceHint": "எங்களிடம் பேசுங்கள் — seats, branches, integrations-க்கு ஏற்ப விலை.",
+        "features": [
+          "Volume seat விலை",
+          "Branches-ஐ உள்ளடக்கிய multi-org consolidation",
+          "முன்னுரிமை ஆதரவு · தனிப்பயன் integrations",
+          "SSO · மேம்பட்ட audit & compliance"
+        ],
+        "cta": "எங்களிடம் பேசுங்கள்",
+        "replyHint": "ஒரு வேலை நாளுக்குள் பதிலளிக்கிறோம்."
+      },
+      "platforms": {
+        "saas": {
+          "name": "கிளவுட்",
+          "description": "பதிவு செய்து online-ல் செலுத்தி 30 வினாடிகளில் தொடங்கு."
+        },
+        "desktop": {
+          "name": "டெஸ்க்டாப்",
+          "description": "Windows மற்றும் Mac-க்கான offline app — power-cut counter-களுக்கு கட்டப்பட்டது. WhatsApp மூலம் activate செய்.",
+          "cta": "தொடர்பு கொள்ளுங்கள்"
+        }
+      },
+      "footnote": "விலை INR-இல், GST தவிர. சீட்கள் அல்லது சுழற்சியை எப்போது வேண்டுமானாலும் மாற்றலாம் — நாங்கள் pro-rate செய்கிறோம்."
+    },
+    "whyTiram": {
+      "heading": "இந்திய வணிகங்கள் ஏன் திறம்-ஐ தேர்ந்தெடுக்கின்றன",
+      "intro": "திறம் இருப்பது invoice அச்சிட மட்டும் அல்ல — உங்கள் வணிகத்தை ஆரோக்கியமாக வளர்க்க. இந்திய counter-களிலும் கிளைகளிலும் ஐந்து வழிகளில் அது தினமும் தெரியும்.",
+      "items": [
+        {
+          "n": "01",
+          "title": "ஒரே கருவி, முழுமை",
+          "body": "GST invoicing, inventory, பாக்கி, GSTR-தயார் reports, staff — அனைத்தும் ஒரே இடத்தில். Ledger app + billing app + spreadsheet-ஐ ஒட்டி வைக்க வேண்டாம். ஒரு உண்மை, ஒரு bill, மாத இறுதியில் reconciliation கடினம் இல்லை."
+        },
+        {
+          "n": "02",
+          "title": "ஒரு counter-ல் இருந்து பல கிளைகளுக்கு வளர்கிறது",
+          "body": "Multi-organization, multi-branch, multi-warehouse, role-based staff — முதல் நாள் முதலே built-in. சென்னையில் இரண்டாவது counter, ஹைதராபாத்தில் godown, மதுரையில் cashier — \"பெரிய\" கருவிக்கு migration தேவையில்லை."
+        },
+        {
+          "n": "03",
+          "title": "நிமிடங்களில் தொடங்கு, மாதங்கள் அல்ல",
+          "body": "GST, UPI, தமிழ் thermal receipt — sensible defaults ready. Consultant rollout இல்லை, implementation phase இல்லை. அடுத்த stock truck வருமுன் bill போடலாம்."
+        },
+        {
+          "n": "04",
+          "title": "தீர்மானங்கள், data entry மட்டுமல்ல",
+          "body": "பழைய பாக்கி, low-stock alert, மெதுவாக நகரும் items, கிளை-வாரியான லாபம், GST exposure — owner செயல்பட முடிந்த இடத்தில் தெரிகிறது. வருடம் முடிவு அல்லது filing month அல்ல, வாரங்கள் முன்னே பிரச்சினைகளை கண்டுபிடிக்கிறீர்கள்."
+        },
+        {
+          "n": "05",
+          "title": "பணப்புழக்க ஆரோக்கியம், invoice மட்டுமல்ல",
+          "body": "UPI follow-ups, payment allocation, defaulter views, ageing buckets — அனைத்தும் built-in. வேகமாக வசூல், working capital குறைவாக pending-ல் lock ஆகும் — பெரும்பாலான billing tools தவிர்க்கும் \"வணிக மேம்பாட்டின்\" பகுதி."
+        }
+      ]
+    },
+    "faq": {
+      "heading": "கேள்விகள், பதில்கள்",
+      "intro": "சுருக்கமான பதில். விரிவு வேண்டுமா? எங்களுக்கு எழுதுங்கள்.",
+      "items": [
+        {
+          "q": "திறம் முதல் நாளிலேயே GST-தயாரா?",
+          "a": "ஆம். வாடிக்கையாளர் உருவாக்கத்தில் GSTIN சரிபார்ப்பு, line-level HSN/SAC, place of supply அடிப்படையில் தானியங்கி CGST/SGST/IGST, FY-aware period reports — திறம் இந்திய GST-ஐ மையமாக வைத்து கட்டப்பட்டது, மாற்றியது அல்ல."
+        },
+        {
+          "q": "GSTR-1 மற்றும் GSTR-3B export செய்ய முடியுமா?",
+          "a": "ஆம். உங்கள் CA-க்கு கொடுக்கக்கூடிய format-களில் GSTR-1 மற்றும் GSTR-3B period exports திறம் தயாரிக்கிறது. தினம் மற்றும் மாத GST exposure dashboard-கள் Standard plan-ல் சேர்க்கப்பட்டுள்ளன."
+        },
+        {
+          "q": "e-invoicing ஆதரிக்கப்படுகிறதா?",
+          "a": "e-invoicing-க்கு தேவையான அனைத்தையும் திறம் capture செய்கிறது (GSTIN, HSN/SAC, place of supply, line-level வரி). IRP-க்கு நேரடி submission மற்றும் IRN return active roadmap-ல் உள்ளது — இப்போதே தேவைப்பட்டால் எங்களிடம் பேசுங்கள், timelines-ஐ align செய்கிறோம்."
+        },
+        {
+          "q": "திறம் UPI-ஐ ஆதரிக்கிறதா?",
+          "a": "ஆம். Business UPI ID-ஐ சேமி, ஒரு டச்-ல் invoice-ஐ UPI paid ஆக குறி, pending-க்கு follow-up அனுப்பு. UPI ஒரு முதன்மை payment mode — invoice-ல் free-text note அல்ல."
+        },
+        {
+          "q": "தமிழ் thermal receipts print செய்ய முடியுமா?",
+          "a": "ஆம். Invoice-களுக்கு browser printing, counter receipts-க்கு ESC/POS thermal printer setup. Printer setup ஆதரிக்கும் இடங்களில் Tamil-friendly raster rendering. ஹிந்தி மற்றும் பிற இந்திய scripts அடுத்தபடியாக வருகின்றன."
+        },
+        {
+          "q": "பல கிளைகள் மற்றும் கிடங்குகள் இயக்க முடியுமா?",
+          "a": "ஆம். Multi-organization, multi-branch, multi-warehouse, ஒரு டச்-ல் branch transfers, role-based staff access — built in. ஒரு counter-ஆக இருந்தாலும், இருபது இருந்தாலும், அதே data model."
+        },
+        {
+          "q": "Tally, Vyapar, அல்லது KhataBook-லிருந்து மாற முடியுமா?",
+          "a": "ஆம். Tally, Vyapar, KhataBook, QuickBooks, Zoho Books, அல்லது வேறு எதிலிருந்தும் export செய்த spreadsheet-லிருந்து products & customers-ஐ bulk-import செய்யலாம். Migration-க்கு உதவி வேண்டுமானால் தொடர்பு கொள்ளுங்கள்."
+        },
+        {
+          "q": "மெதுவான internet counter-களுக்கு offline desktop app உள்ளதா?",
+          "a": "ஆம். Windows மற்றும் Mac-க்கான offline desktop app — power-cut counter-கள், patchy internet godown-கள், mobile data drop ஆகும் கிராமங்களுக்கு பயனுள்ளது. Desktop activation-க்கு திறம் குழுவை தொடர்பு கொள்ளுங்கள்."
+        },
+        {
+          "q": "திறம் mobile app உள்ளதா?",
+          "a": "திறம் mobile app தற்போது உருவாக்கத்தில் உள்ளது. இப்போது வணிகங்கள் cloud web app அல்லது Windows மற்றும் Mac-க்கான offline desktop app-ஐ பயன்படுத்துகின்றன. பெரும்பாலான counter-கள் tablet-ல் cloud app-ஐ பயன்படுத்துகின்றன."
+        },
+        {
+          "q": "என் GST தரவு பாதுகாப்பானதா?",
+          "a": "ஆம். ஒவ்வொரு வணிகமும் முழுமையாக தனிமைப்படுத்தப்பட்டது — பகிரப்பட்ட rows இல்லை. தொழில் தரத்தில் அங்கீகாரம், transit-ல் encryption, நீங்கள் அழைப்பவர்கள் மட்டுமே உங்கள் books மற்றும் GST reports-ஐ பார்க்கலாம்."
+        },
+        {
+          "q": "திறம்-க்கான விலை INR-ல் எவ்வளவு?",
+          "a": "Standard plan ஒரு பயனருக்கு ஒரு மாதம் ₹249, GST தவிர. ஆண்டு billing 2 மாதங்களை விட்டுவிடுகிறது — ஆண்டு billing 10 மாதங்களுக்கு charge செய்கிறது. கிரெடிட் கார்டு இல்லாமல் 30 நாள் இலவச சோதனை கிடைக்கிறது."
+        },
+        {
+          "q": "செயின்கள் மற்றும் distributors-க்கு onboarding உள்ளதா?",
+          "a": "ஆம். செயின்கள் மற்றும் distributors-க்கு multi-org மற்றும் multi-branch அமைப்பு setup செய்ய, books migration, staff training, மற்றும் உங்கள் stack-உடன் integration உதவுகிறோம். tiram.business@gmail.com-ல் எங்களிடம் பேசுங்கள்."
+        }
+      ]
+    },
+    "finalCta": {
+      "heading": "குறைந்த கணக்கு. அதிக கட்டுப்பாடு.",
+      "subhead": "இந்திய வணிகங்களுக்காக கட்டப்பட்டது — GST, UPI, தமிழ், thermal, counter-ஐ இயக்கும் அனைத்தும்.",
+      "cta": "இலவசமாக தொடங்கு",
+      "accessProduct": "தயாரிப்பை அணுகு",
+      "fineprint": "கிரெடிட் கார்டு வேண்டாம். 2 நிமிட setup."
+    },
+    "footer": {
+      "tagline": "இந்திய வணிகங்களுக்கான GST பில்லிங் & இருப்பு, உலகத்திற்கு தயார்.",
+      "product": "தயாரிப்பு",
+      "company": "நிறுவனம்",
+      "legal": "சட்டம்",
+      "contact": "தொடர்பு",
+      "linkFeatures": "அம்சங்கள்",
+      "linkPricing": "விலை",
+      "linkFaq": "கேள்விகள்",
+      "linkSignIn": "உள்நுழை",
+      "linkSignUp": "கணக்கு உருவாக்கு",
+      "linkPrivacy": "தனியுரிமை",
+      "linkTerms": "விதிகள்",
+      "linkContact": "தொடர்பு கொள்",
+      "rights": "© {year} திறம். அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை."
+    }
+  }
+}

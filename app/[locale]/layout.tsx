@@ -7,24 +7,37 @@ import { getMessages, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { ThemeProvider } from "next-themes";
 import { routing } from "@/i18n/routing";
-import { BRAND_NAME } from "@/lib/brand.server";
+import { BRAND_NAME, SITE_URL as DEFAULT_SITE_URL } from "@/lib/brand.server";
+import { resolveOrigin } from "@/lib/env-url";
+import { CountryDebug } from "@/components/debug/country-debug";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 // Noto Sans Tamil is vendored under public/fonts/ and declared via @font-face
 // in globals.css. The Tailwind font-sans stack lists "Noto Sans Tamil" as a
 // fallback, so Tamil glyphs resolve without next/font/google fetching anything.
 
+const SITE_URL = resolveOrigin("NEXT_PUBLIC_SITE_URL", DEFAULT_SITE_URL);
+
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: {
     template: `%s · ${BRAND_NAME}`,
-    default: `${BRAND_NAME} — Billing & inventory for Indian SMBs`,
+    default: `${BRAND_NAME} — Billing & inventory software for businesses worldwide`,
   },
-  description: "Sales/Billing & Warehouse/Inventory for small businesses.",
+  description:
+    "Tax-compliant invoicing, multi-warehouse inventory, payments, and reports — for businesses of any size, anywhere.",
 };
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
+
+// Country-aware content (India variant via the `tiram-country` cookie set in
+// middleware) requires per-request rendering. Static prerender would freeze
+// the global variant into HTML and the India copy would never appear.
+// Netlify's CDN respects the `Vary: x-tiram-country, cookie` header set by
+// middleware, so this still caches — just per cookie value, not per request.
+export const dynamic = "force-dynamic";
 
 export default async function LocaleLayout({
   children,
@@ -46,6 +59,9 @@ export default async function LocaleLayout({
             {children}
           </ThemeProvider>
         </NextIntlClientProvider>
+        {/* No-op in production; prints country-detection details to the
+            browser console in development. */}
+        <CountryDebug />
       </body>
     </html>
   );

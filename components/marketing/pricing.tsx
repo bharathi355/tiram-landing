@@ -22,7 +22,7 @@ const MAX_SEATS = 50;
 // dependency-free; switch to a WhatsApp deep-link (https://wa.me/<number>)
 // once the support phone number is locked in.
 const DESKTOP_CONTACT_HREF =
-  "mailto:hello@tiram.app?subject=Tiram%20Desktop%20edition%20enquiry&body=Hi%2C%20I%27d%20like%20to%20learn%20more%20about%20the%20offline%20desktop%20edition.";
+  "mailto:tiram.business@gmail.com?subject=Tiram%20Desktop%20edition%20enquiry&body=Hi%2C%20I%27d%20like%20to%20learn%20more%20about%20the%20offline%20desktop%20edition.";
 
 type Cycle = "monthly" | "annual";
 
@@ -308,7 +308,7 @@ export function Pricing() {
                 </ul>
 
                 <a
-                  href="mailto:hello@tiram.app?subject=Enterprise%20plan%20enquiry"
+                  href="mailto:tiram.business@gmail.com?subject=Enterprise%20plan%20enquiry"
                   className="mt-6 inline-flex h-10 w-full items-center justify-center gap-2 rounded-full border border-slate-300 bg-white px-5 text-sm font-medium text-slate-700 transition hover:bg-slate-50 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200 dark:hover:bg-slate-800"
                 >
                   {t("enterprise.cta")}

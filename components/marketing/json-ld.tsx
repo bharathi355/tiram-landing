@@ -10,13 +10,17 @@ interface Props {
 /**
  * Renders structured data for AI search and traditional SEO.
  *
- * The FAQPage entries pull from the SAME translation keys as the visible
- * accordion in `<Faq />` — keeping them in sync (single source of truth) and
- * preventing the "schema lies about the page" anti-pattern that hurts E-E-A-T.
+ * The FAQPage and HowTo entries pull from the SAME translation keys as the
+ * visible sections — single source of truth — so the schema can never drift
+ * out of sync with what users actually see.
  */
 export async function JsonLd({ locale, siteUrl }: Props) {
   const t = await getTranslations({ locale, namespace: "landing" });
   const faqItems = t.raw("faq.items") as Array<{ q: string; a: string }>;
+  const howSteps = t.raw("howItWorks.steps") as Array<{
+    title: string;
+    body: string;
+  }>;
 
   const canonical = `${siteUrl}/${locale}`;
 
@@ -26,12 +30,26 @@ export async function JsonLd({ locale, siteUrl }: Props) {
     name: t("seo.orgName"),
     url: siteUrl,
     description: t("seo.orgDescription"),
-    logo: `${siteUrl}/icon.svg`,
+    logo: `${siteUrl}/logo.png`,
+    // Country-level address signals Tiram as an India-incorporated company.
+    // No streetAddress/locality on purpose — we'd rather have a thin-but-true
+    // schema than fake a registered office. Extend when we publish one.
+    address: {
+      "@type": "PostalAddress",
+      addressCountry: "IN",
+    },
+    // Tiram serves Indian businesses first (where GST/UPI depth ships) and
+    // global SMBs second (configurable tax engine). Listed in priority order.
+    areaServed: [
+      { "@type": "Country", name: "India" },
+      { "@type": "Place", name: "Worldwide" },
+    ],
     contactPoint: {
       "@type": "ContactPoint",
       email: SUPPORT_EMAIL,
       contactType: "customer support",
       availableLanguage: ["English", "Tamil"],
+      areaServed: ["IN", "Worldwide"],
     },
   };
 
@@ -40,10 +58,16 @@ export async function JsonLd({ locale, siteUrl }: Props) {
     "@type": "SoftwareApplication",
     name: t("seo.appName"),
     applicationCategory: "BusinessApplication",
-    operatingSystem: "Web",
+    operatingSystem: "Web, Windows, macOS",
     description: t("seo.description"),
     url: canonical,
-    inLanguage: ["en-IN", "ta-IN"],
+    inLanguage: ["en", "ta-IN"],
+    areaServed: "Worldwide",
+    audience: {
+      "@type": "BusinessAudience",
+      audienceType: "Small, medium, and enterprise businesses",
+    },
+    availableOnDevice: ["Desktop", "Mobile web", "Windows", "macOS"],
     offers: {
       "@type": "Offer",
       price: "249",
@@ -57,14 +81,37 @@ export async function JsonLd({ locale, siteUrl }: Props) {
       },
     },
     featureList: [
-      "GST invoicing",
-      "Multi-warehouse inventory",
-      "UPI payment recording",
-      "Tamil and English UI",
-      "Browser and thermal printing",
-      "Role-based multi-org access",
-      "Daily revenue and margin reports",
+      "Tax-compliant invoicing (GST, VAT, sales tax)",
+      "Multi-warehouse inventory with stock transfers",
+      "Payment recording (UPI, cash, card, bank, credit)",
+      "Bilingual UI — English and Tamil",
+      "Browser and ESC/POS thermal printing",
+      "Role-based multi-organization access",
+      "Daily revenue, margin, tax, and audit reports",
+      "Cloud web app and offline desktop apps (Windows, macOS)",
     ],
+  };
+
+  const website = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: BRAND_NAME,
+    alternateName: "திறம்",
+    url: siteUrl,
+    inLanguage: ["en", "ta-IN"],
+  };
+
+  const howTo = {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    name: t("howItWorks.heading"),
+    description: t("howItWorks.intro"),
+    step: howSteps.map((s, i) => ({
+      "@type": "HowToStep",
+      position: i + 1,
+      name: s.title,
+      text: s.body,
+    })),
   };
 
   const faqPage = {
@@ -103,12 +150,19 @@ export async function JsonLd({ locale, siteUrl }: Props) {
     <>
       <script
         type="application/ld+json"
-        // JSON.stringify produces strict JSON — safe to inline.
         dangerouslySetInnerHTML={{ __html: JSON.stringify(organization) }}
       />
       <script
         type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(website) }}
+      />
+      <script
+        type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(softwareApplication) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(howTo) }}
       />
       <script
         type="application/ld+json"

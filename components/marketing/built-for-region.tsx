@@ -3,25 +3,25 @@
 import { useTranslations } from "next-intl";
 import {
   FileCheck,
-  QrCode,
+  Globe,
+  Calculator,
+  Sliders,
+  Banknote,
   Languages,
-  Printer,
-  Warehouse,
-  Wifi,
 } from "lucide-react";
 import { ScrollReveal, StaggerContainer, StaggerItem } from "./motion";
 
 type Item = { title: string; body: string };
 
-const ICONS = [FileCheck, QrCode, Languages, Printer, Warehouse, Wifi];
+const ICONS = [FileCheck, Globe, Calculator, Sliders, Banknote, Languages];
 
-export function BuiltForIndia() {
-  const t = useTranslations("landing.india");
+export function BuiltForRegion() {
+  const t = useTranslations("landing.region");
   const items = t.raw("items") as Item[];
 
   return (
     <section
-      id="india"
+      id="region"
       className="relative overflow-hidden bg-slate-950 py-20 text-slate-100 sm:py-28"
     >
       <div

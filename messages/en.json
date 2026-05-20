@@ -4,24 +4,25 @@
     "logoAlt": "Tiram logo",
     "companyName": "Tiram Technologies Private Limited",
     "tagline": "Run your business with clarity and capability.",
-    "supportEmail": "hello@tiram.app"
+    "supportEmail": "tiram.business@gmail.com"
   },
   "landing": {
     "seo": {
-      "title": "Tiram — GST billing & inventory software for Indian SMBs",
-      "description": "Tiram helps Indian shops create GST invoices, track multi-warehouse stock, record payments, and work in Tamil or English on cloud or offline desktop apps for Windows and Mac.",
-      "ogTitle": "Tiram — GST billing & inventory for Indian shops",
-      "ogDescription": "GST invoices, multi-warehouse inventory, credit tracking, reports, and Tamil/English workflows for Indian small businesses.",
-      "keywords": "GST billing software, inventory software India, Tamil billing app, UPI payment billing, small business billing, thermal printer billing, multi-warehouse inventory, Vyapar alternative, Tally alternative",
+      "title": "Tiram — Billing & inventory software for businesses worldwide",
+      "description": "Tax-compliant invoicing, multi-warehouse inventory, payments, and reports — built for businesses of any size, anywhere. GST, VAT, and sales-tax ready, with English/Tamil UI and offline desktop apps for Windows and Mac.",
+      "ogTitle": "Tiram — Global billing & inventory software",
+      "ogDescription": "Invoice in any tax regime, track stock across warehouses, run your books in English or Tamil. 30-day free trial.",
+      "keywords": "billing software, invoicing software, inventory software, inventory management software, multi-warehouse inventory, tax-compliant invoicing, cloud billing software, offline billing software, GST invoicing, VAT invoicing, sales tax invoicing, HSN/SAC invoicing, UPI billing, thermal printer billing, multilingual billing, Tamil billing app, stock transfer software, defaulter tracking software, Tally alternative, Vyapar alternative, KhataBook alternative, Odoo alternative, billing software India, inventory software India, GST billing software India",
       "orgName": "Tiram",
-      "orgDescription": "Tiram is billing and inventory software for Indian small businesses. GST-ready, multi-warehouse, UPI payment-ready, bilingual (Tamil + English), and available as cloud plus offline desktop apps for Windows and Mac.",
+      "orgDescription": "Tiram is global billing and inventory software. Tax-compliant invoicing (GST, VAT, sales tax), multi-warehouse stock, payment recording, and bilingual (Tamil + English) UI, available as cloud and offline desktop apps for Windows and Mac.",
       "appName": "Tiram"
     },
     "nav": {
       "features": "Features",
       "howItWorks": "How it works",
-      "india": "Built for India",
+      "region": "Built for your region",
       "pricing": "Pricing",
+      "whyTiram": "Why Tiram",
       "faq": "FAQ",
       "signIn": "Sign in",
       "startFree": "Start free",
@@ -30,9 +31,9 @@
       "skipToContent": "Skip to content"
     },
     "hero": {
-      "eyebrow": "GST billing and inventory for Indian SMBs",
-      "h1": "GST billing and inventory software for Indian shops",
-      "subhead": "Tiram helps shop owners and distributors create GST invoices, track stock across shop, godown, and van, record payments, and work in Tamil or English on cloud or offline desktop apps for Windows and Mac. A mobile app is under development.",
+      "eyebrow": "Billing and inventory, global by default.",
+      "h1": "Billing and inventory software for any business, any size.",
+      "subhead": "Tiram helps businesses of every size — from single-counter shops to distributors and multi-branch chains — create tax-compliant invoices, track stock across warehouses, record payments, and run their books in the language they choose. Available as a cloud web app and offline desktop apps for Windows and Mac. A mobile app is under development.",
       "ctaPrimary": "Start free",
       "accessProduct": "Access Product",
       "ctaSecondary": "See how it works",
@@ -47,29 +48,29 @@
       "mockTotalLabel": "Total (incl. GST)",
       "mockVerified": "GST verified",
       "mockUpiHint": "Pay via UPI",
-      "chipGst": "GST Ready",
-      "chipUpi": "UPI Payment",
-      "chipBilingual": "Tamil + English",
+      "chipTax": "Tax-compliant",
+      "chipUpi": "UPI · Card · Cash",
+      "chipBilingual": "English, Tamil + more",
       "chipPrint": "Thermal Print",
       "chipWarehouse": "Multi-Warehouse"
     },
     "trust": {
-      "intro": "Everything an Indian small business needs — out of the box.",
+      "intro": "Everything any business needs — out of the box.",
       "items": {
-        "gst": "GST-ready",
-        "upi": "UPI payment mode",
-        "bilingual": "Tamil + English",
+        "tax": "Tax-compliant",
+        "upi": "UPI · Card · Cash",
+        "bilingual": "English + Tamil + more",
         "thermal": "Thermal printer",
         "warehouse": "Multi-warehouse"
       }
     },
     "outcomes": {
-      "heading": "The daily shop workflows Tiram covers",
-      "intro": "One place for the jobs Indian SMBs repeat every day: billing, stock, dues, and reports.",
+      "heading": "What Tiram covers every day",
+      "intro": "One place for billing, stock, dues, and reports — from single-counter shops to distributors and multi-branch chains.",
       "items": [
         {
-          "metric": "GST",
-          "label": "Invoices with HSN/SAC, CGST/SGST/IGST, and FY-aware reports"
+          "metric": "Tax",
+          "label": "Tax-compliant invoices with line-item tax codes, place-of-supply rules, and period reports your accountant can use"
         },
         {
           "metric": "Stock",
@@ -81,26 +82,26 @@
         },
         {
           "metric": "Daily",
-          "label": "Sales, GST, cash, inventory, profit, and audit reports"
+          "label": "Sales, tax, cash, inventory, profit, and audit reports"
         }
       ]
     },
     "features": {
-      "heading": "One tool for the whole shop",
+      "heading": "One tool for the whole business",
       "intro": "Billing, inventory, customers, and reports — connected, not bolted together.",
       "items": [
         {
           "title": "Invoicing that just works",
-          "tagline": "GST invoices, receipts, browser print, thermal setup, and WhatsApp sharing.",
+          "tagline": "Tax-compliant invoices, receipts, browser print, thermal setup, and WhatsApp sharing.",
           "bullets": [
-            "Auto GST calculation with HSN/SAC",
+            "Auto tax calculation with item-level codes (HSN/SAC, VAT codes, etc.)",
             "Browser print and ESC/POS thermal setup",
             "Share receipt links on WhatsApp"
           ]
         },
         {
           "title": "Inventory across warehouses",
-          "tagline": "Track stock where it actually sits — your shop, godown, or van.",
+          "tagline": "Track stock where it sits — store, warehouse, vehicle, or branch.",
           "bullets": [
             "Multi-warehouse stock levels",
             "Transfers with one tap",
@@ -111,7 +112,7 @@
           "title": "Reports that drive decisions",
           "tagline": "See revenue, margin, top products, and defaulters — daily.",
           "bullets": [
-            "Daily, monthly, FY-to-date dashboards",
+            "Daily, monthly, and period dashboards",
             "Margin per product and per customer",
             "Defaulter list with one-click reminders"
           ]
@@ -126,32 +127,32 @@
           ]
         },
         {
-          "title": "GST and UPI payment flows",
-          "tagline": "Built for Indian billing and payment records from line one of code.",
+          "title": "Tax compliance, your way",
+          "tagline": "Configure your tax system — GST in India, VAT in EU/GCC, sales tax in US — and Tiram handles the rest.",
           "bullets": [
-            "GSTIN validation",
-            "UPI payment mode and UPI ID support",
-            "FY-aware reports"
+            "Tax-ID validation (GSTIN, VAT number, EIN, and more)",
+            "Period-aware reports your accountant can use",
+            "Place-of-supply rules and item-level tax codes"
           ]
         },
         {
-          "title": "Tamil and English, fully",
-          "tagline": "Switch the app between Tamil and English any time.",
+          "title": "Speak your language",
+          "tagline": "Run the app and print receipts in the language your team and customers use.",
           "bullets": [
-            "Full UI in Tamil and English",
-            "Tamil-friendly receipt rendering where supported",
-            "English and Tamil locale switching"
+            "Full UI in English and Tamil today, more locales rolling out",
+            "Non-Latin script rendering proven (Tamil on thermal where supported)",
+            "Per-user locale switching"
           ]
         }
       ]
     },
     "howItWorks": {
-      "heading": "Run your shop in 4 steps.",
+      "heading": "Run your business in 4 steps.",
       "intro": "From product setup to invoice, payment, and daily report — the workflow stays connected.",
       "steps": [
         {
           "title": "Add stock",
-          "body": "Products with HSN, reorder levels, and warehouse-wise stock counts."
+          "body": "Products with tax codes, reorder levels, and warehouse-wise stock counts."
         },
         {
           "title": "Bill in seconds",
@@ -163,58 +164,58 @@
         },
         {
           "title": "Decide daily",
-          "body": "Dashboard ranks what to act on — GST due, dues, slow stock."
+          "body": "Dashboard ranks what to act on — tax filing due, dues, slow stock."
         }
       ]
     },
-    "india": {
-      "heading": "Built for India, not adapted to it",
-      "intro": "Every detail — from GST invoicing to UPI payment recording to thermal and browser printing — is built around Indian counter workflows.",
+    "region": {
+      "heading": "Built for your region, not adapted to it",
+      "intro": "Tax rules, payment methods, languages, and printing conventions vary by country. Tiram lets you configure all of them — and ships with deep, working defaults for India today, with more regions rolling out.",
       "items": [
         {
-          "title": "GST invoicing",
-          "body": "Compliant invoice formats, GSTIN validation, and FY-aware reports."
+          "title": "India: GST, UPI, Tamil",
+          "body": "GSTIN validation, HSN/SAC line items, CGST/SGST/IGST by place of supply, UPI payment recording, and Tamil-friendly receipts."
         },
         {
-          "title": "UPI payment recording",
-          "body": "Save the business UPI ID, mark invoice payments as UPI, and keep payment history tied to each customer."
+          "title": "EU + GCC: VAT-ready",
+          "body": "VAT number capture, item-level VAT rates, reverse-charge handling on the roadmap, and EUR / AED display."
         },
         {
-          "title": "Tamil-first UI",
-          "body": "Not a translation layer — full bilingual UI, including receipts and reports."
+          "title": "US: sales tax",
+          "body": "Per-jurisdiction sales tax setup, tax-exempt customer flags, and USD display."
         },
         {
-          "title": "Browser and thermal printing",
-          "body": "Print invoices from the browser and set up ESC/POS thermal receipts for counter billing."
+          "title": "Anywhere else: configurable tax engine",
+          "body": "Define your own tax types, rates, and rules — and run period reports your accountant uses."
         },
         {
-          "title": "Multi-warehouse for distributors",
-          "body": "Shop, godown, van — track stock where it sits and transfer in one tap."
+          "title": "Multi-currency display",
+          "body": "Pricing today in INR; other currencies on request; multi-currency invoicing on the roadmap."
         },
         {
-          "title": "Offline desktop for Windows and Mac",
-          "body": "Use Tiram on a shop desktop when internet is unreliable. The offline desktop app is available for Windows and Mac, with activation support from the Tiram team."
+          "title": "Multilingual UI + receipts",
+          "body": "English and Tamil today, more locales rolling out; non-Latin script rendering proven on Tamil receipts."
         }
       ]
     },
     "testimonials": {
-      "heading": "Built around real Indian shop workflows",
-      "intro": "Tiram is shaped for counters, godowns, credit customers, and CA-ready GST reporting.",
+      "heading": "Built around real business workflows",
+      "intro": "Tiram is shaped for counters, warehouses, credit customers, and tax-ready reporting your accountant can use.",
       "items": [
         {
-          "quote": "Create GST invoices with HSN/SAC, warehouse stock deduction, customer credit, and browser or thermal print paths.",
-          "name": "Hardware and electrical shops",
+          "quote": "Create tax-compliant invoices with item-level codes, warehouse stock deduction, customer credit, and browser or thermal print paths.",
+          "name": "Retail and counter businesses",
           "role": "Counter billing and stock-on-hand"
         },
         {
-          "quote": "Track stock across shop, godown, and van, move items through transfer workflows, and monitor reorder levels.",
+          "quote": "Track stock across shop, warehouse, and vehicle, move items through transfer workflows, and monitor reorder levels.",
           "name": "Distributors and wholesalers",
           "role": "Multi-warehouse inventory"
         },
         {
-          "quote": "Run receivables aging, GST summary, profitability, inventory valuation, and audit reports from one dashboard.",
+          "quote": "Run receivables aging, tax summary, profitability, inventory valuation, and audit reports from one dashboard.",
           "name": "Owner and accountant workflows",
-          "role": "Reports for daily review and CA handoff"
+          "role": "Reports for daily review and accountant handoff"
         }
       ]
     },
@@ -239,7 +240,7 @@
       "standard": {
         "name": "Standard",
         "popular": "Most popular",
-        "tagline": "Everything you need to run your shop end-to-end.",
+        "tagline": "Everything you need to run your business end-to-end.",
         "perUserPerMonth": "per user · month",
         "perUserPerYear": "per user · year",
         "originalPriceA11y": "Original price {price} per user per year",
@@ -249,12 +250,12 @@
         "totalSuffixMonthly": "/ mo",
         "totalSuffixAnnual": "/ yr",
         "cta": "Start 30-day free trial",
-        "trustLine": "No card needed · GST invoice included",
+        "trustLine": "No card needed · Tax-compliant invoicing included",
         "features": [
           "Unlimited invoices, estimates & credit notes",
           "Inventory across warehouses · low-stock alerts",
-          "GST-native · FY-aware reports for your CA",
-          "Tamil + English · browser & thermal print",
+          "Tax-aware · period reports your accountant can use",
+          "English, Tamil + more · browser & thermal print",
           "Cloud subscription or offline desktop app for Windows and Mac"
         ]
       },
@@ -276,7 +277,7 @@
       "platforms": {
         "saas": {
           "name": "Cloud",
-          "description": "Sign up, pay with Razorpay, start in 30 seconds."
+          "description": "Sign up, pay online, start in 30 seconds."
         },
         "desktop": {
           "name": "Desktop",
@@ -284,7 +285,38 @@
           "cta": "Contact us"
         }
       },
-      "footnote": "Prices in INR, exclusive of GST. Switch cycles or seats anytime — we pro-rate."
+      "footnote": "Prices in INR (other currencies on request), exclusive of applicable taxes. Switch cycles or seats anytime — we pro-rate."
+    },
+    "whyTiram": {
+      "heading": "Why businesses choose Tiram",
+      "intro": "Tiram exists to make your business healthier — not just to print invoices. Five ways that shows up every day.",
+      "items": [
+        {
+          "n": "01",
+          "title": "One tool, end-to-end",
+          "body": "Billing, inventory, dues, reports, and staff in one place — not a ledger app plus a billing app plus a spreadsheet. Fewer reconciliation gaps, one source of truth, one bill at the end of the month."
+        },
+        {
+          "n": "02",
+          "title": "Grows with your business",
+          "body": "Multi-organization, multi-branch, multi-warehouse, and role-based staff are built in from day one. Open a second counter, add a distributor branch, hire a cashier — no painful migration to a bigger tool later."
+        },
+        {
+          "n": "03",
+          "title": "Live in minutes, not months",
+          "body": "Opinionated for billing and inventory, with sensible defaults for GST, UPI, and thermal receipts. No consultant rollout, no implementation phase. You are billing before lunch."
+        },
+        {
+          "n": "04",
+          "title": "Decisions, not just data entry",
+          "body": "Aging dues, low-stock alerts, slow-moving items, branch-wise profit, and GST exposure — surfaced where you can act on them. Owners catch problems weeks earlier instead of finding out at year-end."
+        },
+        {
+          "n": "05",
+          "title": "Cash health, not just invoices",
+          "body": "Receivables tracking, payment allocation, defaulter views, and UPI-based follow-ups are baked in. Faster collections, less working capital locked up in unpaid invoices — the part of business improvement most billing tools ignore."
+        }
+      ]
     },
     "faq": {
       "heading": "Questions, answered",
@@ -295,16 +327,16 @@
           "a": "Yes. Tiram has a 30-day free trial with no credit card required. The Standard plan is priced per user, with monthly and annual billing options."
         },
         {
-          "q": "Does Tiram support GST?",
-          "a": "Yes. Tiram supports GSTIN, HSN/SAC on line items, automatic CGST/SGST/IGST calculation based on place of supply, and GST summary reports your CA can use."
+          "q": "Does Tiram support GST, VAT, sales tax, and other tax systems?",
+          "a": "Yes. Tiram has a configurable tax engine — define your own tax types, rates, and rules. India's GST is the deepest example today (GSTIN validation, HSN/SAC, automatic CGST/SGST/IGST by place of supply, period reports your accountant uses). VAT and sales tax are supported, with more depth rolling out."
         },
         {
-          "q": "Can I bill in Tamil?",
-          "a": "Yes. The app works in Tamil and English, and the thermal receipt path includes Tamil-friendly raster rendering where the printer setup supports it."
+          "q": "What languages does Tiram support?",
+          "a": "English and Tamil today, with more locales rolling out. The thermal receipt path includes Tamil-friendly raster rendering where the printer setup supports it. Per-user locale switching is built in."
         },
         {
-          "q": "Does Tiram support UPI payments?",
-          "a": "Yes. Tiram stores the business UPI ID and lets staff record invoice and receipt payments by UPI, cash, card, bank transfer, credit, or other modes."
+          "q": "What payment methods does Tiram support?",
+          "a": "Cash, card, UPI, bank transfer, credit, and other modes. UPI is the deepest example for India — save the business UPI ID and mark invoice payments by UPI. Other regional payment modes can be configured."
         },
         {
           "q": "Can I print to a thermal printer?",
@@ -319,16 +351,24 @@
           "a": "Yes. Invite staff to your business with role-based access — counter, accountant, or admin — and an audit trail tracks who did what."
         },
         {
-          "q": "Can I switch from Tally or Vyapar?",
-          "a": "Yes. You can bulk-import products and customers from a spreadsheet exported from any other tool. Reach out if you need help with the migration."
+          "q": "Can I switch from another tool?",
+          "a": "Yes. You can bulk-import products and customers from a spreadsheet exported from any other tool — Tally, Vyapar, KhataBook, QuickBooks, Zoho Books, or anything else. Reach out if you need help with the migration."
         },
         {
           "q": "Does Tiram have an offline desktop app?",
-          "a": "Yes. Tiram has an offline desktop app available for Windows and Mac, useful for shop counters where internet access is unreliable. Contact the Tiram team for desktop activation."
+          "a": "Yes. Tiram has an offline desktop app available for Windows and Mac, useful for counters where internet access is unreliable. Contact the Tiram team for desktop activation."
         },
         {
           "q": "Is there a Tiram mobile app?",
           "a": "The Tiram mobile app is under development. Today, businesses can use the cloud web app or the offline desktop app for Windows and Mac."
+        },
+        {
+          "q": "Which countries does Tiram work in?",
+          "a": "Anywhere. Billing, inventory, and dues are universal. Tax compliance is configurable — India's GST is the deepest example today, with VAT (EU/GCC), sales tax (US), and other regimes supported and growing in depth."
+        },
+        {
+          "q": "Can I bill in multiple currencies?",
+          "a": "Pricing today is in INR; other display currencies are available on request. Multi-currency invoicing is on the roadmap — talk to us if it's a need for your business."
         }
       ]
     },
@@ -340,7 +380,7 @@
       "fineprint": "No credit card. 2-minute setup."
     },
     "footer": {
-      "tagline": "Billing & inventory built for Indian SMBs.",
+      "tagline": "Billing & inventory for businesses, anywhere.",
       "product": "Product",
       "company": "Company",
       "legal": "Legal",

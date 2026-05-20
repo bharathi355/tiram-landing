@@ -13,7 +13,7 @@ export function TrustStrip() {
   const t = useTranslations("landing.trust");
 
   const items = [
-    { Icon: FileCheck, label: t("items.gst") },
+    { Icon: FileCheck, label: t("items.tax") },
     { Icon: QrCode, label: t("items.upi") },
     { Icon: Languages, label: t("items.bilingual") },
     { Icon: Printer, label: t("items.thermal") },
