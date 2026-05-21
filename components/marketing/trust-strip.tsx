@@ -1,8 +1,22 @@
 "use client";
 
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { FileCheck, QrCode, Languages, Printer, Warehouse } from "lucide-react";
 import { Marquee } from "./motion";
+
+const integrations = [
+  {
+    key: "razorpay",
+    src: "/integrations/razorpay.svg",
+    width: 92,
+  },
+  {
+    key: "supabase",
+    src: "/integrations/supabase.svg",
+    width: 104,
+  },
+];
 
 /**
  * Quiet trust strip rendered as an infinite marquee. The icon+label pairs
@@ -27,6 +41,28 @@ export function TrustStrip() {
     >
       <p className="sr-only">{t("intro")}</p>
       <Marquee className="mask-fade-x" speedSeconds={36}>
+        <span className="flex items-center gap-3 whitespace-nowrap text-sm font-semibold text-slate-800 dark:text-slate-100">
+          {t("proofLabel")}
+          <span
+            aria-hidden
+            className="ml-7 inline-block h-1 w-1 rounded-full bg-slate-300 dark:bg-slate-700"
+          />
+        </span>
+        {integrations.map(({ key, src, width }) => (
+          <span
+            key={key}
+            className="flex h-9 items-center rounded-full border border-slate-200 bg-white/85 px-4 shadow-sm dark:border-slate-700 dark:bg-slate-950/80"
+          >
+            <Image
+              src={src}
+              alt={t(`integrations.${key}.alt`)}
+              width={width}
+              height={24}
+              className="h-5 w-auto"
+            />
+            <span className="sr-only">{t(`integrations.${key}.label`)}</span>
+          </span>
+        ))}
         {items.map(({ Icon, label }, i) => (
           <span
             key={i}

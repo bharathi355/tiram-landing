@@ -56,6 +56,17 @@
     },
     "trust": {
       "intro": "Everything an Indian business needs — out of the box.",
+      "proofLabel": "Trusted by Indian SMBs",
+      "integrations": {
+        "razorpay": {
+          "label": "Razorpay integration",
+          "alt": "Razorpay logo"
+        },
+        "supabase": {
+          "label": "Supabase integration",
+          "alt": "Supabase logo"
+        }
+      },
       "items": {
         "tax": "GSTIN validated",
         "upi": "UPI · Card · Cash",
@@ -393,6 +404,7 @@
       "linkPrivacy": "Privacy",
       "linkTerms": "Terms",
       "linkContact": "Contact us",
+      "madeInIndia": "Made in India · Tiram Technologies Pvt Ltd",
       "rights": "© {year} Tiram. All rights reserved."
     }
   }

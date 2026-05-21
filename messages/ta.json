@@ -56,6 +56,17 @@
     },
     "trust": {
       "intro": "எந்த வணிகத்திற்கும் தேவையான அனைத்தும் — முதல் நாளிலேயே.",
+      "proofLabel": "இந்திய SMB-கள் நம்பும் திறம்",
+      "integrations": {
+        "razorpay": {
+          "label": "Razorpay இணைப்பு",
+          "alt": "Razorpay சின்னம்"
+        },
+        "supabase": {
+          "label": "Supabase இணைப்பு",
+          "alt": "Supabase சின்னம்"
+        }
+      },
       "items": {
         "tax": "வரி இணக்கம்",
         "upi": "UPI · கார்டு · பணம்",
@@ -393,6 +404,7 @@
       "linkPrivacy": "தனியுரிமை",
       "linkTerms": "விதிகள்",
       "linkContact": "தொடர்பு கொள்",
+      "madeInIndia": "இந்தியாவில் உருவாக்கப்பட்டது · Tiram Technologies Pvt Ltd",
       "rights": "© {year} திறம். அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை."
     }
   }

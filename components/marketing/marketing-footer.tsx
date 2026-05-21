@@ -101,9 +101,14 @@ export function MarketingFooter() {
           </div>
         </div>
         <div className="mt-12 flex flex-col items-start justify-between gap-4 border-t border-slate-200 pt-6 sm:flex-row sm:items-center dark:border-slate-800">
-          <p className="text-xs text-slate-500 dark:text-slate-400">
-            {t("rights", { year })}
-          </p>
+          <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
+            <p className="text-xs text-slate-500 dark:text-slate-400">
+              {t("rights", { year })}
+            </p>
+            <span className="inline-flex items-center rounded-full border border-emerald-200 bg-emerald-50 px-3 py-1 text-xs font-medium text-emerald-800 dark:border-emerald-900/70 dark:bg-emerald-950/40 dark:text-emerald-200">
+              {t("madeInIndia")}
+            </span>
+          </div>
           <div className="flex items-center gap-3">
             <MarketingLanguageSwitcher />
             <ThemeToggle />
