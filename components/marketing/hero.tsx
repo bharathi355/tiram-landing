@@ -59,7 +59,7 @@ export function Hero() {
           <StaggerItem>
             <div className="mt-8 flex flex-wrap items-center gap-3">
               <a
-                href={appUrl(locale, "/sign-up")}
+                href={appUrl(locale, "/onboarding")}
                 className="group inline-flex h-11 items-center gap-2 rounded-full bg-accent-600 px-6 text-sm font-medium text-white shadow-lg shadow-accent-600/25 transition-all hover:scale-[1.02] hover:bg-accent-700 hover:shadow-xl hover:shadow-accent-600/30"
               >
                 {t("ctaPrimary")}

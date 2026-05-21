@@ -89,7 +89,7 @@ export function MarketingNav() {
             {t("signIn")}
           </a>
           <a
-            href={appUrl(locale, "/sign-up")}
+            href={appUrl(locale, "/onboarding")}
             className="inline-flex h-9 items-center rounded-full bg-accent-600 px-4 text-sm font-medium text-white shadow-sm transition-colors hover:bg-accent-700"
           >
             {t("startFree")}
@@ -146,7 +146,7 @@ export function MarketingNav() {
                     {t("signIn")}
                   </a>
                   <a
-                    href={appUrl(locale, "/sign-up")}
+                    href={appUrl(locale, "/onboarding")}
                     className="inline-flex h-9 items-center rounded-full bg-accent-600 px-4 text-sm font-medium text-white"
                   >
                     {t("startFree")}

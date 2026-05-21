@@ -235,7 +235,7 @@ export function Pricing() {
 
                 {/* CTA */}
                 <a
-                  href={appUrl(locale, "/sign-up")}
+                  href={appUrl(locale, "/onboarding")}
                   className="group mt-6 inline-flex h-10 w-full items-center justify-center gap-2 rounded-full bg-accent-600 px-5 text-sm font-medium text-white shadow-sm transition-all hover:bg-accent-700"
                 >
                   {t("standard.cta")}

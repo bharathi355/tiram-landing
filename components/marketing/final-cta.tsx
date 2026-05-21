@@ -35,7 +35,7 @@ export function FinalCta() {
           </p>
           <div className="mt-8 flex justify-center">
             <a
-              href={appUrl(locale, "/sign-up")}
+              href={appUrl(locale, "/onboarding")}
               className="group inline-flex h-12 items-center gap-2 rounded-full bg-white px-7 text-sm font-semibold text-accent-700 shadow-xl shadow-black/20 transition-all hover:scale-[1.03] hover:shadow-2xl"
             >
               {t("cta")}

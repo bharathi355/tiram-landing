@@ -76,7 +76,7 @@ export function MarketingFooter() {
               </li>
               <li>
                 <a
-                  href={appUrl(locale, "/sign-up")}
+                  href={appUrl(locale, "/onboarding")}
                   className="text-slate-700 transition-colors hover:text-accent-600 dark:text-slate-300 dark:hover:text-accent-400"
                 >
                   {t("linkSignUp")}

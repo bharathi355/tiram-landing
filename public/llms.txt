@@ -8,7 +8,7 @@ Tiram helps Indian businesses raise GST-compliant invoices with GSTIN validation
 
 - [Home (English)](https://tiram.app/en): Product overview, features, pricing, FAQ.
 - [Home (Tamil)](https://tiram.app/ta): முகப்பு பக்கம் — அம்சங்கள், விலை, கேள்விகள்.
-- [Sign up](https://app.tiram.co.in/en/sign-up): Create a Tiram account in the product app.
+- [Sign up](https://app.tiram.co.in/en/onboarding): Create a Tiram account in the product app.
 - [Sign in](https://app.tiram.co.in/en/sign-in): Sign in to an existing account in the product app.
 
 ## Who Tiram is for

@@ -134,6 +134,6 @@ Tiram is a modern alternative to legacy or single-purpose tools (for example, Ta
 
 - Home (English): https://tiram.app/en
 - Home (Tamil): https://tiram.app/ta
-- Sign up: https://app.tiram.co.in/en/sign-up
+- Sign up: https://app.tiram.co.in/en/onboarding
 - Sign in: https://app.tiram.co.in/en/sign-in
 - Contact: tiram.business@gmail.com
