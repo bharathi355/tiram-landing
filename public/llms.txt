@@ -11,6 +11,11 @@ Tiram helps Indian businesses raise GST-compliant invoices with GSTIN validation
 - [Sign up](https://app.tiram.co.in/en/onboarding): Create a Tiram account in the product app.
 - [Sign in](https://app.tiram.co.in/en/sign-in): Sign in to an existing account in the product app.
 
+## Articles
+
+- [GSTR-1 vs GSTR-3B: difference, reconciliation, and how to draft a clean GSTR-1](https://tiram.app/en/articles/gstr-1-vs-gstr-3b-difference): What each return is for, how they reconcile, the four classic mismatch causes (missing place-of-supply, UoM mismatches, malformed GSTINs, late credit notes), and how Tiram's pre-export validation catches each before upload to the GSTN portal. Tamil: [https://tiram.app/ta/articles/gstr-1-vs-gstr-3b-difference](https://tiram.app/ta/articles/gstr-1-vs-gstr-3b-difference).
+- [The daily business cockpit: 13 detectors that tell Indian shop owners what to fix first](https://tiram.app/en/articles/business-health-dashboard-indian-smb): A prioritised, snoozeable issue feed with 13 deterministic detectors across receivables, inventory, margin, expenses, and GST due dates — five severity tiers, a four-card cap, per-user snooze. Rule-based, not AI. Tamil: [https://tiram.app/ta/articles/business-health-dashboard-indian-smb](https://tiram.app/ta/articles/business-health-dashboard-indian-smb).
+
 ## Who Tiram is for
 
 - Hardware stores, electrical shops, and provision stores at the counter — GST invoicing, thermal receipts, customer pending (पाक्की / பாக்கி).

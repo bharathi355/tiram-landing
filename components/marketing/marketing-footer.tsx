@@ -21,7 +21,7 @@ export function MarketingFooter() {
       className="border-t border-slate-200 bg-white py-12 dark:border-slate-800 dark:bg-slate-950"
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-2 gap-8 md:grid-cols-4">
+        <div className="grid grid-cols-2 gap-8 md:grid-cols-5">
           <div className="col-span-2 md:col-span-1">
             <p className="text-base font-semibold text-slate-900 dark:text-slate-50">
               {tCommon("appName")}
@@ -57,6 +57,29 @@ export function MarketingFooter() {
                   className="text-slate-700 transition-colors hover:text-accent-600 dark:text-slate-300 dark:hover:text-accent-400"
                 >
                   {t("linkFaq")}
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <p className="text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">
+              {t("resources")}
+            </p>
+            <ul className="mt-3 space-y-2 text-sm">
+              <li>
+                <a
+                  href={`/${locale}/articles/gstr-1-vs-gstr-3b-difference`}
+                  className="text-slate-700 transition-colors hover:text-accent-600 dark:text-slate-300 dark:hover:text-accent-400"
+                >
+                  {t("linkArticleGstr")}
+                </a>
+              </li>
+              <li>
+                <a
+                  href={`/${locale}/articles/business-health-dashboard-indian-smb`}
+                  className="text-slate-700 transition-colors hover:text-accent-600 dark:text-slate-300 dark:hover:text-accent-400"
+                >
+                  {t("linkArticleCockpit")}
                 </a>
               </li>
             </ul>

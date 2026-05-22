@@ -1,6 +1,11 @@
 import { getTranslations } from "next-intl/server";
 import type { Locale } from "@/i18n/routing";
 import { BRAND_NAME, SUPPORT_EMAIL } from "@/lib/brand.server";
+import {
+  buildArticleFaqSchema,
+  buildArticleSchema,
+  getArticle,
+} from "@/lib/articles";
 
 interface Props {
   locale: Locale;
@@ -171,6 +176,57 @@ export async function JsonLd({ locale, siteUrl }: Props) {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }}
+      />
+    </>
+  );
+}
+
+interface ArticleJsonLdProps {
+  locale: Locale;
+  siteUrl: string;
+  slug: string;
+}
+
+/**
+ * Per-article JSON-LD. Emits an `Article` schema and a scoped `FAQPage` that
+ * mirrors the article's visible FAQ verbatim. The schema-building logic
+ * itself lives as pure functions in `lib/articles.ts` so it's unit-testable
+ * without rendering; this component is the thin RSC wrapper that fetches
+ * translations and stringifies the result into <script> tags.
+ *
+ * Returning `null` for an unknown slug is deliberate: the page route also
+ * calls `notFound()` so this would never execute, but defending here keeps
+ * a future contributor from triggering a stack trace by typo'ing a slug.
+ */
+export async function ArticleJsonLd({
+  locale,
+  siteUrl,
+  slug,
+}: ArticleJsonLdProps) {
+  const article = getArticle(slug);
+  if (!article) return null;
+
+  const t = await getTranslations({ locale, namespace: `articles.${slug}` });
+  const faqItems = t.raw("faq") as Array<{ q: string; a: string }>;
+
+  const articleSchema = buildArticleSchema({
+    article,
+    locale,
+    siteUrl,
+    headline: t("h1"),
+    description: t("meta.description"),
+  });
+  const faqSchema = buildArticleFaqSchema(faqItems);
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
     </>
   );

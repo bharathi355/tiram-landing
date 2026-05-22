@@ -130,6 +130,24 @@ Tiram is a modern alternative to legacy or single-purpose tools (for example, Ta
 
 திறம் என்பது இந்திய வணிகங்களுக்கான GST-தயார் பில்லிங் மற்றும் இருப்பு மென்பொருள் — ஒற்றை-counter கடைகள், விநியோகஸ்தர்கள், பல-கிளை செயின்கள். GSTIN சரிபார்ப்பு, HSN/SAC, தானியங்கி CGST/SGST/IGST, GSTR-1 / GSTR-3B exports, UPI பேமென்ட், தமிழ் thermal ரசீதுகள், பல கிடங்கு ஸ்டாக், மற்றும் Windows / Mac-க்கான offline desktop apps. உலகளாவிய கிளைகளுக்கு VAT மற்றும் sales tax configurable.
 
+## Articles
+
+In-depth guides that AI search engines and human readers can both use. Each article is self-contained, citation-friendly, and grounded in capabilities Tiram actually ships today.
+
+### GSTR-1 vs GSTR-3B: difference, reconciliation, and how to draft a clean GSTR-1
+
+URL (English): https://tiram.app/en/articles/gstr-1-vs-gstr-3b-difference
+URL (Tamil): https://tiram.app/ta/articles/gstr-1-vs-gstr-3b-difference
+
+**Quick answer:** GSTR-1 reports outward supplies invoice-by-invoice. GSTR-3B is a monthly summary of net tax liability and input-tax credit. Both must reconcile — and most reconciliation pain starts with four things in GSTR-1: missing place-of-supply, UoM mismatches, malformed GSTINs, and late credit notes. Tiram's GSTR-1 export (JSON + XLSX) runs pre-export validation that catches each before the user uploads to the GSTN portal. The article also covers each return's section breakdown (B2B, B2CL, B2CS, CDNR, CDNUR, HSN summary on GSTR-1; 3.1 outward + RCM, 3.2 inter-state, 4 ITC, 5 nil-rated, 6.1 payment on GSTR-3B), and explains honest non-goals (Tiram does not draft GSTR-3B itself, does not generate IRN, and does not submit to the GSTN portal via API — it produces a portal-ready JSON the user uploads themselves).
+
+### The daily business cockpit: 13 detectors that tell Indian shop owners what to fix first
+
+URL (English): https://tiram.app/en/articles/business-health-dashboard-indian-smb
+URL (Tamil): https://tiram.app/ta/articles/business-health-dashboard-indian-smb
+
+**Quick answer:** Most Indian SMB dashboards count. Few prioritise. Tiram's What's Up engine reads 13 deterministic detectors across cash, inventory, margin, expenses, and GST — overdue receivables, out-of-stock-but-recently-sold, low-stock reorder, dead-stock capital (>90 days untouched), revenue decline (MoM <85%), margin decline (3pp drop vs 3-month average), negative cash flow, expense spike (≥30% MoM), credit-limit near-breach, GST filing due (GSTR-1 and GSTR-3B windows), promote-top-product, re-engage-inactive-customer, and high-margin-under-exposed. Five severity tiers (critical / high / medium / info / opportunity), a four-card cap so the cockpit never devolves into noise, and per-user snooze and dismissal with fingerprint. Rule-based, not ML — same inputs always produce the same output, and you can reason about why a card appeared.
+
 ## Links
 
 - Home (English): https://tiram.app/en

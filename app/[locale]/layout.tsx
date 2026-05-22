@@ -2,6 +2,7 @@ import "../globals.css";
 
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import Script from "next/script";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
@@ -53,6 +54,18 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} suppressHydrationWarning className={inter.variable}>
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-XX4Q86RVKK"
+        strategy="afterInteractive"
+      />
+      <Script id="gtag-init" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-XX4Q86RVKK');
+        `}
+      </Script>
       <body className="font-sans text-slate-900 antialiased dark:text-slate-100">
         <NextIntlClientProvider messages={messages}>
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>

@@ -1,14 +1,24 @@
 "use client";
 
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { ChevronDown } from "lucide-react";
 import { useState } from "react";
 import { ScrollReveal, AnimatePresence, motion } from "./motion";
 
-type Item = { q: string; a: string };
+// Optional `more` field lets a FAQ item deep-link to a long-form article.
+// Only the GST FAQ uses it today (linking to gstr-1-vs-gstr-3b-difference);
+// other items omit it and render unchanged. The FAQPage JSON-LD emitter
+// reads only `q` and `a`, so the deep-link is a visible-UI enhancement and
+// does not contaminate the structured-data answer text.
+type Item = {
+  q: string;
+  a: string;
+  more?: { slug: string; label: string };
+};
 
 export function Faq() {
   const t = useTranslations("landing.faq");
+  const locale = useLocale();
   const items = t.raw("items") as Item[];
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
@@ -64,9 +74,21 @@ export function Faq() {
                       transition={{ duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
                       className="overflow-hidden"
                     >
-                      <p className="px-4 pb-4 text-sm leading-relaxed text-slate-600 dark:text-slate-300">
-                        {it.a}
-                      </p>
+                      <div className="space-y-2 px-4 pb-4">
+                        <p className="text-sm leading-relaxed text-slate-600 dark:text-slate-300">
+                          {it.a}
+                        </p>
+                        {it.more ? (
+                          <p className="text-sm">
+                            <a
+                              href={`/${locale}/articles/${it.more.slug}`}
+                              className="font-medium text-accent-600 underline-offset-2 hover:text-accent-500 hover:underline dark:text-accent-400"
+                            >
+                              → {it.more.label}
+                            </a>
+                          </p>
+                        ) : null}
+                      </div>
                     </motion.div>
                   ) : null}
                 </AnimatePresence>

@@ -338,6 +338,10 @@
           "a": "ஆம். வாடிக்கையாளர் உருவாக்கத்தில் GSTIN சரிபார்ப்பு, line-level HSN/SAC, place of supply அடிப்படையில் தானியங்கி CGST/SGST/IGST, FY-aware period reports — திறம் இந்திய GST-ஐ மையமாக வைத்து கட்டப்பட்டது, மாற்றியது அல்ல."
         },
         {
+          "more": {
+            "slug": "gstr-1-vs-gstr-3b-difference",
+            "label": "GSTR-1 vs GSTR-3B வழிகாட்டியை படிக்கவும்"
+          },
           "q": "GSTR-1 மற்றும் GSTR-3B export செய்ய முடியுமா?",
           "a": "ஆம். உங்கள் CA-க்கு கொடுக்கக்கூடிய format-களில் GSTR-1 மற்றும் GSTR-3B period exports திறம் தயாரிக்கிறது. தினம் மற்றும் மாத GST exposure dashboard-கள் Standard plan-ல் சேர்க்கப்பட்டுள்ளன."
         },
@@ -399,6 +403,9 @@
       "linkFeatures": "அம்சங்கள்",
       "linkPricing": "விலை",
       "linkFaq": "கேள்விகள்",
+      "resources": "வழிகாட்டிகள்",
+      "linkArticleGstr": "GSTR-1 vs GSTR-3B வழிகாட்டி",
+      "linkArticleCockpit": "தினசரி வணிக cockpit",
       "linkSignIn": "உள்நுழை",
       "linkSignUp": "கணக்கு உருவாக்கு",
       "linkPrivacy": "தனியுரிமை",
@@ -406,6 +413,274 @@
       "linkContact": "தொடர்பு கொள்",
       "madeInIndia": "இந்தியாவில் உருவாக்கப்பட்டது · Tiram Technologies Pvt Ltd",
       "rights": "© {year} திறம். அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை."
+    }
+  },
+  "articles": {
+    "gstr-1-vs-gstr-3b-difference": {
+      "meta": {
+        "title": "GSTR-1 vs GSTR-3B: வேறுபாடு, இணக்கம் & சுத்தமான GSTR-1-ஐ எப்படி தயாரிப்பது · திறம்",
+        "description": "GSTR-1 ஒவ்வொரு விலைப்பட்டியலையும் தனித்தனியாக புறக்கொடை விற்பனையாக அறிக்கையிடுகிறது; GSTR-3B மாதாந்திர வரிக்கடன் மற்றும் ITC சுருக்கம். வேறுபாடு, நான்கு பொதுவான பொருந்தாமை காரணங்கள், மற்றும் திறத்தின் முன்-ஏற்றுமதி சரிபார்ப்பு இரண்டையும் இணக்கமாக வைத்திருக்க எப்படி உதவுகிறது.",
+        "ogTitle": "GSTR-1 vs GSTR-3B: இந்திய SMB-களுக்கான நேர்மையான வழிகாட்டி",
+        "ogDescription": "பக்கம்-பக்கம் ஒப்பீடு, பொருந்தாமை காரணங்கள், மற்றும் பில்லிங் மென்பொருளில் இருந்து portal-தயார் GSTR-1-ஐ எப்படி உருவாக்குவது.",
+        "keywords": "gstr 1 vs gstr 3b, gstr 1 vs 3b வேறுபாடு, gstr 1 இணக்கம், gstr 1 கடைசி தேதி, gstr 3b கடைசி தேதி, gstr 1 json export, gstr 1 பதிவு மென்பொருள், b2b b2c gstr 1, outward supplies gstr 1"
+      },
+      "h1": "GSTR-1 vs GSTR-3B: வேறுபாடு, இணக்கம், மற்றும் சுத்தமான GSTR-1-ஐ எப்படி தயாரிப்பது",
+      "breadcrumbHome": "திறம்",
+      "breadcrumbCurrent": "GSTR-1 vs GSTR-3B",
+      "quickAnswerLabel": "விரைவு பதில்",
+      "lede": "GSTR-1 ஒவ்வொரு விலைப்பட்டியலையும் தனித்தனியாக புறக்கொடை விற்பனையாக அறிக்கையிடுகிறது. GSTR-3B என்பது நிகர வரிக்கடன் மற்றும் உள்ளீட்டு வரிக்கடன் (ITC) மாதாந்திர சுருக்கம். இரண்டும் இணக்கமாக இருக்க வேண்டும் — இந்திய SMB-களில் பெரும்பாலான இணக்க பிரச்சினைகள் GSTR-1-இல் நான்கு தவறுகளிலிருந்து தொடங்குகின்றன: விடுபட்ட place-of-supply, UoM பொருந்தாமை, தவறான GSTIN வடிவம், மற்றும் தாமதமான கடன் குறிப்புகள் (credit notes). இந்த கட்டுரை வேறுபாட்டை, ஒவ்வொரு பகுதியில் என்ன இருக்கிறது, மற்றும் GSTR-3B உடன் இணக்கமாக இருக்கும் portal-தயார் GSTR-1-ஐ எப்படி உருவாக்குவது என்பதை விளக்குகிறது.",
+      "comparisonHeading": "GSTR-1 vs GSTR-3B ஒரே பார்வையில்",
+      "comparisonTable": {
+        "caption": "விரைவு குறிப்பு. முழு விவரம் கீழே உள்ள பகுதிகளில்.",
+        "headers": ["", "GSTR-1", "GSTR-3B"],
+        "rows": [
+          ["**என்ன அறிக்கையிடுகிறது**", "புறக்கொடை விற்பனைகள், ஒவ்வொரு விலைப்பட்டியலாக — B2B, B2CL, B2CS, ஏற்றுமதி, கடன் / பற்றுச்சீட்டு குறிப்புகள், HSN சுருக்கம்", "மாதத்தின் நிகர வரிக்கடன் மற்றும் ITC — பணமாக நீங்கள் உண்மையில் செலுத்த வேண்டியது"],
+          ["**விரிவுத்தன்மை**", "ஒவ்வொரு விலைப்பட்டியல் மற்றும் கடன் குறிப்பு", "ஒவ்வொரு வரி-head மற்றும் ITC bucket-க்கான நிகர மொத்தங்கள்"],
+          ["**யார் பதிவு செய்வது**", "ஒவ்வொரு வழக்கமான GST-பதிவு செய்யப்பட்ட நபர்", "ஒவ்வொரு வழக்கமான GST-பதிவு செய்யப்பட்ட நபர் (Composition dealers பதிலாக CMP-08 பதிவு செய்கின்றனர்)"],
+          ["**அதிர்வெண்**", "மாதாந்திரம் (turnover > ₹5 கோடி) அல்லது QRMP கீழ் காலாண்டு", "மாதாந்திரம் (QRMP கீழ் state-group படி பல்வேறு கடைசி தேதிகள்)"],
+          ["**கடைசி தேதி**", "அடுத்த மாதத்தின் 11-ஆம் தேதி (மாதாந்திரம்) அல்லது காலாண்டுக்குப் பிறகு 13-ஆம் தேதி (QRMP)", "அடுத்த மாதத்தின் 20-ஆம் தேதி (அல்லது QRMP கீழ் state-group படி 22 / 24)"],
+          ["**எங்கே செல்கிறது**", "வாங்குபவரின் GSTR-2A / 2B-க்கு ITC match-க்கு", "Org-இன் சொந்த பண செலுத்தல் ledger — வேறெங்கிருந்தும் auto-feed இல்லை"],
+          ["**மிகவும் பொதுவான பொருந்தாமை காரணம்**", "தவறான PoS, தவறான GSTIN, விடுபட்ட UoM, தாமதமான கடன் குறிப்புகள்", "GSTR-2B-இல் தோன்றாத ITC claim, அல்லது புறக்கொடை விற்பனை இல்லாமல் செலுத்தப்பட்ட வரி"]
+        ]
+      },
+      "sections": [
+        {
+          "heading": "ஒவ்வொரு return எதற்காக",
+          "body": "GSTR-1 மற்றும் GSTR-3B இரு வேறு கேள்விகளுக்கு பதிலளிக்கின்றன. _GSTR-1_ பதிலளிக்கிறது: 'நான் என்ன விற்றேன், யாருக்கு, மற்றும் எவ்வளவு வரி வசூலித்தேன்?' — இது ஒவ்வொரு B2B விலைப்பட்டியலையும் (வாடிக்கையாளரின் GSTIN-உடன்), ஒவ்வொரு B2CL விலைப்பட்டியலையும் (பெரிய பதிவு செய்யப்படாத விற்பனை, தற்போது >₹2.5 லட்சம் inter-state), B2CS bucket-ஐ (சிறிய பதிவு செய்யப்படாத விற்பனைகள்), ஒவ்வொரு credit / debit note-ஐ (CDNR, CDNUR), HSN சுருக்கத்தை, மற்றும் வழங்கப்பட்ட documents எண்ணிக்கையை பிடிக்கிறது.\n\n_GSTR-3B_ பதிலளிக்கிறது: 'இந்த மாதம் நான் நிகரமாக எவ்வளவு வரி செலுத்த வேண்டும்?' — வரி-head படி (CGST + SGST + IGST + cess) புறக்கொடை விற்பனைகள், பதிவு செய்யப்படாத நபர்களுக்கு inter-state விற்பனைகள், claim செய்த ITC, மீட்டெடுக்கப்பட்ட ITC, மற்றும் ITC offset-க்கு பிறகு இறுதி பணம் செலுத்த வேண்டியது.\n\nஇரண்டையும் வழக்கமான வரிசெலுத்துபவர்கள் மாதாந்திரமாக பதிவு செய்கிறார்கள் (QRMP filers GSTR-1-ஐ காலாண்டுக்கு + optional IFF, GSTR-3B-ஐ மாதாந்திரமாக). இரண்டும் ஒரே வரி காலகட்டத்தை பகிர்ந்து கொள்கின்றன ஆனால் வெவ்வேறு விரிவுத்தன்மையில் அறிக்கையிடுகின்றன — அந்த asymmetry-தான் பெரும்பாலான இணக்க பிரச்சினைகளின் வேர்."
+        },
+        {
+          "heading": "GSTR-1 உள்ளே: முக்கியமான ஏழு பகுதிகள்",
+          "body": "GSTR-1 ஒரு இந்திய வணிகம் உண்மையில் செய்யும் puthற்கொடை விற்பனை வகைகளை பிரதிபலிக்கும் பகுதிகளாக logical-ஆக பிரிக்கப்பட்டுள்ளது:\n\n- **B2B (Table 4)** — GST-பதிவு செய்யப்பட்ட வாடிக்கையாளர்களுக்கு விலைப்பட்டியல்கள். ஒவ்வொரு வரியிலும் வாடிக்கையாளரின் GSTIN, விலைப்பட்டியல் எண், தேதி, place of supply, taxable value, மற்றும் வரி பிரிவு (CGST/SGST அல்லது IGST).\n- **B2CL (Table 5)** — ₹2.5 லட்சத்திற்கு மேல் பதிவு செய்யப்படாத நபர்களுக்கு inter-state விலைப்பட்டியல்கள். B2B போலவே GSTIN இல்லாமல்.\n- **B2CS (Table 7)** — பதிவு செய்யப்படாத நபர்களுக்கான intra-state மற்றும் சிறிய inter-state விற்பனைகள், வரி விகிதம் மற்றும் place of supply-படி தொகுக்கப்பட்டது.\n- **CDNR (Table 9B)** — B2B விலைப்பட்டியல்களுக்கான credit மற்றும் debit notes.\n- **CDNUR (Table 9B)** — B2CL அல்லது export விலைப்பட்டியல்களுக்கான credit மற்றும் debit notes.\n- **HSN summary (Table 12)** — ஒவ்வொரு HSN-க்கான taxable value, அளவு, UoM (UQC), மற்றும் வரி மொத்தங்கள்.\n- **Documents issued (Table 13)** — காலகட்டத்தில் பயன்படுத்தப்பட்ட மற்றும் ரத்து செய்யப்பட்ட invoice, credit-note, debit-note, மற்றும் delivery-challan எண்களின் எண்ணிக்கை.\n\nஉங்கள் CA உங்களுக்குத் திருப்பி அனுப்பிய 17-tab spreadsheet-ஐ நீங்கள் பார்த்திருந்தால், அந்த tab-கள் இந்த பகுதிகளுக்கு ஏறக்குறைய ஒன்றுக்கு-ஒன்றாக mapping ஆகின்றன."
+        },
+        {
+          "heading": "GSTR-3B உள்ளே: முக்கியமான ஐந்து பகுதிகள்",
+          "body": "GSTR-3B குறுகியது மற்றும் உயர் தளத்தில் வாழ்கிறது:\n\n- **3.1 — புறக்கொடை விற்பனைகள் மற்றும் reverse charge-க்கு கட்டுப்படும் உள்வரும் விற்பனைகள்.** ஐந்து வரிசைகள்: taxable outward (zero-rated / nil-rated / exempt அல்லாதவை), zero-rated outward, nil-rated / exempt outward, RCM-க்கு கட்டுப்படும் உள்வரும் விற்பனைகள், மற்றும் non-GST outward. ஒவ்வொரு வரிசையும் மொத்த taxable value மற்றும் CGST / SGST / IGST / cess-ஐ அறிக்கையிடுகிறது.\n- **3.2 — பதிவு செய்யப்படாத நபர்கள், composition dealers, மற்றும் UIN holders-க்கு inter-state விற்பனைகள்.** Place-of-supply-வாரியான பிரிவு.\n- **4 — ITC.** Eligible ITC available, ITC reversed (rules 42, 43, மற்றும் பிற), மற்றும் net ITC available — IGST, CGST, SGST, cess-வாரியாக.\n- **5 — Nil-rated, exempt, மற்றும் non-GST உள்வரும் விற்பனைகள்.** வரி எடுத்திராத உள்வரும் வாங்குதல்கள்.\n- **6.1 — வரி செலுத்தல்.** இறுதி ledger entry — எவ்வளவு கடன் ITC-ஆல் offset செய்யப்பட்டது vs பணமாக செலுத்தப்பட்டது.\n\nGSTR-3B ஒரு self-assessment சுருக்கம். GSTR-2B / 3B auto-population வெளியான பிறகு, outward portion உங்கள் GSTR-1 / IFF data-விலிருந்து partially prefilled-ஆக உள்ளது — நீங்கள் இன்னும் verify மற்றும் post செய்ய வேண்டும், ஆனால் seed உள்ளது."
+        },
+        {
+          "heading": "GSTR-1 மற்றும் GSTR-3B ஏன் இணக்கமாக இருக்க வேண்டும்",
+          "body": "இரண்டு returns பதிவு செய்யப்பட்டவுடன் GSTN portal ஒப்பிடுகிறது. உங்கள் GSTR-3B Section 3.1 outward-supply மொத்தங்கள் GSTR-1-இல் உள்ள B2B + B2CL + B2CS + exports + credit notes-ன் கூட்டத்துடன் பொருந்தவில்லை என்றால், நீங்கள் காண்பீர்கள்:\n\n- **GSTN portal-இல் ஒரு mismatch flag** — அதைத் தொடர்ந்து வரும் notice-கள் (மற்றும் உங்கள் CA-வின் stress level) குறிப்பிடும்.\n- **உங்கள் வாங்குபவர்களுக்கான GSTR-2B-அடிப்படையிலான ITC கட்டுப்பாடுகள்.** ஒரு B2B விலைப்பட்டியல் உங்கள் புத்தகங்களில் இருந்தாலும் GSTR-1-இல் விடுபட்டாலோ அல்லது தவறாக type செய்யப்பட்டாலோ, வாங்குபவரின் ITC block ஆகலாம் — இது விலை சர்ச்சைகளை விட வேகமாக வாடிக்கையாளர் உறவை சேதப்படுத்தும்.\n- **ஏற்றுமதியாளராக இருந்தால் refund தாமதங்கள்.** IGST refunds GSTR-1 மற்றும் GSTR-3B-உடன் reconciled — mismatches வங்கி wire-ஐ நிறுத்துகின்றன.\n\nஇரண்டையும் ஒத்திசைவாக வைத்திருப்பது paperwork hygiene மட்டுமல்ல. இது பண மற்றும் உறவு risk."
+        },
+        {
+          "heading": "நான்கு இணக்க கொலையாளிகள் (மற்றும் அவை எங்கே மறைகின்றன)",
+          "body": "சிறு-வணிக பில்லிங் systems-இலிருந்து வரும் நூற்றுக்கணக்கான GSTR-1 drafts-இல், நான்கு தவறுகள் பெரும்பாலான mismatches-க்கு காரணமாகின்றன:\n\n- **Place of supply (PoS) விடுபட்டது அல்லது தவறானது.** PoS வரி intra-state (CGST + SGST) அல்லது inter-state (IGST) என்பதை தீர்மானிக்கிறது. தமிழ்நாட்டிலிருந்து கர்நாடக வாடிக்கையாளருக்கு வழங்கப்பட்ட B2B விலைப்பட்டியலில் PoS காலியாக இருந்தால் அல்லது உங்கள் சொந்த மாநிலமாக default ஆனால், அந்த வரி IGST-ஆக இல்லாமல் CGST + SGST-ஆக வரிவிதிக்கப்படுகிறது. அது GSTR-1-ஐ அடைந்தவுடன், GSTR-3B Section 3.2 (inter-state supplies)-உடன் math உடைகிறது.\n- **HSN summary-உடன் UoM பொருந்தாதது.** Table 12 ஒவ்வொரு HSN-க்கும் ஒரு குறிப்பிட்ட Unit Quantity Code (UQC) கேட்கிறது. உங்கள் விலைப்பட்டியல்கள் 'pcs' பயன்படுத்துகின்றன ஆனால் Table 12 அந்த HSN-க்கு 'PCS-PIECES' கேட்கிறது என்றால், JSON validator upload-ஐ நிராகரிக்கிறது.\n- **தவறான GSTIN.** வாடிக்கையாளரின் 15-character GSTIN-இல் ஒரு typo உள்ள B2B விலைப்பட்டியல் upload-இல் flag செய்யப்படுகிறது (GSTIN checksum-ஐ pass செய்ய வேண்டும்), மற்றும் முழு B2B section-ஐ ஒரே வரிசை அல்ல, validation fail ஆகலாம்.\n- **தாமதமான அல்லது விடுபட்ட credit notes.** முந்தைய மாதத்தின் விலைப்பட்டியல்களுக்கு எதிராக பின்னர் ஒரு மாதத்தில் எழுப்பப்பட்ட credit notes அந்த note எழுப்பப்பட்ட மாதத்திற்கான CDNR / CDNUR-இல் சேரும், original மாதத்தின் GSTR-1-இல் retrospectively அல்ல. அவற்றை தவிர்த்தல் GSTR-3B-இல் நீங்கள் உண்மையில் அறிக்கையிடும் நிகர கடனுடன் ஒப்பிட்டால் GSTR-1-இல் outward supplies-ஐ பெருக்குகிறது."
+        },
+        {
+          "heading": "திறத்தின் முன்-ஏற்றுமதி சரிபார்ப்பு ஒவ்வொன்றையும் எப்படி கண்டறிகிறது",
+          "body": "திறம் GSTR-1-ஐ portal-தயார் JSON-ஆகவும், offline review-க்கு XLSX-ஆகவும் ஏற்றுமதி செய்கிறது. ஏதேனும் file உருவாக்கப்படுவதற்கு முன், ஏற்றுமதி pipeline GSTN validator-ன் அதே நான்கு சோதனைகளை இயக்குகிறது — ஆனால் local-ஆக, எனவே user upload-க்குப் பிறகு fail ஆனதற்குப் பிறகு அல்ல, தங்கள் சொந்த dashboard-இலேயே பிடிக்கிறது:\n\n- **PoS இருப்பு மற்றும் செல்லுபடித்தன்மை.** B2B, B2CL, அல்லது B2CS-க்கு செல்லும் ஒவ்வொரு விலைப்பட்டியலும் ஒரு place of supply இருந்தால் மட்டுமே rollup ஆகிறது, மற்றும் engine அதை வாடிக்கையாளரின் GSTIN-இலிருந்து derive செய்த state-உடன் cross-check செய்கிறது. Intra-state CGST / SGST vs inter-state IGST என்பது விலைப்பட்டியல் நேரத்தில் கணக்கிடப்படுகிறது, ஏற்றுமதியில் bolt-on அல்ல, எனவே வரிசை வரி PoS-உடன் பொருந்துகிறது.\n- **UQC mapping.** HSN summary GSTN-அங்கீகாரம் பெற்ற unit-quantity codes-ஐ பயன்படுத்துகிறது; engine உங்கள் சேமிக்கப்பட்ட UoM-ஐ (`PCS`, `KG`, `LTR`, மற்றும் பிற) ஒவ்வொரு HSN-க்கான சரியான `UQC` field-இல் map செய்கிறது.\n- **GSTIN checksum.** ஒவ்வொரு B2B வாடிக்கையாளரின் GSTIN-ம் வாடிக்கையாளர் உருவாக்க நேரத்தில் validated — ஏற்றுமதி நேரத்தில் அல்ல — தவறான characters முதலில் database-இல் நுழைய மாட்டாது.\n- **சரியான மாதத்தில் credit notes.** Credit மற்றும் debit notes ஒரு விலைப்பட்டியலுக்கு எதிராக எழுப்பப்படுகின்றன ஆனால் அவை வழங்கப்பட்ட மாதத்தில் பதிவு செய்யப்படுகின்றன, மற்றும் GSTR-1 builder original விலைப்பட்டியல் B2B அல்லது பதிவு செய்யப்படாததா என்பதின் அடிப்படையில் அவற்றை CDNR அல்லது CDNUR-இல் சேர்க்கிறது.\n\nXLSX ஏற்றுமதி உங்கள் CA offline-ஆக pivot செய்யக்கூடிய அதே data; JSON நீங்கள் GSTN portal-இல் upload செய்யும் version. இரண்டுக்கும் hand-edit தேவை இல்லை."
+        },
+        {
+          "heading": "Cockpit-இல் filing-due நினைவூட்டல்கள்",
+          "body": "மிகச் சரியாக-வடிவமைக்கப்பட்ட GSTR-1 கூட 11-ஆம் தேதி கடைசி தேதியை நீங்கள் தவறவிட்டால் உதவாது. திறத்தின் What's Up priority engine ஒரு **GSTR-1 due-date detector** மற்றும் ஒரு தனி **GSTR-3B due-date detector** உள்ளடக்கியது — ஒவ்வொரு filing window மூடுவதற்கு மூன்று முதல் ஐந்து நாட்களுக்கு முன் cockpit cards-ஆக தோன்றுகின்றன. Detector உங்கள் filing periodicity (மாதாந்திரம் vs QRMP) மற்றும் உங்கள் state-ன் GSTR-3B group (20, 22, அல்லது 24-ஆம் தேதி) தெரியும்.\n\nCockpit மற்றும் அதன் 13 detectors பற்றி மேலும் தொடர்புடைய கட்டுரையில்: _தினசரி வணிக cockpit: இந்திய கடை உரிமையாளர்களுக்கு முதலில் என்ன சரிசெய்ய வேண்டும் என்று சொல்லும் 13 detectors._"
+        },
+        {
+          "heading": "நேர்மையான வரம்புகள்: திறம் என்ன செய்யவில்லை",
+          "body": "Scope பற்றி நேர்மையாக இருக்க:\n\n- **திறம் GSTR-1-ஐ ஏற்றுமதி செய்கிறது; GSTR-3B-ஐ draft செய்யாது.** 3B என்பது billing-க்கு வெளியே உள்ள data-வைச் சார்ந்துள்ள ஒரு self-assessment சுருக்கம் (ITC-க்கு vendor invoices, reverse-charge வாங்குதல்கள்). உங்கள் CA அல்லது accounting software 3B-ஐ கணக்கிடுகிறது; திறம் GSTR-1 பாதி சுத்தமாக reconcile ஆவதை உறுதி செய்கிறது.\n- **திறம் IRN உருவாக்காது.** IRP (Invoice Registration Portal) வழியாக E-invoicing என்பது ஒரு தனி workflow. Data model IRN-க்கு தேவையான அனைத்தையும் (GSTIN, HSN, PoS, line-level tax) பிடிக்கிறது மற்றும் integration active roadmap-இல் உள்ளது — ஆனால் இன்று ship ஆகவில்லை.\n- **திறம் API வழியாக GSTN portal-க்கு submit செய்யாது.** Portal-தயார் JSON உங்கள் machine-க்கு download ஆகிறது; நீங்கள் அதை GSTN portal-இல் upload செய்கிறீர்கள் அல்லது உங்கள் CA-விடம் கொடுக்கிறீர்கள். அந்த handoff-க்கு நடுவில் நாங்கள் வேண்டுமென்றே அமர்ந்திருக்கவில்லை.\n- **GSTR-2A / 2B reconciliation இல்லை.** உங்கள் purchase invoices-ஐ vendor-uploaded GSTR-1-க்கு எதிராக match செய்வது billing-க்கு வெளியே வாழும் ஒரு தனி, கடினமான பிரச்சினை."
+        },
+        {
+          "heading": "Spreadsheet GSTR-1 prep-இலிருந்து migration",
+          "body": "பெரும்பாலான இந்திய SMBs GSTR-1-ஐ ஒரு spreadsheet-இல் draft செய்கிறார்கள் — அதை நான்கு ஆண்டுகளில் மூன்று வெவ்வேறு நபர்கள் edit செய்துள்ளனர். Pattern வழக்கமாக ஒரே:\n\n- ஒரு _Sales_ tab — பில்லிங் software-இலிருந்து pull செய்யப்பட்டது (அல்லது receipts-இலிருந்து hand-typed).\n- ஒரு _B2B_ tab — GSTIN கொண்ட வாடிக்கையாளர்களுக்கு filter செய்கிறது.\n- ஒரு _B2CS_ tab — பதிவு செய்யப்படாத counter sales-ஐ வரி விகிதம் படி sum-up செய்கிறது.\n- ஒரு _Manual fixes_ tab — யாரும் delete செய்ய தைரியப்படவில்லை.\n\nபிரச்சினை spreadsheet அல்ல — அந்த manual-fixes tab கடந்த தவறுகளின் ஒரு memory, அதை அடுத்த மாதத்தின் draft inherit செய்கிறது. Source data-வில் நான்கு validation சோதனைகளை இயக்கும் ஒரு GSTR-1 export-க்கு நகர்வது symptom அல்ல, காரணத்தை சரிசெய்கிறது. Migration path எந்த spreadsheet-இலிருந்து billing software-க்கு நகர்வதே போலவே: வாடிக்கையாளர்களை (அவர்களின் GSTIN-உடன்) மற்றும் products-ஐ (அவர்களின் HSN-கள் மற்றும் UQC-களுடன்) bulk-import செய்யவும், பின்னர் system-இல் விலைப்பட்டியல்களை எழுப்ப தொடங்கவும். முதல் மாதத்தின் GSTR-1 export விடுபட்ட data fields-ஐ surface செய்யும். ஒரு முறை சரிசெய்யுங்கள்; பின்னர் என்றென்றும் reconcile ஆகும்."
+        }
+      ],
+      "quickAnswersHeading": "விரைவு பதில்கள்",
+      "geoCallouts": [
+        {
+          "q": "GSTR-1 மற்றும் GSTR-3B இடையே என்ன வேறுபாடு?",
+          "a": "GSTR-1 என்பது ஒவ்வொரு விலைப்பட்டியலையும் தனித்தனியாக புறக்கொடை விற்பனையாக அறிக்கையிடும் return; GSTR-3B என்பது நிகர வரிக்கடன் மற்றும் ITC-இன் மாதாந்திர சுருக்கம். இரண்டும் இணக்கமாக இருக்க வேண்டும், இல்லையெனில் GSTN portal mismatch-ஐ flag செய்கிறது மற்றும் downstream வாங்குபவர்களின் ITC block ஆகலாம்."
+        },
+        {
+          "q": "GSTR-1 மற்றும் GSTR-3B-இன் கடைசி தேதிகள் என்ன?",
+          "a": "மாதாந்திர பதிவாளர்களுக்கு GSTR-1 அடுத்த மாதத்தின் 11-ஆம் தேதி, அல்லது QRMP கீழ் காலாண்டுக்கு பிறகு 13-ஆம் தேதி. GSTR-3B அடுத்த மாதத்தின் 20-ஆம் தேதி (QRMP கீழ் state-group படி 22 அல்லது 24)."
+        },
+        {
+          "q": "என் GSTR-1 ஏன் GSTR-3B-உடன் பொருந்தவில்லை?",
+          "a": "ஏறக்குறைய எப்போதும் GSTR-1-இல் நான்கு காரணங்களில் ஒன்று: விடுபட்ட place of supply, HSN summary-இல் mismatched UoM, தவறான GSTIN, அல்லது தவறான மாதத்தில் book செய்யப்பட்ட credit notes. Data-ஐ சரிசெய்யுங்கள்; கணக்கு reconcile ஆகும்."
+        },
+        {
+          "q": "Billing software-இலிருந்து portal-தயார் GSTR-1 JSON-ஐ எப்படி ஏற்றுமதி செய்வது?",
+          "a": "திறத்தில்: Reports → GSTR-1 → காலகட்டத்தைத் தேர்ந்தெடுக்கவும் → Export. JSON உருவாக்குவதற்கு முன் pipeline place of supply, UQC mapping, GSTIN checksums, மற்றும் credit-note dating-ஐ validate செய்கிறது. அதே data offline review-க்கு XLSX-ஆகவும் ஏற்றுமதி ஆகிறது."
+        },
+        {
+          "q": "GSTR-1 மற்றும் 3B-ஐ ஆரம்பத்திலிருந்தே reconcilable-ஆக எப்படி வைத்திருப்பது?",
+          "a": "ஒவ்வொரு விலைப்பட்டியலிலும் billing நேரத்தில் PoS-ஐ set செய்யவும் (ஏற்றுமதிக்கு விட்டுவிடாதீர்கள்), உருவாக்கத்தில் வாடிக்கையாளர் GSTIN-களை validate செய்யவும், உங்கள் UoM-களை GSTN UQC-களுக்கு ஒரு முறை map செய்யவும், மற்றும் credit notes-ஐ அவை எழுப்பப்பட்ட மாதத்தில் book செய்யவும் — original விலைப்பட்டியலின் மாதத்திற்கு retrospectively அல்ல."
+        }
+      ],
+      "faqHeading": "அடிக்கடி கேட்கப்படும் கேள்விகள்",
+      "faq": [
+        {
+          "q": "GSTR-1-ஐ காலாண்டுக்கு பதிவு செய்ய முடியுமா?",
+          "a": "ஆம், முந்தைய நிதியாண்டில் உங்கள் aggregate turnover ₹5 கோடி வரை இருந்தால், நீங்கள் QRMP-ஐ (Quarterly Return Monthly Payment) தேர்வு செய்யலாம். QRMP கீழ் நீங்கள் GSTR-1-ஐ காலாண்டுக்கு பதிவு செய்கிறீர்கள் (B2B விலைப்பட்டியல்களுக்கு மாதாந்திர Invoice Furnishing Facility, optional) மற்றும் GSTR-3B வழியாக வரியை மாதாந்திரமாக செலுத்துகிறீர்கள்."
+        },
+        {
+          "q": "GSTR-2B என்றால் என்ன மற்றும் 3B-உடன் எப்படி தொடர்புடையது?",
+          "a": "GSTR-2B என்பது vendors-ன் filed GSTR-1 / IFF மற்றும் பிற forms-ன் அடிப்படையில் ஒரு recipient-க்கு கிடைக்கும் ITC-ஐ static, auto-generated statement-ஆக காட்டுகிறது. நீங்கள் GSTR-3B Section 4-இல் உங்கள் GSTR-2B-இல் தோன்றியதின் அடிப்படையில் ITC claim செய்கிறீர்கள். ஒரு vendor தங்கள் GSTR-1-ஐ தவறாக செய்தால், உங்கள் 2B அந்த விலைப்பட்டியலை பிரதிபலிக்காது, மற்றும் உங்கள் ITC claim risk-இல் உள்ளது."
+        },
+        {
+          "q": "திறம் e-invoicing (IRN) ஆதரிக்கிறதா?",
+          "a": "திறத்தின் data model e-invoicing-க்கு தேவையான அனைத்தையும் — GSTIN, HSN/SAC, place of supply, line-level tax — பிடிக்கிறது, எனவே data e-invoice-தயார். நேரடியாக IRP submission மற்றும் IRN return active roadmap-இல் உள்ளது ஆனால் இன்று ship ஆகவில்லை. தற்போதைய export path GSTR-1 JSON / XLSX."
+        },
+        {
+          "q": "ஒரே software GSTR-1 மற்றும் GSTR-3B இரண்டையும் handle செய்ய முடியுமா?",
+          "a": "திறம் GSTR-1-ஐ handle செய்கிறது (portal-தயார் JSON மற்றும் XLSX). GSTR-3B என்பது billing-க்கு வெளியே உள்ள data-வைச் சார்ந்த ஒரு self-assessment சுருக்கம் — குறிப்பாக ITC-க்கு vendor invoices மற்றும் reverse-charge வாங்குதல்கள். உங்கள் CA அல்லது accounting software 3B-ஐ கணக்கிடுகிறது; திறம் outward-supplies பாதி அதற்கு எதிராக reconcilable-ஆக இருப்பதை உறுதி செய்கிறது."
+        },
+        {
+          "q": "GSTR-1 கடைசி தேதியை தவறவிட்டால் என்ன ஆகும்?",
+          "a": "தாமத-filing கட்டணங்கள் பொருந்தும் (CBIC சமீபத்திய அறிவிப்பு படி, தற்போது வழக்கமான வரிசெலுத்துபவர்களுக்கு ₹50/நாள் மற்றும் nil filers-க்கு ₹20/நாள், caps-உடன்). இன்னும் முக்கியமாக, அந்த மாதத்திற்கான உங்கள் வாடிக்கையாளர்களின் ITC நீங்கள் file செய்யும் வரை block ஆகும், இது உறவுகளை சேதப்படுத்தும். கடைசி தேதிக்கு மூன்று முதல் ஐந்து நாட்களுக்கு முன் GSTR-1 due-date card-ஐ திறத்தின் priority engine surface செய்து இதைத் தடுக்கிறது."
+        },
+        {
+          "q": "File செய்த GSTR-1-ஐ revise செய்ய முடியுமா?",
+          "a": "முடியாது — file செய்த GSTR-1-ஐ revise செய்ய முடியாது. பிழைகள் அடுத்த மாதத்தின் GSTR-1-இல் Tables 9A / 9C-இல் amended invoices சேர்த்து திருத்தப்படுகின்றன. அதனால்தான் முன்-ஏற்றுமதி சரிபார்ப்பு முக்கியம்: upload-க்கு முன் தவறுகளை பிடிப்பது ஒரு மாதம் cleanup-ஐ காப்பாற்றுகிறது."
+        },
+        {
+          "q": "நேரடி GSTR-1 submission-க்கு portal API உள்ளதா?",
+          "a": "ஆம், GSTN GSPs (GST Suvidha Providers) மற்றும் ASPs வழியாக ஒரு API ecosystem வழங்குகிறது, ஆனால் அது intermediated மற்றும் operational complexity சேர்க்கிறது. திறம் portal-தயார் JSON உருவாக்குகிறது, அதை நீங்கள் standard GSTN portal வழியாக upload செய்கிறீர்கள். நேரடியாக API submission roadmap-இல் உள்ளது, ship ஆகவில்லை, ஏனெனில் credentials யார் வைத்திருக்கிறார்கள் என்பதைப் பற்றி indirect path நேர்மையானது."
+        }
+      ],
+      "relatedHeading": "தொடர்புடைய வாசிப்பு",
+      "related": [
+        {
+          "slug": "business-health-dashboard-indian-smb",
+          "label": "தினசரி வணிக cockpit: இந்திய கடை உரிமையாளர்களுக்கு முதலில் என்ன சரிசெய்ய வேண்டும் என்று சொல்லும் 13 detectors"
+        }
+      ],
+      "cta": {
+        "heading": "திறத்தில் portal-தயார் GSTR-1-ஐ உருவாக்கவும்",
+        "body": "30-நாள் இலவச சோதனை. கார்டு தேவையில்லை. திறம் place of supply, UQC, GSTIN, மற்றும் credit-note dating-ஐ நீங்கள் upload செய்யும் முன் validate செய்கிறது — எனவே நான்கு classic mismatch காரணங்கள் portal-க்கு உங்களைப் பின்தொடராது.",
+        "button": "இலவசமாக தொடங்கவும்"
+      }
+    },
+    "business-health-dashboard-indian-smb": {
+      "meta": {
+        "title": "இந்திய SMB-களுக்கான தினசரி வணிக cockpit: முதலில் என்ன சரிசெய்ய வேண்டும் என்று சொல்லும் 13 detectors · திறம்",
+        "description": "முன்னுரிமை வைக்கப்பட்ட, snooze செய்யக்கூடிய பிரச்சினை feed counters-களின் சுவரை விட சிறந்தது. திறத்தின் What's Up engine cash, inventory, margin, மற்றும் GST-இல் 13 detectors-ஐ வழங்குகிறது — ஐந்து severity tiers, நான்கு-card வரம்பு, மற்றும் ஒவ்வொரு பயனருக்கும் snooze. ML இல்லை.",
+        "ogTitle": "தினசரி வணிக cockpit: இந்திய SMB-களுக்கான 13 detectors",
+        "ogDescription": "தினமும் 7 tools-ஐ திறப்பதை நிறுத்துங்கள். ஒரு திரை, severity-வாரியாக வரிசைப்படுத்தப்பட்டது, முதலில் என்ன சரிசெய்ய வேண்டும் என்பதை தெரியப்படுத்துகிறது.",
+        "keywords": "சிறு வணிகத்திற்கான business dashboard இந்தியா, தினசரி business report மென்பொருள், cash flow alerts மென்பொருள் இந்தியா, dead stock கண்டறிதல் inventory, gst பதிவு நினைவூட்டல் மென்பொருள், மீறப்பட்ட invoice tracking, கடை உரிமையாளர் தினசரி dashboard"
+      },
+      "h1": "தினசரி வணிக cockpit: இந்திய கடை உரிமையாளர்களுக்கு முதலில் என்ன சரிசெய்ய வேண்டும் என்று சொல்லும் 13 detectors",
+      "breadcrumbHome": "திறம்",
+      "breadcrumbCurrent": "தினசரி வணிக cockpit",
+      "quickAnswerLabel": "விரைவு பதில்",
+      "lede": "பெரும்பாலான இந்திய SMB dashboards எண்ணுகின்றன. சில மட்டுமே முன்னுரிமை அளிக்கின்றன. திறத்தின் What's Up engine cash, inventory, margin, expenses, மற்றும் GST-இல் 13 deterministic detectors-ஐ வாசிக்கிறது — பிறகு ஐந்து-tier severity scale-இல் வரிசைப்படுத்தப்பட்ட முதல் நான்கைக் காட்டுகிறது. ஒவ்வொரு பயனருக்கும் snooze stale cards-ஐ திரையில் குவிக்காமல் தடுக்கிறது. ML இல்லை, சத்தம் இல்லை, A/B toggles இல்லை — அதே inputs எப்போதும் அதே output-ஐ உருவாக்குகின்றன, மற்றும் ஒவ்வொரு card ஏன் தோன்றியது என்று நீங்கள் தர்க்கம் செய்யலாம்.",
+      "comparisonHeading": "13 detectors: ஒவ்வொன்றும் எதைக் கண்டறிகிறது",
+      "comparisonTable": {
+        "caption": "Observed இந்திய SMB data-ன் அடிப்படையில் tuned thresholds. அதே inputs எப்போதும் அதே output-ஐ உருவாக்குகின்றன — ML இல்லை, opaque scoring இல்லை.",
+        "headers": ["Detector", "Severity tier(s)", "எதைக் கண்டறிகிறது", "Threshold"],
+        "rows": [
+          ["**மீறப்பட்ட நிலுவை**", "Critical / High", "Payment பதிவு இல்லாமல் கடைசி தேதி கடந்த விலைப்பட்டியல்கள்", "Critical: >₹1L மீறி >60 நாட்கள் · High: >₹25K மீறி >30 நாட்கள்"],
+          ["**Stock இல்லை, சமீபத்தில் விற்றது**", "Critical", "கடந்த 30 நாட்களில் விற்ற SKUs ஆனால் தற்போது zero stock", "எந்த தகுதியான SKU-வும்"],
+          ["**Low-stock reorder**", "High / Medium", "Configured reorder point-க்கு கீழ் positive sell-through கொண்ட SKUs", "Reorder point-க்கு கீழ், சமீப விற்பனைகள் > 0"],
+          ["**Dead-stock capital**", "Critical / Medium / Info", ">90 நாட்கள் stock movement இல்லாத products, locked capital-ஆல் weighted", "Critical: >20% inventory value · Medium: >5% · Info: >1%"],
+          ["**Revenue decline (MoM)**", "Critical / High", "Month-on-month revenue கீழே போகிறது", "Critical: முந்தைய மாதத்தின் <85% · High: <90%"],
+          ["**Margin decline**", "Critical / High", "3-month average-உடன் ஒப்பிட்டால் gross margin கீழே", "Critical: 3pp drop · High: 1.5pp drop"],
+          ["**Negative cash flow**", "Critical", "தற்போதைய window-இல் cash position negative-ஆக போகிறது", "Rolling 30-day window-இல் net cash flow < 0"],
+          ["**Expense spike**", "High / Medium", "Expense category MoM-ஆக கணிசமாக வளர்கிறது", "≥30% MoM (₹1,000 floor)"],
+          ["**Credit-limit near-breach**", "High", "Configured credit limit-ஐ நெருங்கும் வாடிக்கையாளர்", "Outstanding ≥ limit-ன் 90%"],
+          ["**GST filing due**", "High / Medium", "GSTR-1 அல்லது GSTR-3B filing window திறக்கிறது", "ஒவ்வொரு கடைசி தேதிக்கும் முன் 3–5 நாட்கள் (மாதாந்திரம் அல்லது QRMP)"],
+          ["**Promote top product**", "Opportunity", "தற்போதைய promotion-இல் under-represented high-margin, high-velocity SKU", "Top-decile margin × velocity, சமீப low push"],
+          ["**Re-engage inactive customer**", "Opportunity", "சமீபத்தில் order செய்யாத previously-active வாடிக்கையாளர்", ">60 நாட்கள் order இல்லை, prior 90-day frequency >1/mo"],
+          ["**High-margin under-exposed**", "Opportunity", "Category peers-உடன் ஒப்பிட்டால் low sales கொண்ட high-margin SKU", "Above-median margin, below-median volume in category"]
+        ]
+      },
+      "sections": [
+        {
+          "heading": "'தினமும் காலையில் ஏழு tools திறக்கிறேன்' பிரச்சினை",
+          "body": "ஒரு இந்திய கடை உரிமையாளரின் தற்போதைய காலை இப்படி இருக்கிறது: பில்லிங் software-ஐ திறக்கவும், நேற்றைய விற்பனைகளைப் பாருங்கள். Bank app-ஐ திறக்கவும், overnight UPI receipts-ஐ சரிபார்க்கவும். WhatsApp-ஐ திறக்கவும், மூன்று வாடிக்கையாளர் complaints-ஐ scan செய்யவும். Spreadsheet-இல் inventory tab-ஐ திறக்கவும், என்ன குறைகிறது என்று எண்ணவும். GSTN portal-ஐ திறக்கவும், filing status-ஐ பாருங்கள். Staff WhatsApp group-ஐ திறக்கவும், யார் இன்று வருகிறார்கள் என்று பாருங்கள். Notes app-ஐ திறக்கவும், முடிக்கப்படாதது என்ன என்பதை நினைவில் கொள்ளவும்.\n\nஏழு surfaces, இருபது நிமிடங்கள், 'இன்று சரிசெய்ய மிக முக்கியமான விஷயம் என்ன?' என்ற கேள்விக்கு இன்னும் பதில் இல்லை. Bottleneck data அல்ல — அது prioritisation."
+        },
+        {
+          "heading": "Cockpit ஏன் reports-ன் சுவரை விட சிறந்தது",
+          "body": "ஒரு வழக்கமான SMB dashboard ஒரே நேரத்தில் 24 KPIs காட்டுகிறது: sales MTD, sales YTD, customers, invoices, dues, top product, top customer, GST collected, inventory value, low-stock count, expenses, margin... நீங்கள் அவை அனைத்தையும் படிக்கலாம் ஆனால் எதில் act செய்ய வேண்டும் என்று இன்னும் தெரியாது, ஏனென்றால் ஒவ்வொரு எண்ணும் ஒரே visual weight-இல் வாழ்கிறது.\n\nஒரு cockpit ஒரு specific assertion செய்கிறது: **'இந்த நான்கு விஷயங்கள் இப்போது, இந்த வரிசையில் முக்கியம்'**. அது மற்ற இருபது எண்களை திரையின் மேல் இருந்து வேண்டுமென்றே drop செய்கிறது — அவை drill-downs-ஆக இன்னும் கிடைக்கின்றன, ஆனால் 8 AM-இல் உங்கள் கவனத்திற்கு போட்டியிடாது. நான்கு-card cap engine-ன் மிக முக்கியமான design constraint. அதற்கு மேல் சத்தம் ஆகும்; அதற்கு குறைவாக ஒரு கடைக்கு எந்த நாளிலும் இருக்கக்கூடிய realistic distribution-ஐ cover செய்யாது."
+        },
+        {
+          "heading": "13 detectors, grouped",
+          "body": "_Severities மற்றும் thresholds கொண்ட முழு பட்டியலுக்கு மேலே உள்ள ஒப்பீட்டு அட்டவணையைப் பாருங்கள்._ ஒவ்வொரு detector-ம் ஒரே வடிவத்தைப் பின்பற்றுகிறது: org-ன் data-வுக்கு எதிராக ஒரு deterministic query (ML இல்லை, opaque scoring இல்லை), ஒரு எண் அல்லது சதவீதமாக expressed tuned threshold, மற்றும் resulting card surface-ஆக வருமா என்பதை தீர்மானிக்கும் severity tier (engine நான்கில் cap ஆகிறது). Detectors ஐந்து families-ஆக விழுகின்றன:\n\n- **Cash** — மீறப்பட்ட நிலுவை, negative cash flow, credit-limit near-breach.\n- **Inventory** — out-of-stock-but-recently-sold, low-stock reorder, dead-stock capital.\n- **Margin மற்றும் revenue** — revenue decline (MoM), margin decline, expense spike.\n- **GST மற்றும் compliance** — GSTR-1 due, GSTR-3B due.\n- **Opportunity** — promote top product, re-engage inactive customer, high-margin under-exposed.\n\nFamilies diagnosis-க்கு உள்ளன, filtering-க்கு அல்ல — 'cash cards மட்டும் காட்டு' toggle இல்லை. Cockpit-ன் point _'family-ஐ பொருட்படுத்தாமல், இன்று மிக முக்கியமான விஷயம் என்ன'_ என்பதே."
+        },
+        {
+          "heading": "Severity ranking மற்றும் ஒவ்வொரு பயனருக்கான snooze",
+          "body": "Priority வரிசையில் ஐந்து tiers: **critical > high > medium > info > opportunity**. ஒரு critical card எப்போதும் ஒரு high card-ஐ வெல்கிறது; stack-இல் மேலே actionable issues இல்லாதபோது மட்டுமே opportunity cards surface ஆகும். வணிக state மாறும்போது திரை உண்மையில் வடிவம் மாறுவதே cockpit-ஐ vanity dashboard ஆகாமல் தடுக்கிறது.\n\nஒவ்வொரு பயனருக்கான snooze — பார்த்து queue ஆன அதே card ஒரு வாரத்திற்கு ஒவ்வொரு காலையும் தோன்றுவதை தடுக்கிறது. Snooze-கள் underlying issue-ன் fingerprint-ஐ சுமக்கின்றன (உதா. _'Customer ABC-விடம் இருந்து ₹1.2L மீறப்பட்டது'_) எனவே issue உண்மையில் resolve ஆகி பின்னர் மீண்டும் வரும்போது, அது புதிய card-ஆக மீண்டும் தோன்றுகிறது. Dismissals-ம் ஒவ்வொரு பயனருக்கும் — ஒரே dashboard பகிரும் இரண்டு பேர் ஒருவர் snooze செய்ததால் visibility-ஐ இழக்கமாட்டார்கள்."
+        },
+        {
+          "heading": "மூன்று worked examples",
+          "body": "_**மீறப்பட்ட நிலுவை (critical)**._ உங்கள் B2B வாடிக்கையாளர் ஆனந்த் ஹார்டுவேர் ₹1.4 லட்சம் outstanding, பழைய விலைப்பட்டியல் 67 நாட்கள் கடைசி தேதி கடந்தது, மற்றும் அவர்கள் இரண்டு வாரங்களாக WhatsApp-இல் அமைதியாக உள்ளனர். Detector ஒரு critical card-ஐ எழுப்புகிறது — வாடிக்கையாளர் பெயர், aged amount, மற்றும் payment reminder அனுப்ப ஒரே-click action-உடன்.\n\n_**Dead-stock capital (medium)**._ நீங்கள் 800 SKUs stock செய்கிறீர்கள். 47 90+ நாட்களாக move ஆகவில்லை. அவை ஒன்றாக ₹1.8 லட்சம் inventory value-ஐ கொண்டுள்ளன — உங்கள் மொத்தத்தின் 6%. Detector ஒரு medium card-ஐ எழுப்பி, slow-stock report-க்கு link செய்து, clearance discount-ஐ மிகவும் பொதுவான resolution-ஆக பரிந்துரைக்கிறது.\n\n_**GST filing due (high)**._ அது மாதத்தின் 8-ஆம் தேதி; கடந்த மாதத்திற்கான GSTR-1 11-ஆம் தேதி நிறைவடைகிறது. Detector மூன்று நாட்களுக்கு முன் ஒரு high card-ஐ எழுப்பி, Reports → GSTR-1-க்கு deep-link செய்து, காலகட்டத்தில் export வெற்றியடையும் விலைப்பட்டியல்களின் எண்ணிக்கையைக் காட்டுகிறது — எனவே நீங்கள் drafting முடித்தீர்களா அல்லது சரிசெய்ய validation errors உள்ளனவா என்று தெரியும்."
+        },
+        {
+          "heading": "MTD tiles-உடன் எப்படி compose ஆகிறது",
+          "body": "Cockpit layered. நான்கு What's Up cards-க்கு மேலே dashboard tiles இருக்கின்றன — MTD GST collected, MTD vendor spend, dead-stock ratio, credit default rate — இவை வணிகத்தின் steady-state view-ஐ கொடுக்கின்றன. Cards-க்கு கீழே வழக்கமான reports (sales, inventory, GST, P&L, receivables aging) வாழ்கின்றன. Cards நடுவில் வாழ்கின்றன ஏனென்றால் அவை இரண்டையும் இணைக்கின்றன: 'இன்று என்ன முக்கியம்; tiles உங்களுக்கு long-term trend-ஐ சொல்கின்றன; reports drill-in செய்ய அனுமதிக்கின்றன'.\n\nTile order ஒவ்வொரு பயனருக்கும் (`DashboardLayout`-ஆக சேமிக்கப்படுகிறது) — எனவே ஒரே org-இல் இரண்டு cashiers ஒவ்வொருவரும் தங்கள் role-க்கு முக்கியமான tiles-ஐ முன்னுரிமை செய்யலாம்."
+        },
+        {
+          "heading": "இந்த engine என்ன அல்ல",
+          "body": "Priority engine என்ன அல்ல என்பதை explicit-ஆக இருப்பது முக்கியம், ஏனெனில் ஒவ்வொரு adjacent product-ம் இந்த surface-ஐ over-claim செய்கிறது:\n\n- **AI அல்ல.** Tuned thresholds கொண்ட deterministic rules. ஒவ்வொரு card-க்கும் ஒரு புரிந்துகொள்ளக்கூடிய 'ஏன்' உள்ளது.\n- **Predictive அல்ல.** என்ன ஏற்கனவே உண்மை (overdue, dead, declining) என்பதை diagnose செய்கிறது, என்ன நடக்கலாம் என்பதை அல்ல. Forecasting-க்கு வேறு math தேவை மற்றும் திறம் ship செய்யவில்லை.\n- **UI-இல் customisable அல்ல.** Observed இந்திய SMB data-ன் அடிப்படையில் product team-ஆல் thresholds tune செய்யப்படுகின்றன. ஒவ்வொரு threshold-ஐயும் ஒரு setting-ஆக surface செய்வது cockpit-ஐ ஒரு configuration project-ஆக மாற்றும்; அது வேண்டுமென்றே opinionated-ஆக இருக்கிறது.\n- **உங்கள் CA-ஐ replace செய்யாது.** GSTR-due cards file செய்ய நினைவூட்டுகின்றன; அவை உங்களுக்காக file செய்யாது, மற்றும் GSTR-3B-ஐ draft செய்யாது. Boundary companion கட்டுரையில் cover செய்யப்பட்டுள்ளது: _GSTR-1 vs GSTR-3B: வேறுபாடு, இணக்கம், மற்றும் சுத்தமான GSTR-1-ஐ எப்படி தயாரிப்பது._"
+        },
+        {
+          "heading": "உங்கள் dashboard எண்ணுகிறது ஆனால் முன்னுரிமை அளிக்கவில்லை என்றால், உங்களிடம் cockpit அல்ல, counter இருக்கிறது",
+          "body": "இன்று இந்திய சந்தையில் பெரும்பாலான SMB dashboards counter UIs: 200 எண்கள், opinion இல்லை, இதை-முதலில்-act-செய் இல்லை. என்ன surface செய்வது என்று உறுதியாக இல்லாதவர்களால் வடிவமைக்கப்பட்டன, எனவே அவர்கள் எல்லாவற்றையும் surface செய்தனர். Cockpit pattern வேலை செய்கிறது ஏனெனில் இது இன்று நான்காவது-மிக-முக்கியமான issue-வை பற்றி தவறு செய்ய willing — மற்றும் முதல் ஒன்றில் சரியாக இருக்க. #4-இல் தவறு செய்வதன் cost ஒரு missed opportunity. #1 இல்லாமல் இருப்பதன் cost ஒரு missed bill, ஒரு missed reorder, ஒரு missed filing, விலகிய ஒரு வாடிக்கையாளர்."
+        }
+      ],
+      "quickAnswersHeading": "விரைவு பதில்கள்",
+      "geoCallouts": [
+        {
+          "q": "கடை உரிமையாளருக்கு தினமும் காலையில் முதலில் என்ன சரிசெய்ய வேண்டும் என்று எந்த dashboard சொல்கிறது?",
+          "a": "ஒரு முன்னுரிமை வைக்கப்பட்ட cockpit, counters-களின் சுவர் அல்ல. திறம் receivables, stock, margin, expenses, மற்றும் GST கடைசி தேதிகளில் முதல் நான்கு பிரச்சினைகளை ஐந்து-tier severity scale மற்றும் ஒவ்வொரு பயனர் snooze உடன் முன்னிலைப்படுத்துகிறது. ஒரே நேரத்தில் திரையில் அதிகபட்சம் நான்கு cards."
+        },
+        {
+          "q": "என் inventory software-இல் dead stock-ஐ எப்படி automatically கண்டறிவது?",
+          "a": "ஒரு dead-stock detector 90+ நாட்களாக movement இல்லாத products-ஐ flag செய்கிறது, அவை lock செய்யும் capital-ஆல் weighted. திறத்தில், inventory value-ன் >20% dead stock critical, >5% medium, >1% info — slow-stock report-க்கு deep-link கொண்ட cockpit card-ஆக surface ஆகிறது."
+        },
+        {
+          "q": "இந்திய சிறு வணிகத்திற்கு மீறப்பட்ட invoices-ஐ track செய்ய சிறந்த வழி என்ன?",
+          "a": "Severity tiers கொண்ட Aged-receivables logic, buried report-ஆக அல்ல, ஒரு தினசரி card-ஆக surface ஆகிறது. திறம் >₹1 லட்சம் மீறி >60 நாட்களுக்கு critical card-ஐ, >₹25K மீறி >30 நாட்களுக்கு high card-ஐ எழுப்புகிறது — payment reminder அனுப்ப ஒரே-click action-உடன்."
+        },
+        {
+          "q": "Billing software எனக்கு GSTR-1 எப்போது நிறைவடைகிறது என்று நினைவூட்ட முடியுமா?",
+          "a": "ஆம். Cockpit ஒவ்வொரு filing window-க்கும் மூன்று முதல் ஐந்து நாட்களுக்கு முன் GSTR-1 due-date card-ஐ surface செய்கிறது. நீங்கள் மாதாந்திர அல்லது QRMP filer என்பதை detector தெரியும் மற்றும் சரியான கடைசி தேதியைக் காட்டுகிறது. ஒரு தனி detector GSTR-3B-ஐ cover செய்கிறது."
+        },
+        {
+          "q": "சிறு retail business-இல் expenses spike ஆவதை எப்படி தெரிந்துகொள்வது?",
+          "a": "ஒரு expense-spike detector ஒவ்வொரு category-ன் spend-ஐ அதன் முந்தைய மாதத்துடன் ஒப்பிடுகிறது. ஒரு category ≥30% MoM வளரும்போது (சிறிய categories-இல் சத்தத்தை அடக்க ₹1,000 floor) திறம் ஒரு card-ஐ எழுப்புகிறது. Card category, முந்தைய மற்றும் தற்போதைய மொத்தங்கள், மற்றும் % மாற்றத்தைக் காட்டுகிறது."
+        }
+      ],
+      "faqHeading": "அடிக்கடி கேட்கப்படும் கேள்விகள்",
+      "faq": [
+        {
+          "q": "Priority engine AI-powered-ஆ?",
+          "a": "இல்லை. Detectors என்பவை tuned thresholds கொண்ட deterministic rules. அதே inputs எப்போதும் அதே output-ஐ உருவாக்குகின்றன, மற்றும் ஒரு card ஏன் தோன்றியது என்று நீங்கள் தர்க்கம் செய்யலாம் — பணம் தடுமாறும்போது இது முக்கியம். திறம் cockpit-இல் ML ship செய்யவில்லை."
+        },
+        {
+          "q": "Thresholds-ஐ customise செய்ய முடியுமா?",
+          "a": "இன்று UI-இல் இல்லை. Observed இந்திய SMB data-ன் அடிப்படையில் product team-ஆல் thresholds tune செய்யப்படுகின்றன, மற்றும் releases-இல் சரிசெய்யப்படுகின்றன. ஒவ்வொரு threshold-ஐயும் ஒரு setting-ஆக surface செய்வது cockpit-ஐ ஒரு configuration project-ஆக மாற்றும், அது point-ஐ defeat செய்யும். உங்கள் வணிகத்திற்கு ஒரு threshold consistently misfire ஆனால், எங்களுக்குச் சொல்லுங்கள்."
+        },
+        {
+          "q": "எந்த card முதலில் காட்டப்படுகிறது என்பதில் எனக்கு உடன்பாடு இல்லை என்றால்?",
+          "a": "Severity ordering (critical > high > medium > info > opportunity) fixed. ஒரு tier-க்கு உள்ளே, cards impact magnitude-வாரியாக ஒழுங்கமைக்கப்படுகின்றன (பெரிய மீறப்பட்ட ரூபாய் value முதலில், பெரிய dead-stock pile முதலில், மற்றும் பிற). தற்போது actionable இல்லாத எந்த card-ஐயும் நீங்கள் snooze செய்யலாம்; underlying issue உண்மையில் மாறும்போது அது திரும்புகிறது."
+        },
+        {
+          "q": "Multi-warehouse setups-உடன் cockpit வேலை செய்கிறதா?",
+          "a": "ஆம். Inventory detectors (out-of-stock, low-stock, dead-stock) per-warehouse stock cache-இலிருந்து படிக்கின்றன மற்றும் org level-இல் மட்டும் அல்ல, per-warehouse-ஆக issues-ஐ surface செய்கின்றன. ஒரே SKU ஒரு warehouse-இல் dead-ஆகவும் மற்றொன்றில் fast-moving-ஆகவும் இருந்தால் சரியாக காட்டப்படுகிறது."
+        },
+        {
+          "q": "இரு பயனர்கள் வெவ்வேறு cockpit states-ஐ பார்க்க முடியுமா?",
+          "a": "ஆம். Priority engine org-scoped (அதே data), ஆனால் snooze மற்றும் dismissal per-user (வெவ்வேறு surfaces). Cashier 'low stock on Item X'-ஐ dismiss செய்தால், உரிமையாளர் இன்னும் பார்க்கிறார். Dashboard tile order-ம் per-user."
+        },
+        {
+          "q": "இது distributors-க்கு வேலை செய்கிறதா, கடைகள் மட்டும் அல்ல?",
+          "a": "ஆம். Detectors SMB shape-க்கு calibrated (ஏறக்குறைய ₹10 லட்சம் முதல் ₹50 கோடி turnover) மற்றும் retail, distribution, மற்றும் multi-branch chains-இல் வேலை செய்கின்றன. Credit-limit near-breach போன்ற Distributor-specific signals அதே engine-ஐ leverage செய்கின்றன."
+        },
+        {
+          "q": "இது Tally-ன் reports அல்லது Vyapar-ன் dashboard-இலிருந்து எப்படி வேறுபடுகிறது?",
+          "a": "Tally exhaustive reports ship செய்கிறது — எதைப் பார்க்க வேண்டும் என்று உங்களுக்குத் தெரிந்திருக்க வேண்டும். Vyapar MTD counters காட்டுகிறது. எதுவும் ஒரு சிறிய acts-today issues set-ஐ முன்னுரிமை செய்யவில்லை. What's Up engine-ன் value ஒரே feature அல்ல; அது நான்கு cards-இல் cap செய்வதன், severity-வாரியாக rank செய்வதன், மற்றும் configurable dashboard ship செய்ய மறுப்பதன் editorial discipline."
+        }
+      ],
+      "relatedHeading": "தொடர்புடைய வாசிப்பு",
+      "related": [
+        {
+          "slug": "gstr-1-vs-gstr-3b-difference",
+          "label": "GSTR-1 vs GSTR-3B: வேறுபாடு, இணக்கம், மற்றும் சுத்தமான GSTR-1-ஐ எப்படி தயாரிப்பது"
+        }
+      ],
+      "cta": {
+        "heading": "திறத்தில் cockpit-ஐ திறக்கவும்",
+        "body": "30-நாள் இலவச சோதனை. கார்டு தேவையில்லை. 13 detectors முதல் நாளிலிருந்தே இயங்குகின்றன — setup இல்லை, configuration இல்லை, opaque scoring இல்லை.",
+        "button": "இலவசமாக தொடங்கவும்"
+      }
     }
   }
 }

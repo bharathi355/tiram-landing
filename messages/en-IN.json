@@ -339,7 +339,11 @@
         },
         {
           "q": "Can I export GSTR-1 and GSTR-3B?",
-          "a": "Yes. Tiram produces GSTR-1 and GSTR-3B period exports in formats your CA can hand in. Daily and monthly GST exposure dashboards are part of the standard plan."
+          "a": "Yes. Tiram produces GSTR-1 and GSTR-3B period exports in formats your CA can hand in. Daily and monthly GST exposure dashboards are part of the standard plan.",
+          "more": {
+            "slug": "gstr-1-vs-gstr-3b-difference",
+            "label": "Read the GSTR-1 vs GSTR-3B guide"
+          }
         },
         {
           "q": "Is e-invoicing supported?",
@@ -399,6 +403,9 @@
       "linkFeatures": "Features",
       "linkPricing": "Pricing",
       "linkFaq": "FAQ",
+      "resources": "Resources",
+      "linkArticleGstr": "GSTR-1 vs GSTR-3B guide",
+      "linkArticleCockpit": "Daily business cockpit",
       "linkSignIn": "Sign in",
       "linkSignUp": "Create account",
       "linkPrivacy": "Privacy",
@@ -406,6 +413,274 @@
       "linkContact": "Contact us",
       "madeInIndia": "Made in India · Tiram Technologies Pvt Ltd",
       "rights": "© {year} Tiram. All rights reserved."
+    }
+  },
+  "articles": {
+    "gstr-1-vs-gstr-3b-difference": {
+      "meta": {
+        "title": "GSTR-1 vs GSTR-3B: Difference, Reconciliation & How to Draft a Clean GSTR-1 · Tiram",
+        "description": "GSTR-1 reports outward supplies invoice-by-invoice; GSTR-3B is a monthly summary of tax liability and ITC. Here is the difference, the four classic mismatch causes, and how Tiram's pre-export validation keeps the two reconcilable.",
+        "ogTitle": "GSTR-1 vs GSTR-3B: The Honest Guide for Indian SMBs",
+        "ogDescription": "Side-by-side comparison, mismatch causes, and how to draft a portal-ready GSTR-1 from billing software.",
+        "keywords": "gstr 1 vs gstr 3b, difference between gstr 1 and gstr 3b, gstr 1 reconciliation, gstr 1 due date, gstr 3b due date, gstr 1 json export, gstr 1 filing software, b2b b2c gstr 1, outward supplies gstr 1"
+      },
+      "h1": "GSTR-1 vs GSTR-3B: difference, reconciliation, and how to draft a clean GSTR-1",
+      "breadcrumbHome": "Tiram",
+      "breadcrumbCurrent": "GSTR-1 vs GSTR-3B",
+      "quickAnswerLabel": "Quick answer",
+      "lede": "GSTR-1 reports outward supplies invoice-by-invoice. GSTR-3B is a monthly summary of net tax payable and input-tax credit. Both must reconcile — and most reconciliation pain in Indian SMBs starts with four mistakes in GSTR-1: missing place-of-supply, UoM mismatches, malformed GSTINs, and late credit notes. This guide explains the difference, what each section contains, and how to draft a portal-ready GSTR-1 that 3B can actually reconcile against.",
+      "comparisonHeading": "GSTR-1 vs GSTR-3B at a glance",
+      "comparisonTable": {
+        "caption": "Quick reference. Use the prose sections below for full detail.",
+        "headers": ["", "GSTR-1", "GSTR-3B"],
+        "rows": [
+          ["**What it reports**", "Outward supplies, invoice-by-invoice — B2B, B2CL, B2CS, exports, credit / debit notes, HSN summary", "Net tax liability and ITC for the month — what you actually owe in cash"],
+          ["**Granularity**", "Each invoice and credit note", "Net totals per tax head and per ITC bucket"],
+          ["**Who files**", "Every regular GST-registered person", "Every regular GST-registered person (Composition dealers file CMP-08 instead)"],
+          ["**Frequency**", "Monthly (turnover > ₹5 crore) or quarterly under QRMP", "Monthly (with staggered state-group due dates under QRMP)"],
+          ["**Due date**", "11th of the following month (monthly) or 13th after the quarter (QRMP)", "20th of the following month (or 22nd / 24th by state group under QRMP)"],
+          ["**Feeds**", "The recipient's GSTR-2A / 2B for ITC matching", "The org's own cash payment ledger — not auto-fed from elsewhere"],
+          ["**Most common mismatch cause**", "Wrong PoS, malformed GSTIN, missing UoM, late credit notes", "ITC claimed that doesn't appear in GSTR-2B, or tax paid without matching outward supplies"]
+        ]
+      },
+      "sections": [
+        {
+          "heading": "What each return is for",
+          "body": "GSTR-1 and GSTR-3B answer two different questions. _GSTR-1_ answers 'what did I sell, to whom, and how much tax did I charge?' — it captures every B2B invoice (with the customer's GSTIN), every B2CL invoice (large unregistered sale, currently >₹2.5 lakh inter-state), the aggregated B2CS bucket (small unregistered sales), every credit and debit note (CDNR, CDNUR), the HSN-wise summary, and a count of documents issued.\n\n_GSTR-3B_ answers 'what tax do I net-owe this month?' — outward supplies grouped by tax head (CGST + SGST + IGST + cess), inter-state supplies to unregistered persons, ITC claimed, ITC reversed, and the final cash payable after offsetting ITC.\n\nBoth are filed monthly by regular taxpayers (QRMP filers do GSTR-1 quarterly plus the optional Invoice Furnishing Facility, and GSTR-3B monthly with quarterly tax payment). They share a tax period but report at different granularities — and that asymmetry is the root of most reconciliation problems."
+        },
+        {
+          "heading": "Inside GSTR-1: the seven sections that matter",
+          "body": "GSTR-1 is logically split into sections that mirror the kinds of outward supplies an Indian business actually makes:\n\n- **B2B (Table 4)** — invoices to GST-registered customers. Each row has the customer's GSTIN, invoice number, date, place of supply, taxable value, and tax split (CGST/SGST or IGST).\n- **B2CL (Table 5)** — inter-state invoices to unregistered persons above ₹2.5 lakh. Same shape as B2B minus the GSTIN.\n- **B2CS (Table 7)** — aggregated intra-state and small inter-state sales to unregistered persons, summarised by tax rate and place of supply.\n- **CDNR (Table 9B)** — credit and debit notes against B2B invoices.\n- **CDNUR (Table 9B)** — credit and debit notes against B2CL or export invoices.\n- **HSN summary (Table 12)** — per-HSN totals of taxable value, quantity, UoM (UQC), and tax.\n- **Documents issued (Table 13)** — count of invoice, credit-note, debit-note, and delivery-challan numbers used and cancelled in the period.\n\nIf you've ever stared at a 17-tab spreadsheet your CA sent back, those tabs map almost one-to-one onto these sections."
+        },
+        {
+          "heading": "Inside GSTR-3B: the five sections that matter",
+          "body": "GSTR-3B is shorter and lives at a higher altitude:\n\n- **3.1 — Outward supplies and inward supplies liable to reverse charge.** Five rows: taxable outward (other than zero-rated / nil-rated / exempt), zero-rated outward, nil-rated / exempt outward, inward supplies liable to RCM, and non-GST outward. Each row reports total taxable value plus CGST / SGST / IGST / cess.\n- **3.2 — Inter-state supplies to unregistered persons, composition dealers, and UIN holders.** Place-of-supply-wise breakdown.\n- **4 — ITC.** Eligible ITC available, ITC reversed (rules 42 and 43, etc.), and net ITC available — broken out by IGST, CGST, SGST, and cess.\n- **5 — Nil-rated, exempt, and non-GST inward supplies.** Reports inward purchases that didn't carry tax.\n- **6.1 — Payment of tax.** The final ledger entry — how much of the liability was offset by ITC vs paid in cash.\n\nGSTR-3B is a self-assessment summary. Since the GSTR-2B / 3B auto-population rolled out, the outward portion is partially prefilled from your GSTR-1 / IFF data — you still verify and post, but the seed is there."
+        },
+        {
+          "heading": "Why GSTR-1 and GSTR-3B must reconcile",
+          "body": "The GSTN portal compares the two returns once they're both filed. If your GSTR-3B Section 3.1 outward-supply totals don't match the sum of B2B + B2CL + B2CS + exports + credit notes in GSTR-1, you'll see:\n\n- **A mismatch flag** in the GSTN portal that follow-up notices (and your CA's stress level) cite.\n- **GSTR-2B-based ITC restrictions for your buyers.** If a B2B invoice is in your books but missing or mistyped in GSTR-1, the buyer's ITC can be blocked — which damages the customer relationship faster than any pricing dispute.\n- **Refund delays** if you're an exporter. IGST refunds are reconciled against GSTR-1 and GSTR-3B; mismatches stop the bank wire.\n\nKeeping the two in sync is therefore not paperwork hygiene. It is a cash and relationship risk."
+        },
+        {
+          "heading": "The four reconciliation killers (and where they hide)",
+          "body": "Across hundreds of GSTR-1 drafts that come out of small-business billing systems, four mistakes account for the majority of mismatches:\n\n- **Place of supply (PoS) missing or wrong.** PoS determines whether tax is intra-state (CGST + SGST) or inter-state (IGST). A B2B invoice issued from Tamil Nadu to a Karnataka customer where PoS is left blank or defaulted to your own state means the line is taxed as CGST + SGST instead of IGST. The moment it hits GSTR-1, the math against GSTR-3B Section 3.2 (inter-state supplies) breaks.\n- **UoM mismatched with the HSN summary.** Table 12 wants a specific Unit Quantity Code (UQC) per HSN. If your invoices use 'pcs' but Table 12 wants 'PCS-PIECES' for that HSN, the JSON validator rejects the upload. Many SMBs fix this by editing the export file by hand — until they forget once.\n- **Malformed GSTIN.** A B2B invoice with a typo in the customer's 15-character GSTIN gets flagged at upload (the GSTIN must pass a checksum), and the entire B2B section may fail validation rather than just that one row.\n- **Late or missing credit notes.** Credit notes raised in a later month against invoices from an earlier month belong in CDNR / CDNUR for the month the note was raised, not retroactively in the original month's GSTR-1. Skipping them inflates outward supplies in GSTR-1 relative to the net liability you actually report in GSTR-3B."
+        },
+        {
+          "heading": "How Tiram's pre-export validation catches each",
+          "body": "Tiram exports GSTR-1 as portal-ready JSON and as XLSX for offline review. Before either file is generated, the export pipeline runs the same four checks the GSTN validator runs — but locally, so the user catches them in their own dashboard, not after the upload fails:\n\n- **PoS presence and validity.** Every invoice destined for B2B, B2CL, or B2CS rolls up only if it has a place of supply, and the engine cross-checks it against the customer's state derived from the GSTIN. Intra-state CGST / SGST vs inter-state IGST is computed at invoice time, not bolted on at export, so the line tax matches the PoS.\n- **UQC mapping.** The HSN summary uses the GSTN-approved unit-quantity codes; the engine maps your stored UoM (`PCS`, `KG`, `LTR`, etc.) into the right `UQC` field per HSN.\n- **GSTIN checksum.** Every B2B customer's GSTIN is validated at customer-creation time, not at export time — wrong characters never get into the database in the first place.\n- **Credit notes in the correct month.** Credit and debit notes are raised against an invoice but recorded in the month they were issued, and the GSTR-1 builder lifts them into CDNR or CDNUR based on whether the original invoice was B2B or unregistered.\n\nThe XLSX export is the same data your CA can pivot on offline; the JSON is the version you upload to the GSTN portal. Neither requires hand-editing."
+        },
+        {
+          "heading": "Filing-due reminders, surfaced in the cockpit",
+          "body": "Even a perfectly-drafted GSTR-1 doesn't help if you miss the 11th-of-the-month deadline. Tiram's What's Up priority engine includes a **GSTR-1 due-date detector** and a separate **GSTR-3B due-date detector** that surface as cockpit cards three to five days before each filing window closes. The detector knows your filing periodicity (monthly vs QRMP) and your state's GSTR-3B group (the 20th, 22nd, or 24th).\n\nRead more about the cockpit and its 13 detectors in the companion article: _The daily business cockpit: 13 detectors that tell Indian shop owners what to fix first._"
+        },
+        {
+          "heading": "Honest limits: what Tiram does NOT do",
+          "body": "To stay honest about scope:\n\n- **Tiram exports GSTR-1; it does not draft GSTR-3B.** 3B is a self-assessment summary that depends on data outside billing (vendor invoices for ITC, reverse-charge purchases). Your CA or accounting software computes 3B; Tiram makes sure the GSTR-1 half reconciles cleanly.\n- **Tiram does not generate IRN.** E-invoicing via the IRP (Invoice Registration Portal) is a separate workflow. The data model captures everything IRN needs (GSTIN, HSN, PoS, line-level tax) and the integration is on the active roadmap — but it isn't shipped today.\n- **Tiram does not submit to the GSTN portal via API.** The portal-ready JSON downloads to your machine; you upload it to the GSTN portal yourself or hand it to your CA. We deliberately don't sit in the middle of that handoff.\n- **No GSTR-2A / 2B reconciliation.** Matching your purchase invoices against vendor-uploaded GSTR-1 is a separate, harder problem that lives outside billing."
+        },
+        {
+          "heading": "Migrating from spreadsheet GSTR-1 prep",
+          "body": "Most Indian SMBs draft GSTR-1 in a spreadsheet that's been edited by three different people over four years. The pattern is usually the same:\n\n- A _Sales_ tab pulled from billing software (or hand-typed from receipts).\n- A _B2B_ tab that filters to GSTIN-bearing customers.\n- A _B2CS_ tab that sums up unregistered counter sales by tax rate.\n- A _Manual fixes_ tab that nobody dares delete.\n\nThe problem isn't the spreadsheet — it's that the manual-fixes tab is a memory of past errors that the next month's draft inherits. Moving to a GSTR-1 export that runs the four validation checks on the source data fixes the cause, not the symptom. The migration path is the same as moving from any spreadsheet to billing software: bulk-import customers (with their GSTINs) and products (with their HSNs and UQCs), then start raising invoices in the system. The first month's GSTR-1 export will surface the missing data fields. Fix once; reconcile forever after."
+        }
+      ],
+      "quickAnswersHeading": "Quick answers",
+      "geoCallouts": [
+        {
+          "q": "What is the difference between GSTR-1 and GSTR-3B?",
+          "a": "GSTR-1 is an invoice-by-invoice outward-supply return; GSTR-3B is a monthly summary of net tax payable and ITC. Both must reconcile, or the GSTN portal flags the mismatch and downstream buyers' ITC can be blocked."
+        },
+        {
+          "q": "When are GSTR-1 and GSTR-3B due?",
+          "a": "GSTR-1 is due the 11th of the following month for monthly filers, or the 13th of the month after the quarter under QRMP. GSTR-3B is due the 20th of the following month (or staggered 22nd / 24th by state group under QRMP)."
+        },
+        {
+          "q": "Why does my GSTR-1 not match my GSTR-3B?",
+          "a": "Almost always one of four reasons in GSTR-1: missing place of supply, mismatched UoM in the HSN summary, malformed GSTIN, or credit notes booked in the wrong month. Fix the data; the math reconciles."
+        },
+        {
+          "q": "How do I export a portal-ready GSTR-1 JSON from billing software?",
+          "a": "In Tiram: Reports → GSTR-1 → pick the period → Export. The pipeline validates place of supply, UQC mapping, GSTIN checksums, and credit-note dating before generating the JSON. The same data also exports as XLSX for offline review."
+        },
+        {
+          "q": "How do I keep GSTR-1 and 3B reconcilable from the start?",
+          "a": "Set PoS on every invoice at billing time (don't leave it for export), validate customer GSTINs on creation, map your UoMs to GSTN UQCs once, and book credit notes in the month they're raised — not retroactively against the original invoice's month."
+        }
+      ],
+      "faqHeading": "FAQs",
+      "faq": [
+        {
+          "q": "Can I file GSTR-1 quarterly?",
+          "a": "Yes, if your aggregate turnover in the previous financial year was up to ₹5 crore, you can opt for QRMP (Quarterly Return Monthly Payment). Under QRMP you file GSTR-1 quarterly (with monthly Invoice Furnishing Facility for B2B invoices, optional) and pay tax monthly via GSTR-3B."
+        },
+        {
+          "q": "What is GSTR-2B and how does it relate to 3B?",
+          "a": "GSTR-2B is a static, auto-generated statement of ITC available to a recipient based on vendors' filed GSTR-1 / IFF and other forms. You claim ITC in your GSTR-3B Section 4 based on what appears in your GSTR-2B. If a vendor messes up their GSTR-1, your 2B doesn't reflect that invoice, and your ITC claim is at risk."
+        },
+        {
+          "q": "Does Tiram support e-invoicing (IRN)?",
+          "a": "Tiram's data model captures everything e-invoicing needs — GSTIN, HSN/SAC, place of supply, line-level tax — so the data is e-invoice-ready. Direct IRP submission and IRN return is on the active roadmap but not shipped today. The current export path is GSTR-1 JSON / XLSX."
+        },
+        {
+          "q": "Can the same software handle both GSTR-1 and GSTR-3B?",
+          "a": "Tiram handles GSTR-1 (portal-ready JSON and XLSX). GSTR-3B is a self-assessment summary that depends on data outside billing — particularly vendor invoices for ITC and reverse-charge purchases. Your CA or accounting software computes 3B; Tiram ensures the outward-supplies half is reconcilable against it."
+        },
+        {
+          "q": "What happens if I miss the GSTR-1 due date?",
+          "a": "Late-filing fees apply (per the latest CBIC notification, currently ₹50/day for regular taxpayers and ₹20/day for nil filers, with caps). More importantly, your customers' ITC for that month gets blocked until you file, which damages relationships. Tiram's priority engine surfaces a GSTR-1 due-date card three to five days before the deadline to prevent this."
+        },
+        {
+          "q": "Can I revise a filed GSTR-1?",
+          "a": "No — GSTR-1 cannot be revised once filed. Errors are corrected in the next month's GSTR-1 by adding amended invoices in Tables 9A / 9C. This is exactly why pre-export validation matters: catching mistakes before upload saves a month of cleanup."
+        },
+        {
+          "q": "Is there a portal API for direct GSTR-1 submission?",
+          "a": "Yes, GSTN offers an API ecosystem via GSPs (GST Suvidha Providers) and ASPs, but it's intermediated and adds operational complexity. Tiram generates portal-ready JSON that you upload via the standard GSTN portal. Direct API submission is on the roadmap, not shipped, because the indirect path is honest about who holds the credentials."
+        }
+      ],
+      "relatedHeading": "Related reading",
+      "related": [
+        {
+          "slug": "business-health-dashboard-indian-smb",
+          "label": "The daily business cockpit: 13 detectors that tell Indian shop owners what to fix first"
+        }
+      ],
+      "cta": {
+        "heading": "Draft a portal-ready GSTR-1 in Tiram",
+        "body": "30-day free trial. No credit card needed. Tiram validates place of supply, UQC, GSTIN, and credit-note dating before you upload — so the four classic mismatch causes don't follow you to the portal.",
+        "button": "Start free"
+      }
+    },
+    "business-health-dashboard-indian-smb": {
+      "meta": {
+        "title": "The Daily Business Cockpit for Indian SMBs: 13 Detectors That Tell You What to Fix First · Tiram",
+        "description": "A prioritised, snoozeable issue feed beats a wall of counters. Tiram's What's Up engine ships 13 detectors across cash, inventory, margin, and GST — five severity tiers, a four-card cap, and per-user snooze. No ML.",
+        "ogTitle": "The Daily Business Cockpit: 13 Detectors for Indian SMBs",
+        "ogDescription": "Stop opening 7 tools every morning. One screen, ranked by severity, surfaces what to fix first.",
+        "keywords": "business dashboard for small business india, daily business report software, cash flow alerts software india, dead stock detection inventory, gst filing reminder software, overdue invoice tracking, shop owner dashboard daily"
+      },
+      "h1": "The daily business cockpit: 13 detectors that tell Indian shop owners what to fix first",
+      "breadcrumbHome": "Tiram",
+      "breadcrumbCurrent": "Daily business cockpit",
+      "quickAnswerLabel": "Quick answer",
+      "lede": "Most Indian SMB dashboards count. Few prioritise. Tiram's What's Up engine reads 13 deterministic detectors across cash, inventory, margin, expenses, and GST — then surfaces the top four ranked on a five-tier severity scale. Per-user snooze prevents stale cards from clogging the screen. No ML, no noise, no A/B toggles — same inputs always produce the same output, and you can reason about why each card appeared.",
+      "comparisonHeading": "The 13 detectors: what each one catches",
+      "comparisonTable": {
+        "caption": "Tuned thresholds based on observed Indian SMB data. Same inputs always produce the same output — no ML, no opaque scoring.",
+        "headers": ["Detector", "Severity tier(s)", "What it catches", "Threshold"],
+        "rows": [
+          ["**Overdue receivables**", "Critical / High", "Invoices past due with no payment recorded", "Critical: >₹1L overdue >60 days · High: >₹25K overdue >30 days"],
+          ["**Out-of-stock, recently-sold**", "Critical", "SKUs that sold in the last 30 days but currently show zero stock", "Any qualifying SKU"],
+          ["**Low-stock reorder**", "High / Medium", "SKUs below the configured reorder point with positive sell-through", "Below reorder point, recent sales > 0"],
+          ["**Dead-stock capital**", "Critical / Medium / Info", "Products with no stock movement for >90 days, weighted by capital locked", "Critical: >20% of inventory value · Medium: >5% · Info: >1%"],
+          ["**Revenue decline (MoM)**", "Critical / High", "Month-on-month revenue trending down", "Critical: <85% of prior month · High: <90%"],
+          ["**Margin decline**", "Critical / High", "Gross margin dropping vs the 3-month average", "Critical: 3pp drop · High: 1.5pp drop"],
+          ["**Negative cash flow**", "Critical", "Cash position trending negative over the current window", "Net cash flow < 0 over the rolling 30-day window"],
+          ["**Expense spike**", "High / Medium", "Expense category growing significantly MoM", "≥30% MoM (vs floor of ₹1,000)"],
+          ["**Credit-limit near-breach**", "High", "A customer approaching their configured credit limit", "Outstanding ≥ 90% of limit"],
+          ["**GST filing due**", "High / Medium", "GSTR-1 or GSTR-3B filing window opening", "3–5 days before each deadline (monthly or QRMP)"],
+          ["**Promote top product**", "Opportunity", "A high-margin, high-velocity SKU underrepresented in current promotion", "Top-decile margin × velocity, low recent push"],
+          ["**Re-engage inactive customer**", "Opportunity", "A previously-active customer who hasn't ordered recently", "No order >60 days, prior 90-day frequency >1/mo"],
+          ["**High-margin under-exposed**", "Opportunity", "A high-margin SKU with low sales relative to peers in its category", "Above-median margin, below-median volume in category"]
+        ]
+      },
+      "sections": [
+        {
+          "heading": "The 'I open seven tools every morning' problem",
+          "body": "An Indian shop owner's morning currently looks like this: open the billing software, glance at yesterday's sales. Open the bank app, check overnight UPI receipts. Open WhatsApp, scan three customer complaints. Open the inventory tab in a spreadsheet, count what's running low. Open the GSTN portal, check filing status. Open the staff WhatsApp group, see who's coming in today. Open a notes app, remember what's been left undone.\n\nSeven surfaces, twenty minutes, and the question 'what's the most important thing to fix today?' is still unanswered. The bottleneck isn't data — it's prioritisation."
+        },
+        {
+          "heading": "Why a cockpit beats a wall of reports",
+          "body": "A typical SMB dashboard shows 24 KPIs at once: sales MTD, sales YTD, customers, invoices, dues, top product, top customer, GST collected, inventory value, low-stock count, expenses, margin... You can read all of them and still not know what to act on, because every number lives at the same visual weight.\n\nA cockpit makes one specific assertion: **'these four things matter right now, in this order'**. It deliberately drops the other twenty numbers from the top of the screen — they're still available as drill-downs, but they don't compete for your attention at 8 AM. The four-card cap is the most important design constraint of the engine. Anything more becomes noise; anything fewer doesn't cover the realistic distribution of issues a shop has on any given day."
+        },
+        {
+          "heading": "The 13 detectors, grouped",
+          "body": "_See the comparison table above for the full list with severities and thresholds._ Each detector follows the same shape: a deterministic query against the org's data (no ML, no opaque scoring), a tuned threshold expressed as a number or percentage, and a severity tier that determines whether the resulting card surfaces at all (the engine caps at four). The detectors fall into five families:\n\n- **Cash** — overdue receivables, negative cash flow, credit-limit near-breach.\n- **Inventory** — out-of-stock-but-recently-sold, low-stock reorder, dead-stock capital.\n- **Margin and revenue** — revenue decline (MoM), margin decline, expense spike.\n- **GST and compliance** — GSTR-1 due, GSTR-3B due.\n- **Opportunity** — promote top product, re-engage inactive customer, high-margin under-exposed.\n\nThe families exist for diagnosis, not for filtering — there's no 'show me only cash cards' toggle. The point of the cockpit is _'what's the most important thing today, regardless of family'_."
+        },
+        {
+          "heading": "Severity ranking and per-user snooze",
+          "body": "Five tiers in priority order: **critical > high > medium > info > opportunity**. A critical card always beats a high card; opportunity cards only surface when there are no actionable issues higher up the stack. This is what stops the cockpit from being a vanity dashboard — the screen genuinely changes shape as the business state changes.\n\nPer-user snooze prevents the same card from appearing every morning for a week if it's been seen and queued. Snoozes carry a fingerprint of the underlying issue (e.g. _'overdue ₹1.2L from Customer ABC'_) so when the issue genuinely resolves and reoccurs later, it reappears as a fresh card. Dismissals are also per-user — two people sharing a dashboard don't lose visibility because one of them snoozed."
+        },
+        {
+          "heading": "Three worked examples",
+          "body": "_**Overdue receivables (critical)**._ Your B2B customer Anand Hardware has ₹1.4 lakh outstanding, the oldest invoice is 67 days past due, and they've gone quiet on WhatsApp for two weeks. The detector raises a critical card with the customer name, the aged amount, and a one-click action to send a payment reminder.\n\n_**Dead-stock capital (medium)**._ You stock 800 SKUs. 47 of them haven't moved in 90+ days. Together they account for ₹1.8 lakh of inventory value — 6% of your total. The detector raises a medium card, links to the slow-stock report, and suggests a clearance discount as the most common resolution.\n\n_**GST filing due (high)**._ It's the 8th of the month; GSTR-1 for last month is due on the 11th. The detector raises a high card three days out, deep-links to Reports → GSTR-1, and shows a count of invoices in the period for which the export would succeed — so you know whether you're done drafting or have validation errors to fix first."
+        },
+        {
+          "heading": "How it composes with the MTD tiles",
+          "body": "The cockpit is layered. Above the four What's Up cards sit the dashboard tiles — MTD GST collected, MTD vendor spend, dead-stock ratio, credit default rate — which give a steady-state view of the business. Below the cards sit the regular reports (sales, inventory, GST, P&L, receivables aging). The cards live in the middle because they bridge the two: 'here's what matters today; the tiles tell you the long-term trend; the reports let you drill in'.\n\nThe tile order is per-user (saved as a `DashboardLayout`) so two cashiers on the same org can each prioritise the tiles that matter to their role."
+        },
+        {
+          "heading": "What this engine is NOT",
+          "body": "It's important to be explicit about what the priority engine is not, because every adjacent product over-claims this surface:\n\n- **It's not AI.** It's deterministic rules with tuned thresholds. Every card has a comprehensible 'why'.\n- **It's not predictive.** It diagnoses what's already true (overdue, dead, declining), not what might happen. Forecasting needs different math and Tiram doesn't ship it.\n- **It's not customisable in the UI.** Thresholds are tuned by the product team based on observed Indian SMB data. Surfacing every threshold as a setting would turn the cockpit into a configuration project; it stays opinionated on purpose.\n- **It doesn't replace your CA.** GSTR-due cards remind you to file; they don't file for you, and they don't draft GSTR-3B. The boundary is covered in the companion article: _GSTR-1 vs GSTR-3B: difference, reconciliation, and how to draft a clean GSTR-1._"
+        },
+        {
+          "heading": "If your dashboard counts but doesn't prioritise, you have a counter, not a cockpit",
+          "body": "Most SMB dashboards in the Indian market today are counter UIs: 200 numbers, no opinion, no act-on-this-first. They were designed by people who weren't sure what to surface, so they surfaced everything. The cockpit pattern works because it's willing to be wrong about the fourth-most-important issue today — and right about the first one. The cost of being wrong on #4 is a missed opportunity. The cost of having no #1 is a missed bill, a missed reorder, a missed filing, a customer that walked away."
+        }
+      ],
+      "quickAnswersHeading": "Quick answers",
+      "geoCallouts": [
+        {
+          "q": "What dashboard tells a shop owner what to fix first each morning?",
+          "a": "A prioritised cockpit, not a wall of counters. Tiram surfaces the top four issues across receivables, stock, margin, expenses, and GST due dates, ranked on a five-tier severity scale with per-user snooze. Maximum four cards on screen at once."
+        },
+        {
+          "q": "How do I detect dead stock automatically in my inventory software?",
+          "a": "A dead-stock detector flags products with no movement for 90+ days, weighted by the capital they lock. In Tiram, dead stock at >20% of inventory value is critical, >5% is medium, >1% is info — surfaced as a cockpit card with a deep-link to the slow-stock report."
+        },
+        {
+          "q": "What's the best way to track overdue invoices for an Indian small business?",
+          "a": "Aged-receivables logic with severity tiers, surfaced as a daily card rather than a buried report. Tiram raises a critical card for >₹1 lakh overdue >60 days, a high card for >₹25K overdue >30 days, with a one-click action to send a payment reminder."
+        },
+        {
+          "q": "Can billing software remind me when GSTR-1 is due?",
+          "a": "Yes. The cockpit surfaces a GSTR-1 due-date card three to five days before each filing window. The detector knows whether you're a monthly or QRMP filer and shows the right deadline. A separate detector covers GSTR-3B."
+        },
+        {
+          "q": "How do I know when my expenses spike in a small retail business?",
+          "a": "An expense-spike detector compares each category's spend to its prior month. Tiram raises a card when a category grows ≥30% MoM (with a ₹1,000 floor to suppress noise on tiny categories). The card shows the category, the prior and current totals, and the % change."
+        }
+      ],
+      "faqHeading": "FAQs",
+      "faq": [
+        {
+          "q": "Is the priority engine AI-powered?",
+          "a": "No. The detectors are deterministic rules with tuned thresholds. The same inputs always produce the same output, and you can reason about why a card appeared — which matters when money is on the line. Tiram does not ship ML in the cockpit."
+        },
+        {
+          "q": "Can I customise the thresholds?",
+          "a": "Not in the UI today. Thresholds are tuned by the product team based on observed Indian SMB data and adjusted across releases. We deliberately don't surface every threshold as a setting because turning the cockpit into a configuration project would defeat the point. If a threshold consistently misfires for your business, let us know."
+        },
+        {
+          "q": "What if I disagree with which card is shown first?",
+          "a": "The severity ordering (critical > high > medium > info > opportunity) is fixed. Within a tier, cards are ordered by impact magnitude (largest overdue rupee value first, biggest dead-stock pile first, etc.). You can snooze any card that's not currently actionable; it returns when the underlying issue genuinely changes."
+        },
+        {
+          "q": "Does the cockpit work with multi-warehouse setups?",
+          "a": "Yes. Inventory detectors (out-of-stock, low-stock, dead-stock) read from the per-warehouse stock cache and surface issues per-warehouse, not just at the org level. A single SKU dead in one warehouse and fast-moving in another shows up correctly."
+        },
+        {
+          "q": "Can two users see different cockpit states?",
+          "a": "Yes. The priority engine is org-scoped (same data), but snooze and dismissal are per-user (different surfaces). If the cashier dismisses 'low stock on Item X', the owner still sees it. Dashboard tile order is also per-user."
+        },
+        {
+          "q": "Does this work for distributors, not just shops?",
+          "a": "Yes. The detectors are calibrated for SMB shape (turnover roughly ₹10 lakh to ₹50 crore) and work across retail, distribution, and multi-branch chains. Distributor-specific signals like credit-limit near-breach leverage the same engine."
+        },
+        {
+          "q": "How is this different from Tally's reports or Vyapar's dashboard?",
+          "a": "Tally ships exhaustive reports — you have to know what to look at. Vyapar shows MTD counters. Neither prioritises a small set of acts-today issues. The What's Up engine's value isn't a single feature; it's the editorial discipline of capping at four cards, ranking by severity, and refusing to ship a configurable dashboard."
+        }
+      ],
+      "relatedHeading": "Related reading",
+      "related": [
+        {
+          "slug": "gstr-1-vs-gstr-3b-difference",
+          "label": "GSTR-1 vs GSTR-3B: difference, reconciliation, and how to draft a clean GSTR-1"
+        }
+      ],
+      "cta": {
+        "heading": "Open the cockpit in Tiram",
+        "body": "30-day free trial. No credit card needed. The 13 detectors run from day one — no setup, no configuration, no opaque scoring.",
+        "button": "Start free"
+      }
     }
   }
 }
