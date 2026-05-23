@@ -3,7 +3,7 @@
 import { useLocale, useTranslations } from "next-intl";
 import { ArrowRight } from "lucide-react";
 import { appUrl } from "@/lib/app-url";
-import { ScrollReveal } from "./motion";
+import { ScrollReveal } from "./shell/motion";
 
 export function FinalCta() {
   const t = useTranslations("landing.finalCta");

@@ -1,20 +1,14 @@
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { routing, type Locale } from "@/i18n/routing";
-import { MarketingNav } from "@/components/marketing/marketing-nav";
-import { Hero } from "@/components/marketing/hero";
+import { MarketingNav } from "@/components/marketing/shell/marketing-nav";
+import { Hero } from "@/components/marketing/sections/hero";
 import { TrustStrip } from "@/components/marketing/trust-strip";
-import { Outcomes } from "@/components/marketing/outcomes";
-import { Features } from "@/components/marketing/features";
-import { HowItWorks } from "@/components/marketing/how-it-works";
-import { BuiltForRegion } from "@/components/marketing/built-for-region";
-import { Testimonials } from "@/components/marketing/testimonials";
-import { Pricing } from "@/components/marketing/pricing";
-import { WhyTiram } from "@/components/marketing/why-tiram";
-import { Faq } from "@/components/marketing/faq";
-import { FinalCta } from "@/components/marketing/final-cta";
-import { MarketingFooter } from "@/components/marketing/marketing-footer";
-import { JsonLd } from "@/components/marketing/json-ld";
+import { JsonLd } from "@/components/marketing/shared/json-ld";
+import {
+  DeferredMarketingFooter,
+  MarketingDeferredSections,
+} from "@/components/marketing/shell/deferred-sections";
 import { BRAND_NAME, SITE_URL as DEFAULT_SITE_URL } from "@/lib/brand.server";
 import { resolveOrigin } from "@/lib/env-url";
 
@@ -100,17 +94,9 @@ export default async function LocaleRoot({
       <main id="main">
         <Hero />
         <TrustStrip />
-        <HowItWorks />
-        <Outcomes />
-        <Features />
-        <BuiltForRegion />
-        <Testimonials />
-        <Pricing />
-        <WhyTiram />
-        <Faq />
-        <FinalCta />
+        <MarketingDeferredSections />
       </main>
-      <MarketingFooter />
+      <DeferredMarketingFooter />
       <JsonLd locale={locale as Locale} siteUrl={SITE_URL} />
     </div>
   );

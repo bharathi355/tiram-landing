@@ -4,21 +4,19 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import { useLocale, useTranslations } from "next-intl";
 import { Menu, X } from "lucide-react";
-import { appUrl } from "@/lib/app-url";
+import { appUrl } from "@/lib/contracts/app-url";
 import { cn } from "@/lib/utils";
-import { MarketingLanguageSwitcher } from "./language-switcher";
-import { ThemeToggle } from "./theme-toggle";
-import { AnimatePresence, motion } from "./motion";
+import { MarketingLanguageSwitcher } from "../shared/language-switcher";
+import { ThemeToggle } from "../shared/theme-toggle";
 
 // Ordered to mirror the section order on app/[locale]/page.tsx so the topbar
-// reads the same way users scroll. Outcomes and Testimonials are intentionally
-// omitted (no id, kept curated to a 6-item nav).
+// reads the same way users scroll.
 const ANCHORS = [
   { id: "how-it-works", labelKey: "howItWorks" },
-  { id: "features", labelKey: "features" },
   { id: "region", labelKey: "region" },
-  { id: "pricing", labelKey: "pricing" },
   { id: "why-tiram", labelKey: "whyTiram" },
+  { id: "features", labelKey: "features" },
+  { id: "pricing", labelKey: "pricing" },
   { id: "faq", labelKey: "faq" },
 ] as const;
 
@@ -71,7 +69,7 @@ export function MarketingNav() {
           {ANCHORS.map((a) => (
             <a
               key={a.id}
-              href={`#${a.id}`}
+              href={`/${locale}#${a.id}`}
               className="text-sm text-slate-600 transition-colors hover:text-slate-900 dark:text-slate-300 dark:hover:text-slate-50"
             >
               {t(a.labelKey)}
@@ -107,56 +105,51 @@ export function MarketingNav() {
         </button>
       </div>
 
-      <AnimatePresence initial={false}>
-        {mobileOpen ? (
-          <motion.div
-            key="mobile-drawer"
-            initial={{ height: 0, opacity: 0 }}
-            animate={{ height: "auto", opacity: 1 }}
-            exit={{ height: 0, opacity: 0 }}
-            transition={{ duration: 0.28, ease: [0.22, 1, 0.36, 1] }}
-            className="overflow-hidden border-t border-slate-200 bg-white dark:border-slate-800 dark:bg-slate-950 md:hidden"
-          >
-            <div className="px-4 py-4">
-              <nav className="flex flex-col gap-3" aria-label="Mobile">
-                {ANCHORS.map((a, i) => (
-                  <motion.a
-                    key={a.id}
-                    href={`#${a.id}`}
-                    onClick={() => setMobileOpen(false)}
-                    initial={{ opacity: 0, x: -8 }}
-                    animate={{ opacity: 1, x: 0 }}
-                    transition={{ delay: 0.05 + i * 0.04, duration: 0.25 }}
-                    className="text-sm text-slate-700 dark:text-slate-200"
-                  >
-                    {t(a.labelKey)}
-                  </motion.a>
-                ))}
-              </nav>
-              <div className="mt-4 flex items-center justify-between">
-                <div className="flex items-center gap-2">
-                  <MarketingLanguageSwitcher />
-                  <ThemeToggle />
-                </div>
-                <div className="flex items-center gap-3">
-                  <a
-                    href={appUrl(locale, "/sign-in")}
-                    className="text-sm font-medium text-slate-700 dark:text-slate-200"
-                  >
-                    {t("signIn")}
-                  </a>
-                  <a
-                    href={appUrl(locale, "/onboarding")}
-                    className="inline-flex h-9 items-center rounded-full bg-accent-600 px-4 text-sm font-medium text-white"
-                  >
-                    {t("startFree")}
-                  </a>
-                </div>
-              </div>
+      <div
+        aria-hidden={!mobileOpen}
+        inert={!mobileOpen ? true : undefined}
+        className={cn(
+          "overflow-hidden border-t border-slate-200 bg-white transition-[max-height,opacity] duration-300 ease-out dark:border-slate-800 dark:bg-slate-950 md:hidden",
+          mobileOpen
+            ? "max-h-[26rem] opacity-100"
+            : "pointer-events-none max-h-0 opacity-0",
+        )}
+      >
+        <div className="px-4 py-4">
+          <nav className="flex flex-col gap-3" aria-label="Mobile">
+            {ANCHORS.map((a) => (
+              <a
+                key={a.id}
+                href={`/${locale}#${a.id}`}
+                onClick={() => setMobileOpen(false)}
+                className="text-sm text-slate-700 transition-colors hover:text-accent-600 dark:text-slate-200 dark:hover:text-accent-400"
+              >
+                {t(a.labelKey)}
+              </a>
+            ))}
+          </nav>
+          <div className="mt-4 flex items-center justify-between">
+            <div className="flex items-center gap-2">
+              <MarketingLanguageSwitcher />
+              <ThemeToggle />
             </div>
-          </motion.div>
-        ) : null}
-      </AnimatePresence>
+            <div className="flex items-center gap-3">
+              <a
+                href={appUrl(locale, "/sign-in")}
+                className="text-sm font-medium text-slate-700 dark:text-slate-200"
+              >
+                {t("signIn")}
+              </a>
+              <a
+                href={appUrl(locale, "/onboarding")}
+                className="inline-flex h-9 items-center rounded-full bg-accent-600 px-4 text-sm font-medium text-white"
+              >
+                {t("startFree")}
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
   );
 }

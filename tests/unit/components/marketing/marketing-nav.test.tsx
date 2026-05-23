@@ -14,15 +14,15 @@ vi.mock("next/image", () => ({
   },
 }));
 
-vi.mock("@/components/marketing/language-switcher", () => ({
+vi.mock("@/components/marketing/shared/language-switcher", () => ({
   MarketingLanguageSwitcher: () => <div data-testid="marketing-lang-stub" />,
 }));
 
-vi.mock("@/components/marketing/theme-toggle", () => ({
+vi.mock("@/components/marketing/shared/theme-toggle", () => ({
   ThemeToggle: () => <div data-testid="theme-toggle-stub" />,
 }));
 
-vi.mock("@/components/marketing/motion", () => ({
+vi.mock("@/components/marketing/shell/motion", () => ({
   AnimatePresence: ({ children }: { children: React.ReactNode }) => <>{children}</>,
   motion: new Proxy(
     {},
@@ -35,7 +35,7 @@ vi.mock("@/components/marketing/motion", () => ({
   ),
 }));
 
-import { MarketingNav } from "@/components/marketing/marketing-nav";
+import { MarketingNav } from "@/components/marketing/shell/marketing-nav";
 import { renderWithProviders } from "@/tests/framework/render";
 
 describe("MarketingNav brand link", () => {

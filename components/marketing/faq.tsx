@@ -3,7 +3,7 @@
 import { useLocale, useTranslations } from "next-intl";
 import { ChevronDown } from "lucide-react";
 import { useState } from "react";
-import { ScrollReveal, AnimatePresence, motion } from "./motion";
+import { ScrollReveal, AnimatePresence, motion } from "./shell/motion";
 
 // Optional `more` field lets a FAQ item deep-link to a long-form article.
 // Only the GST FAQ uses it today (linking to gstr-1-vs-gstr-3b-difference);

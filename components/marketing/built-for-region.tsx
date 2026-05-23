@@ -9,7 +9,7 @@ import {
   Banknote,
   Languages,
 } from "lucide-react";
-import { ScrollReveal, StaggerContainer, StaggerItem } from "./motion";
+import { ScrollReveal, StaggerContainer, StaggerItem } from "./shell/motion";
 
 type Item = { title: string; body: string };
 

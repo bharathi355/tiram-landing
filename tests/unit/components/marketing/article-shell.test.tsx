@@ -15,10 +15,10 @@ import { describe, expect, it, vi } from "vitest";
 // The shell renders the marketing nav + footer; both have unrelated
 // dependencies (theme toggle, motion, language switcher) that would
 // otherwise drag in heavy modules. Stub them at the boundary.
-vi.mock("@/components/marketing/marketing-nav", () => ({
+vi.mock("@/components/marketing/shell/marketing-nav", () => ({
   MarketingNav: () => <div data-testid="nav-stub" />,
 }));
-vi.mock("@/components/marketing/marketing-footer", () => ({
+vi.mock("@/components/marketing/shell/marketing-footer", () => ({
   MarketingFooter: () => <div data-testid="footer-stub" />,
 }));
 
@@ -28,6 +28,9 @@ import enMessages from "@/messages/en.json";
 import taMessages from "@/messages/ta.json";
 
 const SLUGS = [
+  "gstr-1-export-tiram",
+  "counter-billing-barcode-quick-bill",
+  "purchase-to-insights-workflow",
   "gstr-1-vs-gstr-3b-difference",
   "business-health-dashboard-indian-smb",
 ] as const;
@@ -43,7 +46,7 @@ type ArticleData = {
   sections: Array<{ heading: string; body: string }>;
   geoCallouts: Array<{ q: string; a: string }>;
   faq: Array<{ q: string; a: string }>;
-  comparisonTable: { headers: string[]; rows: string[][] };
+  comparisonTable?: { headers: string[]; rows: string[][] };
   cta: { button: string };
 };
 
@@ -106,6 +109,10 @@ for (const slug of SLUGS) {
         );
         const data = getArticleData(locale, slug);
         const table = container.querySelector("table");
+        if (!data.comparisonTable) {
+          expect(table).toBeNull();
+          return;
+        }
         expect(table).not.toBeNull();
         const ths = Array.from(table!.querySelectorAll("th")).map(
           (th) => th.textContent ?? "",

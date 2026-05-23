@@ -2,19 +2,22 @@
 
 > Tiram is GST-ready billing and inventory software for Indian businesses — single-counter shops, distributors, and multi-branch chains — and is configurable for global tax regimes (VAT, sales tax) for branches outside India. GST invoicing, multi-warehouse stock, UPI payments, and English + Tamil UI.
 
-Tiram helps Indian businesses raise GST-compliant invoices with GSTIN validation, HSN/SAC at line level, and automatic CGST/SGST/IGST by place of supply; track stock across warehouses with one-tap branch transfers and low-stock alerts; collect dues over UPI with business UPI ID, mark-paid, and follow-up flows; and run daily sales, GST, cash, inventory, profit, audit, and GSTR-1 / GSTR-3B reports. The app is in English and Tamil today (with Tamil-friendly thermal raster receipts where the printer setup supports it) and more Indian locales are rolling out. Tiram supports browser printing and ESC/POS thermal receipt setup, scopes each business through organization membership and role-based access (counter / accountant / owner), and is available as a cloud web app and as an offline desktop app for Windows and Mac for counters with power cuts or unreliable internet. The configurable tax engine also supports VAT (EU/GCC) and sales tax (US) for businesses with global branches; the mobile app is under development.
+Tiram helps Indian businesses raise GST-compliant invoices with GSTIN validation, HSN/SAC at line level, and automatic CGST/SGST/IGST by place of supply; track stock across warehouses with one-tap branch transfers and low-stock alerts; collect dues over UPI with business UPI ID, mark-paid, and follow-up flows; and run daily sales, GST, cash, inventory, profit, audit, GSTR-1 exports, and GST Summary reports. The app is in English and Tamil today (with Tamil-friendly thermal raster receipts where the printer setup supports it) and more Indian locales are rolling out. Tiram supports browser printing and ESC/POS thermal receipt setup, scopes each business through organization membership and role-based access (counter / accountant / owner), and is available as a cloud web app and as an offline desktop app for Windows and Mac for counters with power cuts or unreliable internet. The configurable tax engine also supports VAT (EU/GCC) and sales tax (US) for businesses with global branches; the mobile app is under development.
 
 ## Pages
 
-- [Home (English)](https://tiram.app/en): Product overview, features, pricing, FAQ.
-- [Home (Tamil)](https://tiram.app/ta): முகப்பு பக்கம் — அம்சங்கள், விலை, கேள்விகள்.
+- [Home (English)](https://tiram.co.in/en): Product overview, features, pricing, FAQ.
+- [Home (Tamil)](https://tiram.co.in/ta): முகப்பு பக்கம் — அம்சங்கள், விலை, கேள்விகள்.
 - [Sign up](https://app.tiram.co.in/en/onboarding): Create a Tiram account in the product app.
 - [Sign in](https://app.tiram.co.in/en/sign-in): Sign in to an existing account in the product app.
 
 ## Articles
 
-- [GSTR-1 vs GSTR-3B: difference, reconciliation, and how to draft a clean GSTR-1](https://tiram.app/en/articles/gstr-1-vs-gstr-3b-difference): What each return is for, how they reconcile, the four classic mismatch causes (missing place-of-supply, UoM mismatches, malformed GSTINs, late credit notes), and how Tiram's pre-export validation catches each before upload to the GSTN portal. Tamil: [https://tiram.app/ta/articles/gstr-1-vs-gstr-3b-difference](https://tiram.app/ta/articles/gstr-1-vs-gstr-3b-difference).
-- [The daily business cockpit: 13 detectors that tell Indian shop owners what to fix first](https://tiram.app/en/articles/business-health-dashboard-indian-smb): A prioritised, snoozeable issue feed with 13 deterministic detectors across receivables, inventory, margin, expenses, and GST due dates — five severity tiers, a four-card cap, per-user snooze. Rule-based, not AI. Tamil: [https://tiram.app/ta/articles/business-health-dashboard-indian-smb](https://tiram.app/ta/articles/business-health-dashboard-indian-smb).
+- [Generate a portal-ready GSTR-1 from Tiram in 3 steps](https://tiram.co.in/en/articles/gstr-1-export-tiram): Choose a GST period, review validation for place of supply, GSTIN, HSN/UQC, and credit-note dating, then download GSTR-1 as JSON for portal upload or Excel for CA review. Tamil: [https://tiram.co.in/ta/articles/gstr-1-export-tiram](https://tiram.co.in/ta/articles/gstr-1-export-tiram).
+- [Barcode-scan billing at the counter: how Tiram Quick Bill works](https://tiram.co.in/en/articles/counter-billing-barcode-quick-bill): Quick Bill supports barcode scanning, cart billing, named or walk-in customers, split payments, parked bills, GST splits, and thermal receipts for busy counters. Tamil: [https://tiram.co.in/ta/articles/counter-billing-barcode-quick-bill](https://tiram.co.in/ta/articles/counter-billing-barcode-quick-bill).
+- [From purchase order to business insight: how Tiram connects the dots](https://tiram.co.in/en/articles/purchase-to-insights-workflow): Explains the connected workflow from purchase order to receipt, inventory, billing, collections, reports, and the What's Up insight feed. Tamil: [https://tiram.co.in/ta/articles/purchase-to-insights-workflow](https://tiram.co.in/ta/articles/purchase-to-insights-workflow).
+- [GSTR-1 vs GSTR-3B: difference, reconciliation, and how to draft a clean GSTR-1](https://tiram.co.in/en/articles/gstr-1-vs-gstr-3b-difference): What each return is for, how they reconcile, the four classic mismatch causes (missing place-of-supply, UoM mismatches, malformed GSTINs, late credit notes), and how Tiram's pre-export validation catches each before upload to the GSTN portal. Tamil: [https://tiram.co.in/ta/articles/gstr-1-vs-gstr-3b-difference](https://tiram.co.in/ta/articles/gstr-1-vs-gstr-3b-difference).
+- [The daily business cockpit: 13 detectors that tell Indian shop owners what to fix first](https://tiram.co.in/en/articles/business-health-dashboard-indian-smb): A prioritised, snoozeable issue feed with 13 deterministic detectors across receivables, inventory, margin, expenses, and GST due dates — five severity tiers, a four-card cap, per-user snooze. Rule-based, not AI. Tamil: [https://tiram.co.in/ta/articles/business-health-dashboard-indian-smb](https://tiram.co.in/ta/articles/business-health-dashboard-indian-smb).
 
 ## Who Tiram is for
 
@@ -26,7 +29,7 @@ Tiram helps Indian businesses raise GST-compliant invoices with GSTIN validation
 
 ## Capabilities
 
-- GST-compliant invoicing with GSTIN validation, HSN/SAC at line level, place-of-supply CGST/SGST/IGST, and GSTR-1 / GSTR-3B period exports your CA can hand in.
+- GST-compliant invoicing with GSTIN validation, HSN/SAC at line level, place-of-supply CGST/SGST/IGST, and GSTR-1 JSON/Excel exports plus GST Summary reports your CA can use.
 - Multi-warehouse inventory tracking with one-tap stock transfers, reorder levels, and low-stock alerts.
 - Payment recording in any mode: UPI (with business UPI ID, mark-paid, follow-ups), cash, card, bank transfer, credit, and other regional methods.
 - Daily and period reports covering sales, GST, cash, inventory, profit, receivables, payables, audit activity, top products, and defaulters.
@@ -38,7 +41,7 @@ Tiram helps Indian businesses raise GST-compliant invoices with GSTIN validation
 
 ## India-specific depth
 
-- GSTIN validation at customer creation, HSN/SAC at line level, automatic CGST/SGST/IGST calculation by place of supply, FY-aware GSTR-1 / GSTR-3B period reports your CA can use.
+- GSTIN validation at customer creation, HSN/SAC at line level, automatic CGST/SGST/IGST calculation by place of supply, FY-aware GSTR-1 JSON/Excel exports and GST Summary reports your CA can use.
 - E-invoicing-ready data model (GSTIN, HSN/SAC, place of supply, line-level tax); direct IRP submission and IRN return on the active roadmap.
 - UPI as a first-class payment mode — save the business UPI ID, mark invoices paid in one tap, and send follow-ups for pending.
 - Tamil-friendly thermal receipt raster rendering where the printer setup supports it; Hindi and other Indian scripts coming next.

@@ -2,7 +2,7 @@
 
 import { useTranslations } from "next-intl";
 import { Building2 } from "lucide-react";
-import { Marquee, ScrollReveal } from "./motion";
+import { Marquee, ScrollReveal } from "./shell/motion";
 
 type Item = { quote: string; name: string; role: string };
 

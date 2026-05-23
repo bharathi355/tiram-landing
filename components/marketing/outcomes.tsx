@@ -2,7 +2,7 @@
 
 import { useTranslations } from "next-intl";
 import { Clock, Zap, ShieldCheck, TrendingUp } from "lucide-react";
-import { CountUp, ScrollReveal, StaggerContainer, StaggerItem } from "./motion";
+import { CountUp, ScrollReveal, StaggerContainer, StaggerItem } from "./shell/motion";
 
 type Item = { metric: string; label: string };
 

@@ -13,11 +13,14 @@ import {
   getArticle,
 } from "@/lib/articles";
 
-const SITE_URL = "https://tiram.app";
+const SITE_URL = "https://tiram.co.in";
 
 describe("ARTICLES registry", () => {
-  it("contains the two SEO articles in their canonical slug form", () => {
+  it("contains the SEO and demand-generation articles in canonical slug form", () => {
     const slugs = ARTICLES.map((a) => a.slug);
+    expect(slugs).toContain("gstr-1-export-tiram");
+    expect(slugs).toContain("counter-billing-barcode-quick-bill");
+    expect(slugs).toContain("purchase-to-insights-workflow");
     expect(slugs).toContain("gstr-1-vs-gstr-3b-difference");
     expect(slugs).toContain("business-health-dashboard-indian-smb");
   });

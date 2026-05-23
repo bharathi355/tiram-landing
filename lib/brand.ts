@@ -10,5 +10,14 @@ export const BRAND_NAME_NATIVE = "திறம்";
 export const BRAND_LEGAL = "Tiram Technologies Private Limited";
 export const BRAND_TAGLINE = "Run your business with clarity and capability.";
 export const SUPPORT_EMAIL = "tiram.business@gmail.com";
-export const DOMAIN = "tiram.app";
-export const SITE_URL = "https://tiram.app";
+export const SUPPORT_WHATSAPP_NUMBER = "+918667765616";
+export const SUPPORT_WHATSAPP_URL = `https://wa.me/${SUPPORT_WHATSAPP_NUMBER.replace(
+  /^\+/,
+  "",
+)}`;
+export const DOMAIN = "tiram.co.in";
+export const SITE_URL = "https://tiram.co.in";
+
+export function supportWhatsappUrl(message: string): string {
+  return `${SUPPORT_WHATSAPP_URL}?text=${encodeURIComponent(message)}`;
+}

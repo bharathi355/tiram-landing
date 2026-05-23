@@ -22,7 +22,7 @@ import { ARTICLES } from "@/lib/articles";
 
 // Mirror the default in `lib/brand.ts`. resolveOrigin falls back to this when
 // NEXT_PUBLIC_SITE_URL isn't set in the test process — which it isn't.
-const SITE_URL = "https://tiram.app";
+const SITE_URL = "https://tiram.co.in";
 
 describe("sitemap", () => {
   const entries = sitemap();

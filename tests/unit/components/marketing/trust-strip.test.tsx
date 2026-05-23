@@ -12,8 +12,11 @@ vi.mock("next/image", () => ({
   },
 }));
 
-vi.mock("@/components/marketing/motion", () => ({
+vi.mock("@/components/marketing/shell/motion", () => ({
   Marquee: ({ children, className }: { children: ReactNode; className?: string }) => (
+    <div className={className}>{children}</div>
+  ),
+  ScrollReveal: ({ children, className }: { children: ReactNode; className?: string }) => (
     <div className={className}>{children}</div>
   ),
 }));
@@ -32,5 +35,23 @@ describe("TrustStrip proof", () => {
     expect(getByAltText("Supabase logo").getAttribute("src")).toBe(
       "/integrations/supabase.svg",
     );
+  });
+
+  it("renders all trust items including the five new proof points", () => {
+    const { getByText } = renderWithProviders(<TrustStrip />);
+
+    // Original five
+    expect(getByText("Tax-compliant")).toBeInTheDocument();
+    expect(getByText("UPI · Card · Cash")).toBeInTheDocument();
+    expect(getByText("English + Tamil + more")).toBeInTheDocument();
+    expect(getByText("Thermal printer")).toBeInTheDocument();
+    expect(getByText("Multi-warehouse")).toBeInTheDocument();
+
+    // Five new proof points
+    expect(getByText("Offline desktop app")).toBeInTheDocument();
+    expect(getByText("GST & e-Invoice ready")).toBeInTheDocument();
+    expect(getByText("Barcode scanning")).toBeInTheDocument();
+    expect(getByText("Split-payment support")).toBeInTheDocument();
+    expect(getByText("30-day free trial")).toBeInTheDocument();
   });
 });

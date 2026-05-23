@@ -4,7 +4,7 @@
  * Validates the NEXT_PUBLIC_* URL env vars consumed at build time. Hosting
  * providers expose these as raw strings: an empty value in the Netlify UI
  * comes through as "" (not undefined), and a value without a scheme
- * ("tiram.app" instead of "https://tiram.app") still passes a naive
+ * ("tiram.co.in" instead of "https://tiram.co.in") still passes a naive
  * "is it a string" check. Both used to crash prerender with an opaque
  * "Server Components render" error — see Netlify build failure 2026-05-19.
  *

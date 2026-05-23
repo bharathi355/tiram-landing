@@ -5,15 +5,15 @@
 import type { ElementType, ReactNode } from "react";
 import { describe, expect, it, vi } from "vitest";
 
-vi.mock("@/components/marketing/language-switcher", () => ({
+vi.mock("@/components/marketing/shared/language-switcher", () => ({
   MarketingLanguageSwitcher: () => <div data-testid="marketing-lang-stub" />,
 }));
 
-vi.mock("@/components/marketing/theme-toggle", () => ({
+vi.mock("@/components/marketing/shared/theme-toggle", () => ({
   ThemeToggle: () => <div data-testid="theme-toggle-stub" />,
 }));
 
-vi.mock("@/components/marketing/motion", () => ({
+vi.mock("@/components/marketing/shell/motion", () => ({
   ScrollReveal: ({
     children,
     as: Tag = "div",
@@ -25,7 +25,7 @@ vi.mock("@/components/marketing/motion", () => ({
   }) => <Tag className={className}>{children}</Tag>,
 }));
 
-import { MarketingFooter } from "@/components/marketing/marketing-footer";
+import { MarketingFooter } from "@/components/marketing/shell/marketing-footer";
 import { renderWithProviders } from "@/tests/framework/render";
 
 describe("MarketingFooter proof badge", () => {

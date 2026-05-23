@@ -4,7 +4,7 @@ import { useMemo, useState, useId } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { ArrowRight, Check, Minus, Plus } from "lucide-react";
 import { appUrl } from "@/lib/app-url";
-import { ScrollReveal, motion } from "./motion";
+import { ScrollReveal, motion } from "./shell/motion";
 
 // Source of truth lives in the Django Plan row (services/web/apps/billing/models.py).
 // Mirrored here for the marketing surface so the landing page renders without a

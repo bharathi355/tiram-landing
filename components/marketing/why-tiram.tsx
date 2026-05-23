@@ -1,7 +1,7 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import { ScrollReveal, StaggerContainer, StaggerItem } from "./motion";
+import { ScrollReveal, StaggerContainer, StaggerItem } from "./shell/motion";
 
 type Item = { n: string; title: string; body: string };
 

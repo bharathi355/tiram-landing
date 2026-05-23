@@ -6,20 +6,36 @@
     "tagline": "Run your business with clarity and capability.",
     "supportEmail": "tiram.business@gmail.com"
   },
+  "articleShell": {
+    "heroKicker": "Workflow guide",
+    "valueLabel": "திறம் ஒரு வரியில்",
+    "value": "இந்திய SMB-களுக்கான billing, inventory, credit, reports, What's Up insights — அனைத்தும் ஒரே app-ல்.",
+    "stepsLabel": "இணைக்கப்பட்ட workflow படிகள்",
+    "workflowSteps": {
+      "purchase": "Purchase முதல் stock வரை",
+      "billing": "Billing முதல் credit வரை",
+      "insights": "Reports முதல் action வரை"
+    },
+    "inlineCtaEyebrow": "இணைக்கப்பட்ட workflow-ஐ முயற்சி செய்யுங்கள்",
+    "inlineCtaButton": "இலவச trial தொடங்கு",
+    "inlineCtaTrust": "30 நாள் இலவச trial · Card தேவையில்லை",
+    "comparisonEyebrow": "முதலில் scan செய்யுங்கள்",
+    "sectionEyebrow": "Workflow படி"
+  },
   "landing": {
     "seo": {
       "title": "திறம் — இந்திய கடைகள், விநியோகஸ்தர்கள் & செயின்களுக்கான GST பில்லிங் & இருப்பு மென்பொருள்",
-      "description": "GST-தயார் பில்லிங், பல கிடங்கு ஸ்டாக், UPI பேமென்ட், தினசரி அறிக்கைகள் — இந்திய counter-கள், விநியோகஸ்தர்கள், பல-கிளை செயின்களுக்காக. GSTIN சரிபார்ப்பு, HSN/SAC, தானியங்கி CGST/SGST/IGST, GSTR-1 / GSTR-3B exports, தமிழ் ரசீதுகள், thermal printing, Windows மற்றும் Mac-க்கான offline desktop.",
+      "description": "GST-தயார் பில்லிங், பல கிடங்கு ஸ்டாக், UPI பேமென்ட், தினசரி அறிக்கைகள் — இந்திய counter-கள், விநியோகஸ்தர்கள், பல-கிளை செயின்களுக்காக. GSTIN சரிபார்ப்பு, HSN/SAC, தானியங்கி CGST/SGST/IGST, portal-ready GSTR-1 export, GST summary reports, தமிழ் ரசீதுகள், thermal printing, Windows மற்றும் Mac-க்கான offline desktop.",
       "ogTitle": "இந்திய வணிகங்களுக்கான GST பில்லிங் & இருப்பு மென்பொருள்",
       "ogDescription": "GSTIN, HSN/SAC, UPI, ஆங்கிலம் + தமிழ், thermal ரசீதுகள், பல கிடங்கு. 30 நாள் இலவச சோதனை — கார்டு தேவையில்லை.",
-      "keywords": "GST பில்லிங் மென்பொருள், GST invoicing software, GST பில்லிங் மென்பொருள் இந்தியா, best GST billing software, GST invoice maker, GSTR-1 software, GSTR-3B software, e-invoicing software, HSN SAC billing, GSTIN சரிபார்ப்பு, UPI பில்லிங் மென்பொருள், தமிழ் பில்லிங் மென்பொருள், hardware கடைக்கான பில்லிங், electrical கடைக்கான பில்லிங், provision கடைக்கான பில்லிங், distributor-க்கான பில்லிங், FMCG-க்கான பில்லிங், pharma-க்கான பில்லிங், retail-க்கான பில்லிங், பில்லிங் மென்பொருள் Bengaluru, பில்லிங் மென்பொருள் Chennai, பில்லிங் மென்பொருள் Mumbai, பில்லிங் மென்பொருள் Coimbatore, பில்லிங் மென்பொருள் Madurai, பில்லிங் மென்பொருள் Hyderabad, பில்லிங் மென்பொருள் Pune, பில்லிங் மென்பொருள் Delhi, பில்லிங் மென்பொருள் தமிழ்நாடு, multi-warehouse inventory software India, thermal printer billing India, offline பில்லிங் மென்பொருள் இந்தியா, Tally மாற்று, Vyapar மாற்று, KhataBook மாற்று, Odoo மாற்று",
+      "keywords": "GST பில்லிங் மென்பொருள், GST invoicing software, GST பில்லிங் மென்பொருள் இந்தியா, best GST billing software, GST invoice maker, GSTR-1 software, GST summary software, e-invoicing software, HSN SAC billing, GSTIN சரிபார்ப்பு, UPI பில்லிங் மென்பொருள், தமிழ் பில்லிங் மென்பொருள், hardware கடைக்கான பில்லிங், electrical கடைக்கான பில்லிங், provision கடைக்கான பில்லிங், distributor-க்கான பில்லிங், FMCG-க்கான பில்லிங், pharma-க்கான பில்லிங், retail-க்கான பில்லிங், பில்லிங் மென்பொருள் Bengaluru, பில்லிங் மென்பொருள் Chennai, பில்லிங் மென்பொருள் Mumbai, பில்லிங் மென்பொருள் Coimbatore, பில்லிங் மென்பொருள் Madurai, பில்லிங் மென்பொருள் Hyderabad, பில்லிங் மென்பொருள் Pune, பில்லிங் மென்பொருள் Delhi, பில்லிங் மென்பொருள் தமிழ்நாடு, multi-warehouse inventory software India, thermal printer billing India, offline பில்லிங் மென்பொருள் இந்தியா, Tally மாற்று, Vyapar மாற்று, KhataBook மாற்று, Odoo மாற்று",
       "orgName": "திறம்",
       "orgDescription": "திறம் என்பது இந்திய வணிகங்களுக்கான GST-தயார் பில்லிங் மற்றும் இருப்பு மென்பொருள் — ஒற்றை-counter கடைகள், விநியோகஸ்தர்கள், பல-கிளை செயின்கள். GSTIN, HSN/SAC, place of supply அடிப்படையில் தானியங்கி CGST/SGST/IGST, UPI பேமென்ட், தமிழ் + ஆங்கிலம் UI, thermal ரசீதுகள், பல கிடங்கு ஸ்டாக், Windows மற்றும் Mac-க்கான offline desktop apps.",
       "appName": "திறம்"
     },
     "nav": {
       "features": "அம்சங்கள்",
-      "howItWorks": "எப்படி வேலை செய்கிறது",
+      "howItWorks": "செயல்படும் விதம்",
       "region": "இந்தியாவுக்காக",
       "pricing": "விலை",
       "whyTiram": "ஏன் திறம்",
@@ -32,12 +48,13 @@
     },
     "hero": {
       "eyebrow": "இந்தியாவுக்காக கட்டப்பட்ட GST பில்லிங் & இருப்பு.",
-      "h1": "இந்திய கடைகள், விநியோகஸ்தர்கள், செயின்களுக்கான GST பில்லிங் & இருப்பு மென்பொருள்.",
-      "subhead": "இந்திய வணிகங்களுக்கு திறம் உதவுகிறது — GST-இணக்க invoice உருவாக்க, கிடங்கு-வாரியான ஸ்டாக் கண்காணிக்க, UPI மூலம் பாக்கி வசூலிக்க, GSTR-தயார் reports இயக்க — ஆங்கிலம் அல்லது தமிழில். Cloud web app மற்றும் Windows / Mac-க்கான offline desktop, இணையம் வேலை செய்யாதபோதும் counter நின்றுவிடாது.",
-      "ctaPrimary": "இலவசமாக தொடங்கு",
+      "h1": "Bill, stock, பாக்கி வசூல் — GST-ready, இந்தியாவுக்காக ஒரே app.",
+      "subhead": "உங்கள் CA-க்கு clean GSTR-1 exports மற்றும் GST Summary reports. உங்கள் staff training இல்லாமல் bill போடலாம். Stock live-ஆக update ஆகும். Billing, inventory, collections அனைத்தையும் திறம் இணைக்கிறது — ஒவ்வொரு மாலையும் apps மாற்ற வேண்டாம்.",
+      "ctaPrimary": "30 நாள் இலவசமாக தொடங்கு",
       "accessProduct": "தயாரிப்பை அணுகு",
-      "ctaSecondary": "எப்படி வேலை செய்கிறது",
-      "microTrust": "30 நாள் இலவச சோதனை · கார்டு தேவையில்லை · GSTIN, UPI, தமிழ், thermal — அனைத்தும் சேர்ந்தே",
+      "ctaSecondary": "தொடர்பு கொள்ளுங்கள்",
+      "whatsappMessage": "வணக்கம் திறம், GST-compliant billing மற்றும் inventory software பற்றி அறிய விரும்புகிறேன். என் வணிகத்திற்கு சரியான setup தேர்வு செய்ய உதவ முடியுமா?",
+      "microTrust": "30 நாள் இலவச சோதனை · கார்டு வேண்டாம் · setup fee வேண்டாம் · GSTIN, UPI, தமிழ், thermal சேர்க்கப்பட்டுள்ளது",
       "mockInvoiceTitle": "GST பில்",
       "mockInvoiceNumber": "பில் #INV-2024-001",
       "mockCreatedAt": "இன்று 10:45 AM-க்கு உருவாக்கப்பட்டது",
@@ -52,6 +69,7 @@
       "chipUpi": "UPI · கார்டு · பணம்",
       "chipBilingual": "ஆங்கிலம் + தமிழ்",
       "chipPrint": "தெர்மல் பிரிண்ட்",
+      "chipBarcode": "Barcode scanning",
       "chipWarehouse": "பல கிடங்கு"
     },
     "trust": {
@@ -72,42 +90,27 @@
         "upi": "UPI · கார்டு · பணம்",
         "bilingual": "ஆங்கிலம் + தமிழ்",
         "thermal": "தெர்மல் பிரிண்டர்",
-        "warehouse": "பல கிடங்கு"
+        "warehouse": "பல கிடங்கு",
+        "offline": "Offline Windows & Mac app",
+        "gst": "GSTIN & e-Invoice இணக்கம்",
+        "barcode": "Barcode scan",
+        "payments": "Split payment support",
+        "trial": "30 நாள் இலவச சோதனை"
       }
-    },
-    "outcomes": {
-      "heading": "திறம் தினமும் கவனிக்கும் வேலைகள்",
-      "intro": "பில், ஸ்டாக், பாக்கி, GSTR-தயார் reports — மதுரையில் உள்ள ஒற்றை-counter கடை முதல் புனேயில் உள்ள FMCG distributor வரை, பெங்களூரு செயின் வரை — அனைத்திற்கும் ஒரே இடம்.",
-      "items": [
-        {
-          "metric": "GST",
-          "label": "GST-இணக்க invoice — HSN/SAC, place-of-supply CGST/SGST/IGST, உங்கள் CA பயன்படுத்தும் GSTR-1 / GSTR-3B period reports"
-        },
-        {
-          "metric": "Stock",
-          "label": "கிடங்கு வாரியான ஸ்டாக், ஒரு டச்-ல் branch transfers, ரீஆர்டர் அளவு, மெதுவாக நகரும் items"
-        },
-        {
-          "metric": "Credit",
-          "label": "வாடிக்கையாளர் பாக்கி (खाता), UPI follow-ups, ageing buckets, defaulter கண்காணிப்பு"
-        },
-        {
-          "metric": "தினமும்",
-          "label": "Sales, GST, cash, inventory, profit, audit reports — ஒவ்வொரு காலையும் தயார்"
-        }
-      ]
     },
     "features": {
       "heading": "முழு இந்திய வணிகத்திற்கும் ஒரே கருவி",
       "intro": "Billing, inventory, வாடிக்கையாளர், GST, reports — தனித்தனியாக அல்ல, ஒன்றாக இணைந்து.",
       "items": [
         {
-          "title": "சிக்கலில்லாத GST பில்லிங்",
-          "tagline": "HSN/SAC உடன் GST-இணக்க invoice, browser & thermal print, WhatsApp பகிர்தல்.",
+          "title": "Barcode scan. 30 seconds-ல் bill.",
+          "tagline": "Tiram Quick Bill: product scan, customer தேர்வு, UPI + credit split payment — அடுத்த customer வருமுன் thermal receipt.",
           "bullets": [
-            "Place of supply அடிப்படையில் தானியங்கி CGST/SGST/IGST; line-level HSN/SAC",
-            "Browser print மற்றும் ESC/POS thermal setup — Tamil-friendly receipts",
-            "GST invoice மற்றும் receipt-ஐ WhatsApp-ல் பகிர்"
+            "Serial, USB, Bluetooth scanner மூலம் barcode scan",
+            "GST auto-split: intrastate-க்கு CGST/SGST, interstate-க்கு IGST",
+            "Cash, UPI, Card, Bank, Credit — split payments support",
+            "Bill-ஐ park செய்து cart இழக்காமல் resume செய்யலாம்",
+            "ESC/POS thermal அல்லது Tamil raster receipt printing"
           ]
         },
         {
@@ -121,61 +124,45 @@
         },
         {
           "title": "முடிவெடுக்க உதவும் reports",
-          "tagline": "GST exposure, தினசரி sales, top products, defaulters — ஒவ்வொரு காலையும் தெரியும்.",
+          "tagline": "GST exposure, daily sales, top products, defaulters, slow stock — ஒவ்வொரு காலையும் தெரியும்.",
           "bullets": [
-            "தினம், மாதம், FY-period dashboards",
-            "ஒவ்வொரு பொருள், கிளை, வாடிக்கையாளரின் margin",
-            "உங்கள் CA-க்கு கொடுக்கக்கூடிய GSTR-1 / GSTR-3B exports"
+            "Prior-period comparison உடன் P&L — revenue, COGS, gross margin",
+            "GSTR-1 export: B2B, B2CL, B2CS, CDNR, CDNUR, HSN, DOCS",
+            "ABC analysis, slow/dead stock, reorder suggestions",
+            "Receivables aging, customer performance, vendor scorecards",
+            "Saved views உடன் custom report builder"
           ]
         },
         {
-          "title": "Multi-org, multi-branch, multi-role",
-          "tagline": "பல வணிகம் மற்றும் கிளைகள்; சரியான அணுகலுடன் ஊழியர்களை அழைக்கவும்.",
+          "title": "எதை கவனிக்க வேண்டும் என்று வணிகமே சொல்கிறது",
+          "tagline": "Tiram-ன் What's Up feed — எந்த customers overdue, எந்த stock குறைவு, CA-க்கு என்ன தேவை — நீங்கள் நினைவில் கொள்ளும் முன் காட்டும்.",
           "bullets": [
-            "தனி வணிகம், தனிமைப்படுத்தப்பட்ட தரவு",
-            "Role-based அனுமதி — counter, accountant, owner",
-            "ஒவ்வொரு செயலுக்கும் audit-தயார் activity trail"
-          ]
-        },
-        {
-          "title": "GST + UPI, இந்திய counter-களுக்கான வழி",
-          "tagline": "GSTIN சரிபார்ப்பு, place-of-supply விதிகள், business UPI ID, dues follow-ups — built in.",
-          "bullets": [
-            "வாடிக்கையாளர் உருவாக்கத்தில் GSTIN சரிபார்ப்பு",
-            "Business UPI ID-ஐ சேமி; ஒரு டச்-ல் invoice-ஐ UPI paid ஆக குறி",
-            "ஒவ்வொரு invoice-லும் place-of-supply CGST/SGST/IGST தானியங்கி"
-          ]
-        },
-        {
-          "title": "தமிழ் + ஆங்கிலம், counter-லும் ரசீதிலும்",
-          "tagline": "உங்கள் குழுவும் வாடிக்கையாளர்களும் பயன்படுத்தும் மொழியில் app-ஐ இயக்கி, thermal ரசீதுகளை பிரிண்ட் செய்.",
-          "bullets": [
-            "ஆங்கிலம் மற்றும் தமிழில் முழு UI; மேலும் locales வருகின்றன",
-            "Thermal printer setup ஆதரிக்கும் இடங்களில் Tamil-friendly raster receipts",
-            "Per-user locale switching — cashier-க்கு தமிழ், owner-க்கு ஆங்கிலம்"
+            "Critical, high, medium, info, opportunity என severity-ranked insights",
+            "பிறகு பார்க்க வேண்டியதை snooze செய்யலாம்; முடிந்ததை dismiss செய்யலாம்",
+            "Overdue receivables, slow stock, GST filing dates — ஒரே feed"
           ]
         }
       ]
     },
     "howItWorks": {
-      "heading": "உங்கள் கடையை 4 படிகளில் நடத்துங்கள்.",
-      "intro": "பொருள் சேர்ப்பதிலிருந்து GSTR file செய்வது வரை — திறம் முழு loop-ஐ கவனிக்கிறது.",
+      "heading": "Purchase முதல் insight வரை, ஒரே workflow.",
+      "intro": "Purchase receipt stock-ஐ update செய்கிறது. Stock billing availability-ஐ drive செய்கிறது. Billing receivables உருவாக்குகிறது. Receivables உங்கள் What's Up feed-ல் தெரிகிறது. Apps இடையே copy செய்ய வேண்டாம்.",
       "steps": [
         {
-          "title": "Stock & customers சேர்",
-          "body": "HSN/SAC, GST rates, ரீஆர்டர் அளவு, கிடங்கு-வாரியான stock count-உடன் பொருள்கள்."
+          "title": "Vendors-க்கு order செய்து stock receive செய்",
+          "body": "Purchase order உருவாக்கி, goods received என mark செய்க; shops, godowns, branches முழுவதும் stock தானாக update ஆகும்."
         },
         {
-          "title": "GST invoice உருவாக்கு",
-          "body": "வாடிக்கையாளர் தேர்வு, பொருள்கள் சேர், thermal print, WhatsApp-ல் பகிர், அல்லது link அனுப்பு."
+          "title": "Scan செய்து 30 seconds-ல் bill போடுங்கள்",
+          "body": "Barcode scan, customer தேர்வு, cash/UPI/card/credit collect, thermal print அல்லது invoice link share."
         },
         {
-          "title": "UPI மூலம் வசூலி, பாக்கி கண்காணி",
-          "body": "Invoice-ஐ UPI paid ஆக குறி, receivables-ஐ age செய், pending-க்கு தானியங்கி follow-up."
+          "title": "UPI மூலம் வசூல், credit கண்காணிப்பு",
+          "body": "Payments mark செய்து invoices-க்கு allocate செய்க; receivables age செய்க; முழு customer credit ledger தெரியும்."
         },
         {
-          "title": "ஒரு export-ல் GSTR file",
-          "body": "உங்கள் CA-க்கு GSTR-1 / GSTR-3B exports, மற்றும் தினசரி முடிவெடுக்க தயார் dashboard-கள்."
+          "title": "ஒவ்வொரு காலையும் What's Up திறக்கவும்",
+          "body": "எந்த customers overdue, எந்த stock குறைவு, எந்த GST filing due, முதலில் எதை fix செய்ய வேண்டும் — report திறக்காமலே தெரியும்."
         }
       ]
     },
@@ -185,7 +172,7 @@
       "items": [
         {
           "title": "GST — சரியாக வேலை செய்கிறது",
-          "body": "GSTIN சரிபார்ப்பு, line-level HSN/SAC, place of supply அடிப்படையில் தானியங்கி CGST/SGST/IGST, உங்கள் CA-க்கு கொடுக்கக்கூடிய GSTR-1 / GSTR-3B period exports."
+          "body": "GSTIN சரிபார்ப்பு, line-level HSN/SAC, place of supply அடிப்படையில் தானியங்கி CGST/SGST/IGST, portal-ready GSTR-1 export, உங்கள் CA பயன்படுத்தக்கூடிய GST Summary reports."
         },
         {
           "title": "UPI — முதன்மை பேமென்ட்",
@@ -206,27 +193,6 @@
         {
           "title": "உலகளாவிய கிளைகளுக்கு configurable",
           "body": "இந்தியாவுக்கு வெளியே கிளை உள்ளதா? VAT, sales tax, multi-currency display, மற்றும் மேலும் locales configurable — அதே product, அதே data model."
-        }
-      ]
-    },
-    "testimonials": {
-      "heading": "உண்மையான இந்திய வணிகங்களை மையமாக வைத்து உருவாக்கப்பட்டது",
-      "intro": "Counter-கள், godown-கள், credit வாடிக்கையாளர்கள், உங்கள் CA பயன்படுத்தக்கூடிய GST-தயார் reports — இதற்காக திறம் வடிவமைக்கப்பட்டது.",
-      "items": [
-        {
-          "quote": "HSN/SAC-உடன் GST-இணக்க invoice, கிடங்கு stock deduction, customer பாக்கி கண்காணிப்பு, Tamil-friendly thermal print — அனைத்தும் ஒரே counter-ல்.",
-          "name": "Retail மற்றும் counter வணிகங்கள்",
-          "role": "Hardware, electrical, provision கடைகள்"
-        },
-        {
-          "quote": "கடை, godown, வாகனம் across stock; ஒரு டச்-ல் branch transfers; அடுத்த dispatch truck வருமுன் low-stock எச்சரிக்கைகள்.",
-          "name": "விநியோகஸ்தர்கள் மற்றும் wholesalers",
-          "role": "FMCG, pharma, B2B distributors"
-        },
-        {
-          "quote": "Receivables ageing, GST summary, கிளை-வாரியான profitability, inventory valuation, audit reports — ஒவ்வொரு காலையும் ஒரே இடத்தில்.",
-          "name": "Owner மற்றும் CA workflow-கள்",
-          "role": "தினசரி review மற்றும் GSTR handoff"
         }
       ]
     },
@@ -265,7 +231,7 @@
         "features": [
           "வரம்பற்ற GST invoices, மதிப்பீடுகள் & credit notes",
           "பல கிடங்கு inventory · low-stock எச்சரிக்கைகள்",
-          "உங்கள் CA-க்கான GSTR-1 / GSTR-3B exports",
+          "உங்கள் CA பயன்படுத்தக்கூடிய GSTR-1 JSON/Excel export மற்றும் GST Summary reports",
           "ஆங்கிலம், தமிழ் + மேலும் · browser & thermal print",
           "Cloud subscription அல்லது Windows / Mac-க்கான offline desktop"
         ]
@@ -282,8 +248,9 @@
           "முன்னுரிமை ஆதரவு · தனிப்பயன் integrations",
           "SSO · மேம்பட்ட audit & compliance"
         ],
-        "cta": "எங்களிடம் பேசுங்கள்",
-        "replyHint": "ஒரு வேலை நாளுக்குள் பதிலளிக்கிறோம்."
+        "cta": "WhatsApp-ல் பேசுங்கள்",
+        "replyHint": "பல கிளை, migration, desktop setup கேள்விகளுக்கு இது சிறந்தது.",
+        "whatsappMessage": "வணக்கம் திறம், பல கிளைகள், distribution, GST migration, அல்லது custom integrations-க்கு திறம் பற்றி பேச விரும்புகிறேன்."
       },
       "platforms": {
         "saas": {
@@ -292,8 +259,10 @@
         },
         "desktop": {
           "name": "டெஸ்க்டாப்",
-          "description": "Windows மற்றும் Mac-க்கான offline app — power-cut counter-களுக்கு கட்டப்பட்டது. WhatsApp மூலம் activate செய்.",
-          "cta": "தொடர்பு கொள்ளுங்கள்"
+          "description": "Windows மற்றும் Mac-க்கான offline app — power-cut counter-களுக்கு கட்டப்பட்டது. Download மற்றும் activate செய்ய எங்களை தொடர்பு கொள்ளுங்கள்.",
+          "cta": "தொடர்பு கொள்ளுங்கள்",
+          "whatsappCta": "WhatsApp-ல் கேளுங்கள்",
+          "whatsappMessage": "வணக்கம் திறம், Windows மற்றும் Mac-க்கான offline desktop app பற்றி அறிய விரும்புகிறேன்."
         }
       },
       "footnote": "விலை INR-இல், GST தவிர. சீட்கள் அல்லது சுழற்சியை எப்போது வேண்டுமானாலும் மாற்றலாம் — நாங்கள் pro-rate செய்கிறோம்."
@@ -304,34 +273,28 @@
       "items": [
         {
           "n": "01",
-          "title": "ஒரே கருவி, முழுமை",
-          "body": "GST invoicing, inventory, பாக்கி, GSTR-தயார் reports, staff — அனைத்தும் ஒரே இடத்தில். Ledger app + billing app + spreadsheet-ஐ ஒட்டி வைக்க வேண்டாம். ஒரு உண்மை, ஒரு bill, மாத இறுதியில் reconciliation கடினம் இல்லை."
-        },
-        {
-          "n": "02",
           "title": "ஒரு counter-ல் இருந்து பல கிளைகளுக்கு வளர்கிறது",
           "body": "Multi-organization, multi-branch, multi-warehouse, role-based staff — முதல் நாள் முதலே built-in. சென்னையில் இரண்டாவது counter, ஹைதராபாத்தில் godown, மதுரையில் cashier — \"பெரிய\" கருவிக்கு migration தேவையில்லை."
         },
         {
-          "n": "03",
+          "n": "02",
           "title": "நிமிடங்களில் தொடங்கு, மாதங்கள் அல்ல",
-          "body": "GST, UPI, தமிழ் thermal receipt — sensible defaults ready. Consultant rollout இல்லை, implementation phase இல்லை. அடுத்த stock truck வருமுன் bill போடலாம்."
+          "body": "Billing மற்றும் inventory முதல் நாளிலேயே ready — GST codes, UPI, தமிழ் thermal receipts default-ஆக தயார். Consultant தேவையில்லை. அடுத்த stock truck வருமுன் முதல் bill போடலாம்."
         },
         {
-          "n": "04",
-          "title": "தீர்மானங்கள், data entry மட்டுமல்ல",
-          "body": "பழைய பாக்கி, low-stock alert, மெதுவாக நகரும் items, கிளை-வாரியான லாபம், GST exposure — owner செயல்பட முடிந்த இடத்தில் தெரிகிறது. வருடம் முடிவு அல்லது filing month அல்ல, வாரங்கள் முன்னே பிரச்சினைகளை கண்டுபிடிக்கிறீர்கள்."
-        },
-        {
-          "n": "05",
+          "n": "03",
           "title": "பணப்புழக்க ஆரோக்கியம், invoice மட்டுமல்ல",
-          "body": "UPI follow-ups, payment allocation, defaulter views, ageing buckets — அனைத்தும் built-in. வேகமாக வசூல், working capital குறைவாக pending-ல் lock ஆகும் — பெரும்பாலான billing tools தவிர்க்கும் \"வணிக மேம்பாட்டின்\" பகுதி."
+          "body": "UPI follow-ups, payment allocation, defaulter views, ageing buckets — அனைத்தும் built-in. வேகமாக வசூல், overdue bills-ல் cash குறைவாக lock ஆகும் — பெரும்பாலான billing tools தவிர்க்கும் healthy business பகுதி."
         }
       ]
     },
     "faq": {
       "heading": "கேள்விகள், பதில்கள்",
       "intro": "சுருக்கமான பதில். விரிவு வேண்டுமா? எங்களுக்கு எழுதுங்கள்.",
+      "contactPrompt": "இன்னும் யோசிக்கிறீர்களா? தொடங்கும் முன் கேளுங்கள்.",
+      "contactBody": "Desktop activation, GST migration, அல்லது plan பொருத்தம் குறித்த கேள்விகளுக்கு WhatsApp பயன்படுத்துங்கள். திறத்தை பார்க்க trial தான் வேகமான வழி.",
+      "contactCta": "WhatsApp-ல் தொடர்பு கொள்ளுங்கள்",
+      "whatsappMessage": "வணக்கம் திறம், Tiram trial தொடங்கும் முன் எனக்கு ஒரு கேள்வி உள்ளது.",
       "items": [
         {
           "q": "திறம் முதல் நாளிலேயே GST-தயாரா?",
@@ -342,8 +305,8 @@
             "slug": "gstr-1-vs-gstr-3b-difference",
             "label": "GSTR-1 vs GSTR-3B வழிகாட்டியை படிக்கவும்"
           },
-          "q": "GSTR-1 மற்றும் GSTR-3B export செய்ய முடியுமா?",
-          "a": "ஆம். உங்கள் CA-க்கு கொடுக்கக்கூடிய format-களில் GSTR-1 மற்றும் GSTR-3B period exports திறம் தயாரிக்கிறது. தினம் மற்றும் மாத GST exposure dashboard-கள் Standard plan-ல் சேர்க்கப்பட்டுள்ளன."
+          "q": "GSTR-1 export செய்து GSTR-3B data review செய்ய முடியுமா?",
+          "a": "ஆம். B2B, B2CL, B2CS, CDNR, CDNUR, HSN, DOCS sections உடன் portal-ready GSTR-1 JSON மற்றும் Excel திறம் export செய்கிறது. GSTR-3B filing checks-க்கு தேவையான sales-tax summary-ஐ GST Summary report உங்கள் CA-க்கு தருகிறது."
         },
         {
           "q": "e-invoicing ஆதரிக்கப்படுகிறதா?",
@@ -366,12 +329,12 @@
           "a": "ஆம். Tally, Vyapar, KhataBook, QuickBooks, Zoho Books, அல்லது வேறு எதிலிருந்தும் export செய்த spreadsheet-லிருந்து products & customers-ஐ bulk-import செய்யலாம். Migration-க்கு உதவி வேண்டுமானால் தொடர்பு கொள்ளுங்கள்."
         },
         {
-          "q": "மெதுவான internet counter-களுக்கு offline desktop app உள்ளதா?",
-          "a": "ஆம். Windows மற்றும் Mac-க்கான offline desktop app — power-cut counter-கள், patchy internet godown-கள், mobile data drop ஆகும் கிராமங்களுக்கு பயனுள்ளது. Desktop activation-க்கு திறம் குழுவை தொடர்பு கொள்ளுங்கள்."
+          "q": "என் CA அல்லது accountant billing-ஐ மாற்றாமல் login செய்ய முடியுமா?",
+          "a": "ஆம். உங்கள் CA-ஐ accountant அல்லது read-only access உடன் அழைக்கலாம். Billing அல்லது stock மாற்றாமல் GSTR-1, GST Summary, receivables, period reports பார்க்கலாம்."
         },
         {
-          "q": "திறம் mobile app உள்ளதா?",
-          "a": "திறம் mobile app தற்போது உருவாக்கத்தில் உள்ளது. இப்போது வணிகங்கள் cloud web app அல்லது Windows மற்றும் Mac-க்கான offline desktop app-ஐ பயன்படுத்துகின்றன. பெரும்பாலான counter-கள் tablet-ல் cloud app-ஐ பயன்படுத்துகின்றன."
+          "q": "மெதுவான internet counter-களுக்கு offline desktop app உள்ளதா?",
+          "a": "ஆம். Windows மற்றும் Mac-க்கான offline desktop app — power-cut counter-கள், patchy internet godown-கள், mobile data drop ஆகும் கிராமங்களுக்கு பயனுள்ளது. Desktop activation-க்கு திறம் குழுவை தொடர்பு கொள்ளுங்கள்."
         },
         {
           "q": "என் GST தரவு பாதுகாப்பானதா?",
@@ -388,11 +351,11 @@
       ]
     },
     "finalCta": {
-      "heading": "குறைந்த கணக்கு. அதிக கட்டுப்பாடு.",
-      "subhead": "இந்திய வணிகங்களுக்காக கட்டப்பட்டது — GST, UPI, தமிழ், thermal, counter-ஐ இயக்கும் அனைத்தும்.",
+      "heading": "உங்கள் முதல் GST invoice 30 seconds தொலைவில்.",
+      "subhead": "இலவசமாக தொடங்கு — card வேண்டாம், consultant வேண்டாம், setup fee வேண்டாம். Billing, stock, பாக்கி — முதல் நாளிலேயே ஒரே இடத்தில்.",
       "cta": "இலவசமாக தொடங்கு",
       "accessProduct": "தயாரிப்பை அணுகு",
-      "fineprint": "கிரெடிட் கார்டு வேண்டாம். 2 நிமிட setup."
+      "fineprint": "கிரெடிட் கார்டு வேண்டாம். எப்போது வேண்டுமானாலும் cancel. நீங்கள் வெளியேறினாலும் data உங்களுடையதே."
     },
     "footer": {
       "tagline": "இந்திய வணிகங்களுக்கான GST பில்லிங் & இருப்பு, உலகத்திற்கு தயார்.",
@@ -405,12 +368,17 @@
       "linkFaq": "கேள்விகள்",
       "resources": "வழிகாட்டிகள்",
       "linkArticleGstr": "GSTR-1 vs GSTR-3B வழிகாட்டி",
+      "linkArticleGstr1Export": "GSTR-1 export வழிகாட்டி",
+      "linkArticleQuickBill": "Barcode Quick Bill",
+      "linkArticleWorkflow": "Purchase முதல் insights வரை",
       "linkArticleCockpit": "தினசரி வணிக cockpit",
       "linkSignIn": "உள்நுழை",
       "linkSignUp": "கணக்கு உருவாக்கு",
       "linkPrivacy": "தனியுரிமை",
       "linkTerms": "விதிகள்",
       "linkContact": "தொடர்பு கொள்",
+      "linkWhatsapp": "WhatsApp-ல் பேசுங்கள்",
+      "whatsappMessage": "வணக்கம் திறம், திறம் பற்றி உங்கள் குழுவை தொடர்பு கொள்ள விரும்புகிறேன்.",
       "madeInIndia": "இந்தியாவில் உருவாக்கப்பட்டது · Tiram Technologies Pvt Ltd",
       "rights": "© {year} திறம். அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை."
     }
@@ -432,15 +400,47 @@
       "comparisonHeading": "GSTR-1 vs GSTR-3B ஒரே பார்வையில்",
       "comparisonTable": {
         "caption": "விரைவு குறிப்பு. முழு விவரம் கீழே உள்ள பகுதிகளில்.",
-        "headers": ["", "GSTR-1", "GSTR-3B"],
+        "headers": [
+          "",
+          "GSTR-1",
+          "GSTR-3B"
+        ],
         "rows": [
-          ["**என்ன அறிக்கையிடுகிறது**", "புறக்கொடை விற்பனைகள், ஒவ்வொரு விலைப்பட்டியலாக — B2B, B2CL, B2CS, ஏற்றுமதி, கடன் / பற்றுச்சீட்டு குறிப்புகள், HSN சுருக்கம்", "மாதத்தின் நிகர வரிக்கடன் மற்றும் ITC — பணமாக நீங்கள் உண்மையில் செலுத்த வேண்டியது"],
-          ["**விரிவுத்தன்மை**", "ஒவ்வொரு விலைப்பட்டியல் மற்றும் கடன் குறிப்பு", "ஒவ்வொரு வரி-head மற்றும் ITC bucket-க்கான நிகர மொத்தங்கள்"],
-          ["**யார் பதிவு செய்வது**", "ஒவ்வொரு வழக்கமான GST-பதிவு செய்யப்பட்ட நபர்", "ஒவ்வொரு வழக்கமான GST-பதிவு செய்யப்பட்ட நபர் (Composition dealers பதிலாக CMP-08 பதிவு செய்கின்றனர்)"],
-          ["**அதிர்வெண்**", "மாதாந்திரம் (turnover > ₹5 கோடி) அல்லது QRMP கீழ் காலாண்டு", "மாதாந்திரம் (QRMP கீழ் state-group படி பல்வேறு கடைசி தேதிகள்)"],
-          ["**கடைசி தேதி**", "அடுத்த மாதத்தின் 11-ஆம் தேதி (மாதாந்திரம்) அல்லது காலாண்டுக்குப் பிறகு 13-ஆம் தேதி (QRMP)", "அடுத்த மாதத்தின் 20-ஆம் தேதி (அல்லது QRMP கீழ் state-group படி 22 / 24)"],
-          ["**எங்கே செல்கிறது**", "வாங்குபவரின் GSTR-2A / 2B-க்கு ITC match-க்கு", "Org-இன் சொந்த பண செலுத்தல் ledger — வேறெங்கிருந்தும் auto-feed இல்லை"],
-          ["**மிகவும் பொதுவான பொருந்தாமை காரணம்**", "தவறான PoS, தவறான GSTIN, விடுபட்ட UoM, தாமதமான கடன் குறிப்புகள்", "GSTR-2B-இல் தோன்றாத ITC claim, அல்லது புறக்கொடை விற்பனை இல்லாமல் செலுத்தப்பட்ட வரி"]
+          [
+            "**என்ன அறிக்கையிடுகிறது**",
+            "புறக்கொடை விற்பனைகள், ஒவ்வொரு விலைப்பட்டியலாக — B2B, B2CL, B2CS, ஏற்றுமதி, கடன் / பற்றுச்சீட்டு குறிப்புகள், HSN சுருக்கம்",
+            "மாதத்தின் நிகர வரிக்கடன் மற்றும் ITC — பணமாக நீங்கள் உண்மையில் செலுத்த வேண்டியது"
+          ],
+          [
+            "**விரிவுத்தன்மை**",
+            "ஒவ்வொரு விலைப்பட்டியல் மற்றும் கடன் குறிப்பு",
+            "ஒவ்வொரு வரி-head மற்றும் ITC bucket-க்கான நிகர மொத்தங்கள்"
+          ],
+          [
+            "**யார் பதிவு செய்வது**",
+            "ஒவ்வொரு வழக்கமான GST-பதிவு செய்யப்பட்ட நபர்",
+            "ஒவ்வொரு வழக்கமான GST-பதிவு செய்யப்பட்ட நபர் (Composition dealers பதிலாக CMP-08 பதிவு செய்கின்றனர்)"
+          ],
+          [
+            "**அதிர்வெண்**",
+            "மாதாந்திரம் (turnover > ₹5 கோடி) அல்லது QRMP கீழ் காலாண்டு",
+            "மாதாந்திரம் (QRMP கீழ் state-group படி பல்வேறு கடைசி தேதிகள்)"
+          ],
+          [
+            "**கடைசி தேதி**",
+            "அடுத்த மாதத்தின் 11-ஆம் தேதி (மாதாந்திரம்) அல்லது காலாண்டுக்குப் பிறகு 13-ஆம் தேதி (QRMP)",
+            "அடுத்த மாதத்தின் 20-ஆம் தேதி (அல்லது QRMP கீழ் state-group படி 22 / 24)"
+          ],
+          [
+            "**எங்கே செல்கிறது**",
+            "வாங்குபவரின் GSTR-2A / 2B-க்கு ITC match-க்கு",
+            "Org-இன் சொந்த பண செலுத்தல் ledger — வேறெங்கிருந்தும் auto-feed இல்லை"
+          ],
+          [
+            "**மிகவும் பொதுவான பொருந்தாமை காரணம்**",
+            "தவறான PoS, தவறான GSTIN, விடுபட்ட UoM, தாமதமான கடன் குறிப்புகள்",
+            "GSTR-2B-இல் தோன்றாத ITC claim, அல்லது புறக்கொடை விற்பனை இல்லாமல் செலுத்தப்பட்ட வரி"
+          ]
         ]
       },
       "sections": [
@@ -548,6 +548,224 @@
         "button": "இலவசமாக தொடங்கவும்"
       }
     },
+    "gstr-1-export-tiram": {
+      "meta": {
+        "title": "திறம்-ல் portal-ready GSTR-1 உருவாக்குவது: 3 படிகள் · Tiram",
+        "description": "GST period தேர்வு செய்து validation பார்க்கவும்; Tiram-ல் இருந்து GSTR-1 JSON அல்லது Excel download செய்யவும். B2B, B2CL, B2CS, CDNR, CDNUR, HSN, DOCS sections உள்ளடக்கம்.",
+        "ogTitle": "Tiram-ல் இருந்து GSTR-1 JSON மற்றும் Excel export",
+        "ogDescription": "Indian SMB-களுக்கான portal-ready GSTR-1 export guide.",
+        "keywords": "gstr 1 export software, gstr 1 json export, gst billing software gstr 1, hsn summary export, b2b b2cs gstr 1 software"
+      },
+      "h1": "திறம்-ல் portal-ready GSTR-1 உருவாக்குவது: 3 படிகள்",
+      "breadcrumbHome": "திறம்",
+      "breadcrumbCurrent": "GSTR-1 export guide",
+      "quickAnswerLabel": "சுருக்கமான பதில்",
+      "lede": "திறம் GSTR-1-ஐ portal-ready JSON மற்றும் Excel ஆக export செய்கிறது. Period தேர்வு செய்து validation warnings பார்க்கவும்; B2B, B2CL, B2CS, CDNR, CDNUR, HSN, DOCS sections உங்கள் CA-க்கு download செய்யலாம்.",
+      "sections": [
+        {
+          "heading": "திறம் என்ன export செய்கிறது",
+          "body": "GSTR-1 report invoices, credit notes, debit notes, customers, HSN/SAC codes, place of supply, tax splits ஆகிய billing data-வில் இருந்து உருவாகிறது. B2B, B2CL, B2CS, CDNR, CDNUR, HSN summary, document counts ஆகியவை உள்ளடக்கம். திறம் GSTN-க்கு direct submit செய்யாது; உங்கள் CA review செய்து upload செய்ய files தருகிறது."
+        },
+        {
+          "heading": "3-step workflow",
+          "body": "1. Reports -> GSTR-1 திறந்து GST period தேர்வு செய்க.\n2. Missing place of supply, GSTIN problems, HSN/UQC issues, credit-note dating warnings review செய்க.\n3. Portal upload-க்கு JSON அல்லது CA review-க்கு Excel download செய்க."
+        },
+        {
+          "heading": "Spreadsheet-ஐ விட ஏன் எளிது",
+          "body": "Manual GSTR-1 spreadsheets பெரும்பாலும் invoice data, HSN summary, customer GSTIN, credit notes வேறு வேறு இடங்களில் இருப்பதால் உடையும். திறம்-ல் invoice தான் source. Product, customer, credit note-ஐ ஒருமுறை fix செய்தால் அடுத்த export corrected data-ஐ பயன்படுத்தும்."
+        }
+      ],
+      "quickAnswersHeading": "விரைவு பதில்கள்",
+      "geoCallouts": [
+        {
+          "q": "திறம் GSTR-3B-யும் export செய்கிறதா?",
+          "a": "இல்லை. திறம் GSTR-1 export செய்கிறது; GSTR-3B checks-க்கு GST Summary reports தருகிறது. GSTR-3B-க்கு ITC மற்றும் purchase-side data உங்கள் CA review செய்ய வேண்டும்."
+        },
+        {
+          "q": "JSON உடன் Excel-யும் download செய்ய முடியுமா?",
+          "a": "ஆம். JSON portal upload-க்கு; Excel review, reconciliation, CA handoff-க்கு."
+        },
+        {
+          "q": "GSTIN மற்றும் HSN data validate செய்யப்படுமா?",
+          "a": "ஆம். Common upload errors-ஐ முன்கூட்டியே பிடிக்க product மற்றும் customer data export-க்கு முன் validate செய்யப்படுகிறது."
+        }
+      ],
+      "faqHeading": "FAQs",
+      "faq": [
+        {
+          "q": "எந்த GSTR-1 sections திறம் cover செய்கிறது?",
+          "a": "B2B, B2CL, B2CS, CDNR, CDNUR, HSN summary, document count sections."
+        },
+        {
+          "q": "என் CA export-ஐ பயன்படுத்த முடியுமா?",
+          "a": "ஆம். Review-க்கு Excel, portal upload-க்கு JSON கொடுக்கலாம். Accountant அல்லது read-only access-உடன் CA-ஐ திறத்தில் invite செய்யலாம்."
+        },
+        {
+          "q": "Direct GSTN submission உள்ளதா?",
+          "a": "இல்லை. திறம் portal-ready files உருவாக்குகிறது. நீங்கள் அல்லது உங்கள் CA GST portal-ல் upload செய்ய வேண்டும்."
+        }
+      ],
+      "relatedHeading": "தொடர்புடைய வாசிப்பு",
+      "related": [
+        {
+          "slug": "gstr-1-vs-gstr-3b-difference",
+          "label": "GSTR-1 vs GSTR-3B: வேறுபாடு மற்றும் reconciliation"
+        },
+        {
+          "slug": "purchase-to-insights-workflow",
+          "label": "Purchase order முதல் business insight வரை"
+        }
+      ],
+      "cta": {
+        "heading": "Live billing data-வில் இருந்து clean GSTR-1 export செய்க",
+        "body": "GST-ready invoices, HSN/SAC, place of supply, credit notes, period reports — அனைத்தும் ஒரே system-ல் தொடங்குங்கள்.",
+        "button": "இலவசமாக தொடங்கு"
+      }
+    },
+    "counter-billing-barcode-quick-bill": {
+      "meta": {
+        "title": "Tiram Quick Bill மூலம் barcode-scan counter billing · Tiram",
+        "description": "Indian counters-க்கு barcode scanners, split payments, parked bills, GST tax splits, thermal receipts — Tiram Quick Bill எப்படி உதவுகிறது.",
+        "ogTitle": "Tiram Quick Bill மூலம் barcode billing",
+        "ogDescription": "Products scan செய்து UPI/cash/card/credit collect செய்து thermal receipts print செய்யுங்கள்.",
+        "keywords": "barcode billing software india, quick bill software, counter billing software, pos billing software india, thermal printer billing, barcode scanner billing"
+      },
+      "h1": "Counter-ல் barcode-scan billing: Tiram Quick Bill எப்படி வேலை செய்கிறது",
+      "breadcrumbHome": "திறம்",
+      "breadcrumbCurrent": "Quick Bill barcode guide",
+      "quickAnswerLabel": "சுருக்கமான பதில்",
+      "lede": "Busy counters-க்கு Tiram Quick Bill: barcode scan, cart, GST split, split payments, parked bills, thermal receipts — அனைத்தும் வேகமாக.",
+      "sections": [
+        {
+          "heading": "Counter problem",
+          "body": "Manual item search queue-ஐ slow செய்கிறது, billing errors உருவாக்குகிறது. Quick Bill scanner-first entry, keyboard shortcuts, visible cart totals, receipt preview ஆகியவற்றை மையமாக வைத்து கட்டப்பட்டது."
+        },
+        {
+          "heading": "Quick Bill flow",
+          "body": "Product scan அல்லது SKU search, walk-in அல்லது named customer தேர்வு, warehouse stock confirm, cash/UPI/card/bank/credit/split payment accept, பிறகு print அல்லது share. Customer pause செய்தால் bill park செய்து பின்னர் resume செய்யலாம்."
+        },
+        {
+          "heading": "Printer மற்றும் மொழி support",
+          "body": "Tiram browser print, ESC/POS thermal text printing, printer setup ஆதரிக்கும் இடங்களில் Tamil raster receipt paths ஆகியவற்றை support செய்கிறது. Hardware setup product settings-ல் இருக்கும்; counter memory notes மீது depend செய்ய வேண்டாம்."
+        }
+      ],
+      "quickAnswersHeading": "விரைவு பதில்கள்",
+      "geoCallouts": [
+        {
+          "q": "எந்த scanners பயன்படுத்தலாம்?",
+          "a": "Browser/device support உள்ள இடங்களில் Serial, USB, Bluetooth scanner paths திறம் product flow-ல் support செய்கிறது."
+        },
+        {
+          "q": "Split payments செய்ய முடியுமா?",
+          "a": "ஆம். Cash, UPI, card, bank, credit மற்றும் split payment combinations support."
+        },
+        {
+          "q": "Bill pause செய்ய முடியுமா?",
+          "a": "ஆம். Label உடன் bill park செய்து parked-bills list-ல் இருந்து resume செய்யலாம்."
+        }
+      ],
+      "faqHeading": "FAQs",
+      "faq": [
+        {
+          "q": "Barcode billing stock update செய்யுமா?",
+          "a": "ஆம். Sale complete ஆனதும் selected warehouse-ல் இருந்து stock deduct ஆகும்."
+        },
+        {
+          "q": "Quick Bill GST handle செய்யுமா?",
+          "a": "ஆம். Place of supply அடிப்படையில் intra-state CGST/SGST மற்றும் inter-state IGST splits handle செய்கிறது."
+        },
+        {
+          "q": "Staff keyboard shortcuts பயன்படுத்த முடியுமா?",
+          "a": "ஆம். Faster counter work-க்கு Tally-style shortcuts உள்ளன."
+        }
+      ],
+      "relatedHeading": "தொடர்புடைய வாசிப்பு",
+      "related": [
+        {
+          "slug": "purchase-to-insights-workflow",
+          "label": "Purchase, inventory, billing, insights எப்படி இணைகின்றன"
+        }
+      ],
+      "cta": {
+        "heading": "Scanner-first counter billing முயற்சி செய்க",
+        "body": "உங்கள் products, payments, warehouse stock, printer setup உடன் Quick Bill-ஐ free trial-ல் test செய்யுங்கள்.",
+        "button": "இலவசமாக தொடங்கு"
+      }
+    },
+    "purchase-to-insights-workflow": {
+      "meta": {
+        "title": "Purchase Order முதல் Business Insight வரை: Tiram Workflow Guide · Tiram",
+        "description": "Purchase orders, receipts, inventory, sales billing, credit management, reports, What's Up insight feed — திறம் எப்படி இணைக்கிறது.",
+        "ogTitle": "Purchase முதல் insights வரை ஒரே workflow",
+        "ogDescription": "Purchase, inventory, billing, collections, intelligence — Indian SMB-களுக்காக திறம் எப்படி இணைக்கிறது.",
+        "keywords": "inventory management software india, purchase order software india, business insights billing software, smb workflow software, stock billing collections reports"
+      },
+      "h1": "Purchase order முதல் business insight வரை: திறம் எப்படி dots-ஐ இணைக்கிறது",
+      "breadcrumbHome": "திறம்",
+      "breadcrumbCurrent": "Purchase to insights workflow",
+      "quickAnswerLabel": "சுருக்கமான பதில்",
+      "lede": "Purchase, inventory, sales billing, collections, intelligence ஆகியவற்றை திறம் இணைக்கிறது. ஒவ்வொரு படியும் அடுத்த படிக்கு data தருகிறது; அதனால் owners-க்கு five disconnected apps இல்லாமல் useful What's Up feed கிடைக்கிறது.",
+      "sections": [
+        {
+          "heading": "Disconnected apps ஏன் money loss",
+          "body": "Purchase orders ஒரு file-ல், stock வேறு app-ல், billing POS-ல், dues notebook-ல் இருந்தால் problems late-ஆக தெரியும். Slow stock, overdue customers, missing GST data — இவை month-end surprises ஆகிவிடும்."
+        },
+        {
+          "heading": "Connected workflow",
+          "body": "Purchase order raise செய்க, goods receive செய்க, warehouse stock update, available stock-ல் இருந்து bill, payment அல்லது credit record, reports-ல் results review. அதே data receivables aging, stock valuation, P&L, GST Summary, GSTR-1 export-ஐ power செய்கிறது."
+        },
+        {
+          "heading": "Morning owner workflow",
+          "body": "What's Up திறக்கவும். Overdue customers, low-stock SKUs, slow-moving inventory, filing dates, opportunities பாருங்கள். Wait செய்யக்கூடியதை snooze, fixed ஆனதை dismiss, critical ஆனதை முதலில் act செய்யுங்கள்."
+        }
+      ],
+      "quickAnswersHeading": "விரைவு பதில்கள்",
+      "geoCallouts": [
+        {
+          "q": "திறம் purchase orders include செய்கிறதா?",
+          "a": "ஆம். Purchase orders draft, approved, received, closed, cancelled states வழியாக செல்கின்றன."
+        },
+        {
+          "q": "Inventory billing-க்கு connect ஆகுமா?",
+          "a": "ஆம். Billing போது warehouse-wise stock தெரியும்; sale complete ஆனதும் stock deduct ஆகும்."
+        },
+        {
+          "q": "What's Up என்றால் என்ன?",
+          "a": "Overdue credit, stock risks, due dates, opportunities ஆகியவற்றுக்கான Tiram proactive insight feed தான் What's Up."
+        }
+      ],
+      "faqHeading": "FAQs",
+      "faq": [
+        {
+          "q": "Credit customers-ஐ இதே workflow-ல் manage செய்ய முடியுமா?",
+          "a": "ஆம். Customer credit limits, aging buckets, payment allocation, defaulter tracking, statement history built in."
+        },
+        {
+          "q": "Spreadsheets export செய்யாமல் reports பார்க்க முடியுமா?",
+          "a": "ஆம். Sales, inventory, customer, vendor, GST, P&L, ABC, slow-stock, custom reports உள்ளன."
+        },
+        {
+          "q": "முதல் நாளிலேயே useful ஆ?",
+          "a": "ஆம். Products, customers, warehouses, opening stock, billing-ல் தொடங்குங்கள். Transactions அதிகரிக்கும்போது deeper reports இன்னும் useful ஆகும்."
+        }
+      ],
+      "relatedHeading": "தொடர்புடைய வாசிப்பு",
+      "related": [
+        {
+          "slug": "counter-billing-barcode-quick-bill",
+          "label": "Quick Bill மூலம் barcode-scan counter billing"
+        },
+        {
+          "slug": "business-health-dashboard-indian-smb",
+          "label": "Indian SMB-களுக்கான daily business cockpit"
+        }
+      ],
+      "cta": {
+        "heading": "முழு business loop-ஐ ஒரே app-ல் நடத்துங்கள்",
+        "body": "Purchase, inventory, billing, credit, reports — அனைத்தையும் connected Tiram workspace-ல் தொடங்குங்கள்.",
+        "button": "இலவசமாக தொடங்கு"
+      }
+    },
     "business-health-dashboard-indian-smb": {
       "meta": {
         "title": "இந்திய SMB-களுக்கான தினசரி வணிக cockpit: முதலில் என்ன சரிசெய்ய வேண்டும் என்று சொல்லும் 13 detectors · திறம்",
@@ -564,21 +782,91 @@
       "comparisonHeading": "13 detectors: ஒவ்வொன்றும் எதைக் கண்டறிகிறது",
       "comparisonTable": {
         "caption": "Observed இந்திய SMB data-ன் அடிப்படையில் tuned thresholds. அதே inputs எப்போதும் அதே output-ஐ உருவாக்குகின்றன — ML இல்லை, opaque scoring இல்லை.",
-        "headers": ["Detector", "Severity tier(s)", "எதைக் கண்டறிகிறது", "Threshold"],
+        "headers": [
+          "Detector",
+          "Severity tier(s)",
+          "எதைக் கண்டறிகிறது",
+          "Threshold"
+        ],
         "rows": [
-          ["**மீறப்பட்ட நிலுவை**", "Critical / High", "Payment பதிவு இல்லாமல் கடைசி தேதி கடந்த விலைப்பட்டியல்கள்", "Critical: >₹1L மீறி >60 நாட்கள் · High: >₹25K மீறி >30 நாட்கள்"],
-          ["**Stock இல்லை, சமீபத்தில் விற்றது**", "Critical", "கடந்த 30 நாட்களில் விற்ற SKUs ஆனால் தற்போது zero stock", "எந்த தகுதியான SKU-வும்"],
-          ["**Low-stock reorder**", "High / Medium", "Configured reorder point-க்கு கீழ் positive sell-through கொண்ட SKUs", "Reorder point-க்கு கீழ், சமீப விற்பனைகள் > 0"],
-          ["**Dead-stock capital**", "Critical / Medium / Info", ">90 நாட்கள் stock movement இல்லாத products, locked capital-ஆல் weighted", "Critical: >20% inventory value · Medium: >5% · Info: >1%"],
-          ["**Revenue decline (MoM)**", "Critical / High", "Month-on-month revenue கீழே போகிறது", "Critical: முந்தைய மாதத்தின் <85% · High: <90%"],
-          ["**Margin decline**", "Critical / High", "3-month average-உடன் ஒப்பிட்டால் gross margin கீழே", "Critical: 3pp drop · High: 1.5pp drop"],
-          ["**Negative cash flow**", "Critical", "தற்போதைய window-இல் cash position negative-ஆக போகிறது", "Rolling 30-day window-இல் net cash flow < 0"],
-          ["**Expense spike**", "High / Medium", "Expense category MoM-ஆக கணிசமாக வளர்கிறது", "≥30% MoM (₹1,000 floor)"],
-          ["**Credit-limit near-breach**", "High", "Configured credit limit-ஐ நெருங்கும் வாடிக்கையாளர்", "Outstanding ≥ limit-ன் 90%"],
-          ["**GST filing due**", "High / Medium", "GSTR-1 அல்லது GSTR-3B filing window திறக்கிறது", "ஒவ்வொரு கடைசி தேதிக்கும் முன் 3–5 நாட்கள் (மாதாந்திரம் அல்லது QRMP)"],
-          ["**Promote top product**", "Opportunity", "தற்போதைய promotion-இல் under-represented high-margin, high-velocity SKU", "Top-decile margin × velocity, சமீப low push"],
-          ["**Re-engage inactive customer**", "Opportunity", "சமீபத்தில் order செய்யாத previously-active வாடிக்கையாளர்", ">60 நாட்கள் order இல்லை, prior 90-day frequency >1/mo"],
-          ["**High-margin under-exposed**", "Opportunity", "Category peers-உடன் ஒப்பிட்டால் low sales கொண்ட high-margin SKU", "Above-median margin, below-median volume in category"]
+          [
+            "**மீறப்பட்ட நிலுவை**",
+            "Critical / High",
+            "Payment பதிவு இல்லாமல் கடைசி தேதி கடந்த விலைப்பட்டியல்கள்",
+            "Critical: >₹1L மீறி >60 நாட்கள் · High: >₹25K மீறி >30 நாட்கள்"
+          ],
+          [
+            "**Stock இல்லை, சமீபத்தில் விற்றது**",
+            "Critical",
+            "கடந்த 30 நாட்களில் விற்ற SKUs ஆனால் தற்போது zero stock",
+            "எந்த தகுதியான SKU-வும்"
+          ],
+          [
+            "**Low-stock reorder**",
+            "High / Medium",
+            "Configured reorder point-க்கு கீழ் positive sell-through கொண்ட SKUs",
+            "Reorder point-க்கு கீழ், சமீப விற்பனைகள் > 0"
+          ],
+          [
+            "**Dead-stock capital**",
+            "Critical / Medium / Info",
+            ">90 நாட்கள் stock movement இல்லாத products, locked capital-ஆல் weighted",
+            "Critical: >20% inventory value · Medium: >5% · Info: >1%"
+          ],
+          [
+            "**Revenue decline (MoM)**",
+            "Critical / High",
+            "Month-on-month revenue கீழே போகிறது",
+            "Critical: முந்தைய மாதத்தின் <85% · High: <90%"
+          ],
+          [
+            "**Margin decline**",
+            "Critical / High",
+            "3-month average-உடன் ஒப்பிட்டால் gross margin கீழே",
+            "Critical: 3pp drop · High: 1.5pp drop"
+          ],
+          [
+            "**Negative cash flow**",
+            "Critical",
+            "தற்போதைய window-இல் cash position negative-ஆக போகிறது",
+            "Rolling 30-day window-இல் net cash flow < 0"
+          ],
+          [
+            "**Expense spike**",
+            "High / Medium",
+            "Expense category MoM-ஆக கணிசமாக வளர்கிறது",
+            "≥30% MoM (₹1,000 floor)"
+          ],
+          [
+            "**Credit-limit near-breach**",
+            "High",
+            "Configured credit limit-ஐ நெருங்கும் வாடிக்கையாளர்",
+            "Outstanding ≥ limit-ன் 90%"
+          ],
+          [
+            "**GST filing due**",
+            "High / Medium",
+            "GSTR-1 அல்லது GSTR-3B filing window திறக்கிறது",
+            "ஒவ்வொரு கடைசி தேதிக்கும் முன் 3–5 நாட்கள் (மாதாந்திரம் அல்லது QRMP)"
+          ],
+          [
+            "**Promote top product**",
+            "Opportunity",
+            "தற்போதைய promotion-இல் under-represented high-margin, high-velocity SKU",
+            "Top-decile margin × velocity, சமீப low push"
+          ],
+          [
+            "**Re-engage inactive customer**",
+            "Opportunity",
+            "சமீபத்தில் order செய்யாத previously-active வாடிக்கையாளர்",
+            ">60 நாட்கள் order இல்லை, prior 90-day frequency >1/mo"
+          ],
+          [
+            "**High-margin under-exposed**",
+            "Opportunity",
+            "Category peers-உடன் ஒப்பிட்டால் low sales கொண்ட high-margin SKU",
+            "Above-median margin, below-median volume in category"
+          ]
         ]
       },
       "sections": [

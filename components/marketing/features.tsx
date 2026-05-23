@@ -2,7 +2,7 @@
 
 import { useTranslations } from "next-intl";
 import { Check } from "lucide-react";
-import { ScrollReveal, motion } from "./motion";
+import { ScrollReveal, motion } from "./shell/motion";
 
 type Feature = { title: string; tagline: string; bullets: string[] };
 

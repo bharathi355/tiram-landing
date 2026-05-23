@@ -1,9 +1,10 @@
 "use client";
 
 import { useLocale, useTranslations } from "next-intl";
-import { appUrl } from "@/lib/app-url";
-import { MarketingLanguageSwitcher } from "./language-switcher";
-import { ThemeToggle } from "./theme-toggle";
+import { appUrl } from "@/lib/contracts/app-url";
+import { supportWhatsappUrl } from "@/lib/brand";
+import { MarketingLanguageSwitcher } from "../shared/language-switcher";
+import { ThemeToggle } from "../shared/theme-toggle";
 import { ScrollReveal } from "./motion";
 
 export function MarketingFooter() {
@@ -13,6 +14,7 @@ export function MarketingFooter() {
   const locale = useLocale();
   const year = new Date().getFullYear();
   const supportEmail = tCommon("supportEmail");
+  const whatsappHref = supportWhatsappUrl(t("whatsappMessage"));
 
   return (
     <ScrollReveal
@@ -76,6 +78,30 @@ export function MarketingFooter() {
               </li>
               <li>
                 <a
+                  href={`/${locale}/articles/gstr-1-export-tiram`}
+                  className="text-slate-700 transition-colors hover:text-accent-600 dark:text-slate-300 dark:hover:text-accent-400"
+                >
+                  {t("linkArticleGstr1Export")}
+                </a>
+              </li>
+              <li>
+                <a
+                  href={`/${locale}/articles/counter-billing-barcode-quick-bill`}
+                  className="text-slate-700 transition-colors hover:text-accent-600 dark:text-slate-300 dark:hover:text-accent-400"
+                >
+                  {t("linkArticleQuickBill")}
+                </a>
+              </li>
+              <li>
+                <a
+                  href={`/${locale}/articles/purchase-to-insights-workflow`}
+                  className="text-slate-700 transition-colors hover:text-accent-600 dark:text-slate-300 dark:hover:text-accent-400"
+                >
+                  {t("linkArticleWorkflow")}
+                </a>
+              </li>
+              <li>
+                <a
                   href={`/${locale}/articles/business-health-dashboard-indian-smb`}
                   className="text-slate-700 transition-colors hover:text-accent-600 dark:text-slate-300 dark:hover:text-accent-400"
                 >
@@ -118,6 +144,17 @@ export function MarketingFooter() {
                   className="text-slate-700 transition-colors hover:text-accent-600 dark:text-slate-300 dark:hover:text-accent-400"
                 >
                   {supportEmail}
+                </a>
+              </li>
+              <li>
+                <a
+                  data-testid="footer-whatsapp-cta"
+                  href={whatsappHref}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center rounded-full border border-emerald-500 bg-emerald-500 px-3 py-1.5 text-xs font-semibold text-white shadow-sm shadow-emerald-500/20 transition hover:bg-emerald-600 dark:border-emerald-400 dark:bg-emerald-500 dark:text-slate-950 dark:hover:bg-emerald-400"
+                >
+                  {t("linkWhatsapp")}
                 </a>
               </li>
             </ul>

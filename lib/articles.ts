@@ -27,6 +27,21 @@ export interface Article {
 // Resources column use when listing.
 export const ARTICLES: readonly Article[] = [
   {
+    slug: "gstr-1-export-tiram",
+    publishedAt: "2026-05-23",
+    updatedAt: "2026-05-23",
+  },
+  {
+    slug: "counter-billing-barcode-quick-bill",
+    publishedAt: "2026-05-23",
+    updatedAt: "2026-05-23",
+  },
+  {
+    slug: "purchase-to-insights-workflow",
+    publishedAt: "2026-05-23",
+    updatedAt: "2026-05-23",
+  },
+  {
     slug: "gstr-1-vs-gstr-3b-difference",
     publishedAt: "2026-05-22",
     updatedAt: "2026-05-22",

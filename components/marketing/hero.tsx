@@ -13,7 +13,7 @@ import {
   StaggerItem,
   ScrollReveal,
   motion,
-} from "./motion";
+} from "./shell/motion";
 
 export function Hero() {
   const t = useTranslations("landing.hero");

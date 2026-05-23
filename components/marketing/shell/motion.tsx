@@ -254,7 +254,7 @@ export function Marquee({
     >
       <div
         className={`flex shrink-0 items-center gap-10 pr-10 ${
-          reduce ? "" : "motion-safe:animate-marquee"
+          reduce ? "" : "animate-marquee"
         } ${pauseOnHover ? "group-hover:[animation-play-state:paused]" : ""}`}
         style={{ animationDuration: `${speedSeconds}s` }}
         aria-hidden={false}
@@ -263,7 +263,7 @@ export function Marquee({
       </div>
       <div
         className={`flex shrink-0 items-center gap-10 pr-10 ${
-          reduce ? "" : "motion-safe:animate-marquee"
+          reduce ? "" : "animate-marquee"
         } ${pauseOnHover ? "group-hover:[animation-play-state:paused]" : ""}`}
         style={{ animationDuration: `${speedSeconds}s` }}
         aria-hidden

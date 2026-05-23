@@ -8,7 +8,7 @@ import {
   LayoutDashboard,
   type LucideIcon,
 } from "lucide-react";
-import { ScrollReveal, motion } from "./motion";
+import { ScrollReveal, motion } from "./shell/motion";
 
 type Step = { title: string; body: string };
 

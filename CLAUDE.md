@@ -1,6 +1,6 @@
 # tiram-landing — Project instructions
 
-This repo is the **marketing landing site** for Tiram (deployed to `tiram.app`). It is a sibling, not a sub-tree, of the main product repo.
+This repo is the **marketing landing site** for Tiram (deployed to `tiram.co.in`). It is a sibling, not a sub-tree, of the main product repo.
 
 - **Sibling repo:** `../stocksflow/` — the authenticated product (Django + Next.js dashboard + Electron desktop builds). Its `CLAUDE.md` is the source of truth for the product itself; this file is the source of truth for the marketing surface.
 - **Hand-off:** primary CTAs link to `${NEXT_PUBLIC_APP_ORIGIN}/[locale]/onboarding`. The dashboard's `/sign-up` route is a thin server-side redirect to `/onboarding` that preserves locale + query string — **do not change either side of that contract without coordinating both repos.** See "Hand-off contract" below.
@@ -47,7 +47,7 @@ Any change to these surfaces requires a matching change in `../stocksflow/`:
 | Build | Docker standalone (`Dockerfile`), bakes `NEXT_PUBLIC_*` at build time via `ARG` |
 | Tests | Vitest + Testing Library, jsdom; no e2e in this repo |
 | Lint | ESLint (next/core-web-vitals) |
-| Deploy | `tiram.app` (apex); dashboard lives at `app.tiram.app` |
+| Deploy | `tiram.co.in` (apex); dashboard lives at `app.tiram.co.in` |
 | Dev port | 3006 (dashboard is 3005 — keep them distinct so both run side-by-side) |
 
 ```
@@ -137,8 +137,8 @@ Rules:
 - All env vars are `NEXT_PUBLIC_*` (this site has no server-side secrets). They are baked at build time via `Dockerfile` `ARG` → `ENV` and inlined into the client JS.
 - `scripts/check-env.mjs` fails the build if a required var is missing. To add a required var: add it to the script, the Dockerfile ARGs, AND document its purpose here in §8 — in the same change.
 - Current required vars:
-  - `NEXT_PUBLIC_SITE_URL` — canonical apex URL (e.g. `https://tiram.app`). Used by sitemap, robots, OpenGraph, JSON-LD.
-  - `NEXT_PUBLIC_APP_ORIGIN` — dashboard origin (e.g. `https://app.tiram.app`). Used by `lib/app-url.ts` for CTA targets. Dev default: `http://localhost:3005`.
+  - `NEXT_PUBLIC_SITE_URL` — canonical apex URL (e.g. `https://tiram.co.in`). Used by sitemap, robots, OpenGraph, JSON-LD.
+  - `NEXT_PUBLIC_APP_ORIGIN` — dashboard origin (e.g. `https://app.tiram.co.in`). Used by `lib/app-url.ts` for CTA targets. Dev default: `http://localhost:3005`.
 - **Never** introduce a secret-bearing env var here. If something needs a secret, it belongs in stocksflow.
 
 ## 9. Country detection
@@ -175,7 +175,7 @@ If you run `/graphify` from this repo, the output lives at `graphify-out/` (not 
 ## 12. Anti-patterns (refuse these)
 
 - Hard-coding `/sign-up` as a CTA target instead of `/onboarding`.
-- Hard-coding `http://localhost:3005` or `https://app.tiram.app` in a component — go through `lib/app-url.ts`.
+- Hard-coding `http://localhost:3005` or `https://app.tiram.co.in` in a component — go through `lib/app-url.ts`.
 - Reading the country cookie directly from a Server Component instead of using `i18n/request.ts`'s merged messages — the cookie is the implementation detail.
 - Adding a new URL locale segment without updating `i18n/routing.ts` AND `stocksflow/frontend/i18n/routing.ts`.
 - Adding an analytics SDK because "we'll need it eventually". You won't, until you do. Then it's a forcing function.

@@ -32,7 +32,6 @@ const config: Config = {
           "Noto Sans Tamil",
           "sans-serif",
         ],
-        receipt: ['"Roboto Mono"', "monospace"],
       },
       fontSize: {
         base: ["14px", { lineHeight: "20px" }],

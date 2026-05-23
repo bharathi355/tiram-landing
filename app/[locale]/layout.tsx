@@ -54,6 +54,17 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} suppressHydrationWarning className={inter.variable}>
+      <head>
+        {locale === "ta" ? (
+          <link
+            rel="preload"
+            as="font"
+            type="font/woff2"
+            href="/fonts/NotoSansTamil-tamil.woff2"
+            crossOrigin="anonymous"
+          />
+        ) : null}
+      </head>
       <Script
         src="https://www.googletagmanager.com/gtag/js?id=G-XX4Q86RVKK"
         strategy="afterInteractive"

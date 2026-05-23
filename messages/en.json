@@ -6,6 +6,22 @@
     "tagline": "Run your business with clarity and capability.",
     "supportEmail": "tiram.business@gmail.com"
   },
+  "articleShell": {
+    "heroKicker": "Workflow guide",
+    "valueLabel": "Tiram in one line",
+    "value": "Billing, inventory, credit, reports, and What's Up insights for Indian SMBs.",
+    "stepsLabel": "Connected workflow steps",
+    "workflowSteps": {
+      "purchase": "Purchase to stock",
+      "billing": "Billing to credit",
+      "insights": "Reports to action"
+    },
+    "inlineCtaEyebrow": "Try the connected workflow",
+    "inlineCtaButton": "Start free trial",
+    "inlineCtaTrust": "30-day free trial · No card needed",
+    "comparisonEyebrow": "Scan first",
+    "sectionEyebrow": "Workflow step"
+  },
   "landing": {
     "seo": {
       "title": "Tiram — Billing & inventory software for businesses worldwide",
@@ -32,12 +48,13 @@
     },
     "hero": {
       "eyebrow": "Billing and inventory, global by default.",
-      "h1": "Billing and inventory software for any business, any size.",
-      "subhead": "Tiram helps businesses of every size — from single-counter shops to distributors and multi-branch chains — create tax-compliant invoices, track stock across warehouses, record payments, and run their books in the language they choose. Available as a cloud web app and offline desktop apps for Windows and Mac. A mobile app is under development.",
-      "ctaPrimary": "Start free",
+      "h1": "One app for billing, stock, and collections — built to grow with your business.",
+      "subhead": "Tiram connects invoicing, warehouse stock, payment collection, and reports in one place — with the tax rules, languages, and printing setup your business needs. Cloud web app and offline desktop for Windows and Mac.",
+      "ctaPrimary": "Start free — 30 days, no card",
       "accessProduct": "Access Product",
-      "ctaSecondary": "See how it works",
-      "microTrust": "30-day free trial · No card needed · Cloud + offline desktop for Windows and Mac",
+      "ctaSecondary": "Contact us",
+      "whatsappMessage": "Hi Tiram, I am interested in billing and inventory software. Can you help me choose the right setup for my business?",
+      "microTrust": "30-day free trial · No card needed",
       "mockInvoiceTitle": "Tax invoice",
       "mockInvoiceNumber": "Invoice #INV-2024-001",
       "mockCreatedAt": "Created today at 10:45 AM",
@@ -52,6 +69,7 @@
       "chipUpi": "UPI · Card · Cash",
       "chipBilingual": "English, Tamil + more",
       "chipPrint": "Thermal Print",
+      "chipBarcode": "Barcode scanning",
       "chipWarehouse": "Multi-Warehouse"
     },
     "trust": {
@@ -72,42 +90,26 @@
         "upi": "UPI · Card · Cash",
         "bilingual": "English + Tamil + more",
         "thermal": "Thermal printer",
-        "warehouse": "Multi-warehouse"
+        "warehouse": "Multi-warehouse",
+        "offline": "Offline desktop app",
+        "gst": "GST & e-Invoice ready",
+        "barcode": "Barcode scanning",
+        "payments": "Split-payment support",
+        "trial": "30-day free trial"
       }
-    },
-    "outcomes": {
-      "heading": "What Tiram covers every day",
-      "intro": "One place for billing, stock, dues, and reports — from single-counter shops to distributors and multi-branch chains.",
-      "items": [
-        {
-          "metric": "Tax",
-          "label": "Tax-compliant invoices with line-item tax codes, place-of-supply rules, and period reports your accountant can use"
-        },
-        {
-          "metric": "Stock",
-          "label": "Warehouse-wise stock, transfers, reorder levels, and low-stock views"
-        },
-        {
-          "metric": "Credit",
-          "label": "Customer dues, payment allocation, aging, and defaulter tracking"
-        },
-        {
-          "metric": "Daily",
-          "label": "Sales, tax, cash, inventory, profit, and audit reports"
-        }
-      ]
     },
     "features": {
       "heading": "One tool for the whole business",
       "intro": "Billing, inventory, customers, and reports — connected, not bolted together.",
       "items": [
         {
-          "title": "Invoicing that just works",
-          "tagline": "Tax-compliant invoices, receipts, browser print, thermal setup, and WhatsApp sharing.",
+          "title": "Scan, bill, and print in seconds",
+          "tagline": "Fast counter billing with barcode scan, tax split, split payments, and thermal receipt printing.",
           "bullets": [
-            "Auto tax calculation with item-level codes (HSN/SAC, VAT codes, etc.)",
-            "Browser print and ESC/POS thermal setup",
-            "Share receipt links on WhatsApp"
+            "Barcode scan via Serial, USB, or Bluetooth scanner",
+            "Cash, UPI, Card, Bank, Credit — split payments supported",
+            "Park a bill and resume it without losing the cart",
+            "Browser print, ESC/POS thermal, and Tamil raster receipt paths"
           ]
         },
         {
@@ -121,61 +123,44 @@
         },
         {
           "title": "Reports that drive decisions",
-          "tagline": "See revenue, margin, top products, and defaulters — daily.",
+          "tagline": "See revenue, margin, top products, tax exposure, stock risk, and defaulters — daily.",
           "bullets": [
-            "Daily, monthly, and period dashboards",
-            "Margin per product and per customer",
-            "Defaulter list with one-click reminders"
+            "P&L with prior-period comparison — revenue, COGS, gross margin",
+            "ABC analysis, slow/dead stock, and reorder suggestions",
+            "Receivables aging, customer performance, vendor scorecards",
+            "Custom report builder with saved views"
           ]
         },
         {
-          "title": "Multi-org, multi-role",
-          "tagline": "Run multiple businesses, invite staff with the right access.",
+          "title": "Your business tells you what needs attention",
+          "tagline": "Tiram's What's Up feed surfaces overdue customers, low stock, filing dates, and opportunities before you remember to check.",
           "bullets": [
-            "Separate orgs, separate data",
-            "Role-based permissions",
-            "Audit-ready activity trail"
-          ]
-        },
-        {
-          "title": "Tax compliance, your way",
-          "tagline": "Configure your tax system — GST in India, VAT in EU/GCC, sales tax in US — and Tiram handles the rest.",
-          "bullets": [
-            "Tax-ID validation (GSTIN, VAT number, EIN, and more)",
-            "Period-aware reports your accountant can use",
-            "Place-of-supply rules and item-level tax codes"
-          ]
-        },
-        {
-          "title": "Speak your language",
-          "tagline": "Run the app and print receipts in the language your team and customers use.",
-          "bullets": [
-            "Full UI in English and Tamil today, more locales rolling out",
-            "Non-Latin script rendering proven (Tamil on thermal where supported)",
-            "Per-user locale switching"
+            "Critical, high, medium, info, and opportunity insights",
+            "Snooze what you will handle later; dismiss what you have fixed",
+            "Overdue receivables, slow stock, and due dates in one feed"
           ]
         }
       ]
     },
     "howItWorks": {
-      "heading": "Run your business in 4 steps.",
-      "intro": "From product setup to invoice, payment, and daily report — the workflow stays connected.",
+      "heading": "End-to-end in one connected workflow.",
+      "intro": "A purchase receipt updates stock. Stock drives billing availability. Billing creates receivables. Receivables surface in your What's Up feed. Nothing needs copying between apps.",
       "steps": [
         {
-          "title": "Add stock",
-          "body": "Products with tax codes, reorder levels, and warehouse-wise stock counts."
+          "title": "Order from vendors, receive stock",
+          "body": "Raise a purchase order, mark goods received, and update stock across warehouses automatically."
         },
         {
-          "title": "Bill in seconds",
-          "body": "Pick customer, add items, print thermal or share the link."
+          "title": "Scan and bill in seconds",
+          "body": "Scan a barcode, pick the customer, take payment, and print thermal or share the invoice link."
         },
         {
-          "title": "Track dues",
-          "body": "Record payments, age receivables, spot defaulters before they hurt."
+          "title": "Collect dues, track credit",
+          "body": "Record payments, age receivables, spot defaulters, and keep the full customer credit ledger."
         },
         {
-          "title": "Decide daily",
-          "body": "Dashboard ranks what to act on — tax filing due, dues, slow stock."
+          "title": "Open What's Up every morning",
+          "body": "See what needs action today — overdue customers, low stock, filing dates, and slow-moving products — without opening a report."
         }
       ]
     },
@@ -206,27 +191,6 @@
         {
           "title": "Multilingual UI + receipts",
           "body": "English and Tamil today, more locales rolling out; non-Latin script rendering proven on Tamil receipts."
-        }
-      ]
-    },
-    "testimonials": {
-      "heading": "Built around real business workflows",
-      "intro": "Tiram is shaped for counters, warehouses, credit customers, and tax-ready reporting your accountant can use.",
-      "items": [
-        {
-          "quote": "Create tax-compliant invoices with item-level codes, warehouse stock deduction, customer credit, and browser or thermal print paths.",
-          "name": "Retail and counter businesses",
-          "role": "Counter billing and stock-on-hand"
-        },
-        {
-          "quote": "Track stock across shop, warehouse, and vehicle, move items through transfer workflows, and monitor reorder levels.",
-          "name": "Distributors and wholesalers",
-          "role": "Multi-warehouse inventory"
-        },
-        {
-          "quote": "Run receivables aging, tax summary, profitability, inventory valuation, and audit reports from one dashboard.",
-          "name": "Owner and accountant workflows",
-          "role": "Reports for daily review and accountant handoff"
         }
       ]
     },
@@ -282,8 +246,9 @@
           "Priority support · custom integrations",
           "SSO · advanced audit & compliance"
         ],
-        "cta": "Talk to us",
-        "replyHint": "We reply within one business day."
+        "cta": "Chat on WhatsApp",
+        "replyHint": "Best for multi-branch, migration, and desktop setup questions.",
+        "whatsappMessage": "Hi Tiram, I would like to discuss Tiram for multiple branches, distribution, or custom integrations."
       },
       "platforms": {
         "saas": {
@@ -293,7 +258,9 @@
         "desktop": {
           "name": "Desktop",
           "description": "Offline app for Windows and Mac. Activate via WhatsApp.",
-          "cta": "Contact us"
+          "cta": "Contact us",
+          "whatsappCta": "Ask on WhatsApp",
+          "whatsappMessage": "Hi Tiram, I would like to know about the offline desktop app for Windows and Mac."
         }
       },
       "footnote": "Prices in INR (other currencies on request), exclusive of applicable taxes. Switch cycles or seats anytime — we pro-rate."
@@ -304,34 +271,28 @@
       "items": [
         {
           "n": "01",
-          "title": "One tool, end-to-end",
-          "body": "Billing, inventory, dues, reports, and staff in one place — not a ledger app plus a billing app plus a spreadsheet. Fewer reconciliation gaps, one source of truth, one bill at the end of the month."
-        },
-        {
-          "n": "02",
           "title": "Grows with your business",
           "body": "Multi-organization, multi-branch, multi-warehouse, and role-based staff are built in from day one. Open a second counter, add a distributor branch, hire a cashier — no painful migration to a bigger tool later."
         },
         {
-          "n": "03",
+          "n": "02",
           "title": "Live in minutes, not months",
-          "body": "Opinionated for billing and inventory, with sensible defaults for GST, UPI, and thermal receipts. No consultant rollout, no implementation phase. You are billing before lunch."
+          "body": "Set up for billing and inventory out of the box — tax codes, UPI, and thermal receipts ready by default. No consultant needed. Your first bill goes out before lunch."
         },
         {
-          "n": "04",
-          "title": "Decisions, not just data entry",
-          "body": "Aging dues, low-stock alerts, slow-moving items, branch-wise profit, and GST exposure — surfaced where you can act on them. Owners catch problems weeks earlier instead of finding out at year-end."
-        },
-        {
-          "n": "05",
+          "n": "03",
           "title": "Cash health, not just invoices",
-          "body": "Receivables tracking, payment allocation, defaulter views, and UPI-based follow-ups are baked in. Faster collections, less working capital locked up in unpaid invoices — the part of business improvement most billing tools ignore."
+          "body": "Receivables tracking, payment allocation, defaulter views, and UPI-based follow-ups are baked in. Collect faster, lock less cash in overdue bills — the part of running a healthy business that most billing tools skip."
         }
       ]
     },
     "faq": {
       "heading": "Questions, answered",
       "intro": "Short answers. If you want a longer one, write to us.",
+      "contactPrompt": "Still deciding? Ask before you start.",
+      "contactBody": "Use WhatsApp for desktop activation, migration, or plan-fit questions. The trial remains the fastest way to explore Tiram.",
+      "contactCta": "Contact us on WhatsApp",
+      "whatsappMessage": "Hi Tiram, I have a question before starting my Tiram trial.",
       "items": [
         {
           "q": "Is Tiram free to start?",
@@ -339,7 +300,7 @@
         },
         {
           "q": "Does Tiram support GST, VAT, sales tax, and other tax systems?",
-          "a": "Yes. Tiram has a configurable tax engine — define your own tax types, rates, and rules. India's GST is the deepest example today (GSTIN validation, HSN/SAC, automatic CGST/SGST/IGST by place of supply, period reports your accountant uses). VAT and sales tax are supported, with more depth rolling out.",
+          "a": "Yes. Tiram has a configurable tax engine — define your own tax types, rates, and rules. India's GST is the deepest example today: GSTIN validation, HSN/SAC, automatic CGST/SGST/IGST by place of supply, portal-ready GSTR-1 export, and GST Summary reports your accountant can use. VAT and sales tax are supported, with more depth rolling out.",
           "more": {
             "slug": "gstr-1-vs-gstr-3b-difference",
             "label": "Read the GSTR-1 vs GSTR-3B guide"
@@ -366,33 +327,25 @@
           "a": "Yes. Invite staff to your business with role-based access — counter, accountant, or admin — and an audit trail tracks who did what."
         },
         {
+          "q": "Can my CA or accountant log in without touching my billing?",
+          "a": "Yes. Invite your CA as a staff member with accountant or read-only access. They can review reports and period summaries without changing billing or inventory."
+        },
+        {
           "q": "Can I switch from another tool?",
           "a": "Yes. You can bulk-import products and customers from a spreadsheet exported from any other tool — Tally, Vyapar, KhataBook, QuickBooks, Zoho Books, or anything else. Reach out if you need help with the migration."
         },
         {
           "q": "Does Tiram have an offline desktop app?",
           "a": "Yes. Tiram has an offline desktop app available for Windows and Mac, useful for counters where internet access is unreliable. Contact the Tiram team for desktop activation."
-        },
-        {
-          "q": "Is there a Tiram mobile app?",
-          "a": "The Tiram mobile app is under development. Today, businesses can use the cloud web app or the offline desktop app for Windows and Mac."
-        },
-        {
-          "q": "Which countries does Tiram work in?",
-          "a": "Anywhere. Billing, inventory, and dues are universal. Tax compliance is configurable — India's GST is the deepest example today, with VAT (EU/GCC), sales tax (US), and other regimes supported and growing in depth."
-        },
-        {
-          "q": "Can I bill in multiple currencies?",
-          "a": "Pricing today is in INR; other display currencies are available on request. Multi-currency invoicing is on the roadmap — talk to us if it's a need for your business."
         }
       ]
     },
     "finalCta": {
-      "heading": "Less ledger. More leverage.",
-      "subhead": "Stop juggling spreadsheets and start running the business.",
+      "heading": "Start free. Be billing in 2 minutes.",
+      "subhead": "No card, no consultant, no setup fee. Billing, stock, and dues in one place from day one.",
       "cta": "Start free",
       "accessProduct": "Access Product",
-      "fineprint": "No credit card. 2-minute setup."
+      "fineprint": "No credit card. Cancel anytime. Your data stays yours."
     },
     "footer": {
       "tagline": "Billing & inventory for businesses, anywhere.",
@@ -405,12 +358,17 @@
       "linkFaq": "FAQ",
       "resources": "Resources",
       "linkArticleGstr": "GSTR-1 vs GSTR-3B guide",
+      "linkArticleGstr1Export": "GSTR-1 export guide",
+      "linkArticleQuickBill": "Barcode Quick Bill",
+      "linkArticleWorkflow": "Purchase to insights",
       "linkArticleCockpit": "Daily business cockpit",
       "linkSignIn": "Sign in",
       "linkSignUp": "Create account",
       "linkPrivacy": "Privacy",
       "linkTerms": "Terms",
       "linkContact": "Contact us",
+      "linkWhatsapp": "WhatsApp us",
+      "whatsappMessage": "Hi Tiram, I would like to contact your team about Tiram.",
       "madeInIndia": "Made in India · Tiram Technologies Pvt Ltd",
       "rights": "© {year} Tiram. All rights reserved."
     }
@@ -432,15 +390,47 @@
       "comparisonHeading": "GSTR-1 vs GSTR-3B at a glance",
       "comparisonTable": {
         "caption": "Quick reference. Use the prose sections below for full detail.",
-        "headers": ["", "GSTR-1", "GSTR-3B"],
+        "headers": [
+          "",
+          "GSTR-1",
+          "GSTR-3B"
+        ],
         "rows": [
-          ["**What it reports**", "Outward supplies, invoice-by-invoice — B2B, B2CL, B2CS, exports, credit / debit notes, HSN summary", "Net tax liability and ITC for the month — what you actually owe in cash"],
-          ["**Granularity**", "Each invoice and credit note", "Net totals per tax head and per ITC bucket"],
-          ["**Who files**", "Every regular GST-registered person", "Every regular GST-registered person (Composition dealers file CMP-08 instead)"],
-          ["**Frequency**", "Monthly (turnover > ₹5 crore) or quarterly under QRMP", "Monthly (with staggered state-group due dates under QRMP)"],
-          ["**Due date**", "11th of the following month (monthly) or 13th after the quarter (QRMP)", "20th of the following month (or 22nd / 24th by state group under QRMP)"],
-          ["**Feeds**", "The recipient's GSTR-2A / 2B for ITC matching", "The org's own cash payment ledger — not auto-fed from elsewhere"],
-          ["**Most common mismatch cause**", "Wrong PoS, malformed GSTIN, missing UoM, late credit notes", "ITC claimed that doesn't appear in GSTR-2B, or tax paid without matching outward supplies"]
+          [
+            "**What it reports**",
+            "Outward supplies, invoice-by-invoice — B2B, B2CL, B2CS, exports, credit / debit notes, HSN summary",
+            "Net tax liability and ITC for the month — what you actually owe in cash"
+          ],
+          [
+            "**Granularity**",
+            "Each invoice and credit note",
+            "Net totals per tax head and per ITC bucket"
+          ],
+          [
+            "**Who files**",
+            "Every regular GST-registered person",
+            "Every regular GST-registered person (Composition dealers file CMP-08 instead)"
+          ],
+          [
+            "**Frequency**",
+            "Monthly (turnover > ₹5 crore) or quarterly under QRMP",
+            "Monthly (with staggered state-group due dates under QRMP)"
+          ],
+          [
+            "**Due date**",
+            "11th of the following month (monthly) or 13th after the quarter (QRMP)",
+            "20th of the following month (or 22nd / 24th by state group under QRMP)"
+          ],
+          [
+            "**Feeds**",
+            "The recipient's GSTR-2A / 2B for ITC matching",
+            "The org's own cash payment ledger — not auto-fed from elsewhere"
+          ],
+          [
+            "**Most common mismatch cause**",
+            "Wrong PoS, malformed GSTIN, missing UoM, late credit notes",
+            "ITC claimed that doesn't appear in GSTR-2B, or tax paid without matching outward supplies"
+          ]
         ]
       },
       "sections": [
@@ -548,6 +538,224 @@
         "button": "Start free"
       }
     },
+    "gstr-1-export-tiram": {
+      "meta": {
+        "title": "Generate a Portal-Ready GSTR-1 from Tiram in 3 Steps · Tiram",
+        "description": "Pick a GST period, run validation, and download GSTR-1 as JSON or Excel from Tiram. Covers B2B, B2CL, B2CS, CDNR, CDNUR, HSN, and document sections.",
+        "ogTitle": "Generate GSTR-1 JSON and Excel from Tiram",
+        "ogDescription": "A practical 3-step guide for Indian SMBs preparing portal-ready GSTR-1 exports.",
+        "keywords": "gstr 1 export software, gstr 1 json export, gst billing software gstr 1, hsn summary export, b2b b2cs gstr 1 software"
+      },
+      "h1": "Generate a portal-ready GSTR-1 from Tiram in 3 steps",
+      "breadcrumbHome": "Tiram",
+      "breadcrumbCurrent": "GSTR-1 export guide",
+      "quickAnswerLabel": "Quick answer",
+      "lede": "Tiram exports GSTR-1 as portal-ready JSON and Excel. Choose the period, review validation warnings, then download the sections your CA needs: B2B, B2CL, B2CS, CDNR, CDNUR, HSN, and DOCS.",
+      "sections": [
+        {
+          "heading": "What Tiram exports",
+          "body": "The GSTR-1 report is built from invoices, credit notes, debit notes, customers, HSN/SAC codes, place of supply, and tax splits already captured during billing. It covers B2B, B2CL, B2CS, CDNR, CDNUR, HSN summary, and document counts. Tiram does not submit to GSTN directly; it gives you files your CA can review and upload."
+        },
+        {
+          "heading": "The 3-step workflow",
+          "body": "1. Open Reports -> GSTR-1 and choose the GST period.\n2. Review validation for missing place of supply, GSTIN problems, HSN/UQC issues, and credit-note dating.\n3. Download JSON for portal upload or Excel for offline CA review."
+        },
+        {
+          "heading": "Why this is easier than spreadsheets",
+          "body": "Manual GSTR-1 spreadsheets usually break because invoice data, HSN summary, customer GSTIN, and credit notes live in different places. In Tiram, the invoice is the source. Fix the product, customer, or credit note once and the next export uses the corrected data."
+        }
+      ],
+      "quickAnswersHeading": "Quick answers",
+      "geoCallouts": [
+        {
+          "q": "Does Tiram export GSTR-3B too?",
+          "a": "No. Tiram exports GSTR-1 and provides GST Summary reports for GSTR-3B checks. GSTR-3B depends on ITC and purchase-side data your CA must review."
+        },
+        {
+          "q": "Can I download Excel as well as JSON?",
+          "a": "Yes. JSON is for portal upload; Excel is for review, reconciliation, and CA handoff."
+        },
+        {
+          "q": "Does Tiram validate GSTIN and HSN data?",
+          "a": "Yes. Product and customer data are validated before export so common upload errors are easier to catch early."
+        }
+      ],
+      "faqHeading": "FAQs",
+      "faq": [
+        {
+          "q": "Which GSTR-1 sections does Tiram cover?",
+          "a": "B2B, B2CL, B2CS, CDNR, CDNUR, HSN summary, and document count sections."
+        },
+        {
+          "q": "Can my CA use the export?",
+          "a": "Yes. Give your CA the Excel for review and the JSON for portal upload. You can also invite them into Tiram with accountant or read-only access."
+        },
+        {
+          "q": "Is direct GSTN submission included?",
+          "a": "No. Tiram generates portal-ready files. You or your CA upload them through the GST portal."
+        }
+      ],
+      "relatedHeading": "Related reading",
+      "related": [
+        {
+          "slug": "gstr-1-vs-gstr-3b-difference",
+          "label": "GSTR-1 vs GSTR-3B: difference and reconciliation"
+        },
+        {
+          "slug": "purchase-to-insights-workflow",
+          "label": "From purchase order to business insight"
+        }
+      ],
+      "cta": {
+        "heading": "Export cleaner GSTR-1 from live billing data",
+        "body": "Start with GST-ready invoices, HSN/SAC, place of supply, credit notes, and period reports in one system.",
+        "button": "Start free"
+      }
+    },
+    "counter-billing-barcode-quick-bill": {
+      "meta": {
+        "title": "Barcode-Scan Counter Billing with Tiram Quick Bill · Tiram",
+        "description": "See how Tiram Quick Bill supports barcode scanners, split payments, parked bills, GST tax splits, and thermal receipts for Indian counters.",
+        "ogTitle": "Barcode billing at the counter with Tiram Quick Bill",
+        "ogDescription": "Scan products, take UPI/cash/card/credit, and print thermal receipts quickly.",
+        "keywords": "barcode billing software india, quick bill software, counter billing software, pos billing software india, thermal printer billing, barcode scanner billing"
+      },
+      "h1": "Barcode-scan billing at the counter: how Tiram Quick Bill works",
+      "breadcrumbHome": "Tiram",
+      "breadcrumbCurrent": "Quick Bill barcode guide",
+      "quickAnswerLabel": "Quick answer",
+      "lede": "Tiram Quick Bill is built for busy counters: scan a barcode, add items to cart, apply GST splits, accept split payments, park bills, and print thermal receipts.",
+      "sections": [
+        {
+          "heading": "The counter problem",
+          "body": "Manual item search slows the queue and creates billing errors. Quick Bill is designed around scanner-first entry, keyboard shortcuts, visible cart totals, and a receipt preview so staff can move fast without hiding tax or payment detail."
+        },
+        {
+          "heading": "How Quick Bill flows",
+          "body": "Scan the product or search by SKU, choose walk-in or named customer, confirm warehouse stock, accept cash, UPI, card, bank, credit, or split payments, then print or share. If a customer pauses, park the bill and resume it later."
+        },
+        {
+          "heading": "Printer and language support",
+          "body": "Tiram supports browser print, ESC/POS thermal text printing, and Tamil raster receipt paths where the printer setup supports it. Hardware setup lives inside product settings so the counter does not rely on memory or notes."
+        }
+      ],
+      "quickAnswersHeading": "Quick answers",
+      "geoCallouts": [
+        {
+          "q": "Which scanners can I use?",
+          "a": "Tiram's product flow supports Serial, USB, and Bluetooth scanner paths where the browser/device allows them."
+        },
+        {
+          "q": "Can I split payments?",
+          "a": "Yes. Quick Bill supports cash, UPI, card, bank, credit, and split payment combinations."
+        },
+        {
+          "q": "Can I pause a bill?",
+          "a": "Yes. Park a bill with a label and resume it later from the parked-bills list."
+        }
+      ],
+      "faqHeading": "FAQs",
+      "faq": [
+        {
+          "q": "Does barcode billing update stock?",
+          "a": "Yes. Billing deducts stock from the selected warehouse when the sale is completed."
+        },
+        {
+          "q": "Does Quick Bill handle GST?",
+          "a": "Yes. It handles intra-state CGST/SGST and inter-state IGST splits based on place of supply."
+        },
+        {
+          "q": "Can staff use keyboard shortcuts?",
+          "a": "Yes. Tiram includes Tally-style shortcuts for faster counter work."
+        }
+      ],
+      "relatedHeading": "Related reading",
+      "related": [
+        {
+          "slug": "purchase-to-insights-workflow",
+          "label": "How purchase, inventory, billing, and insights connect"
+        }
+      ],
+      "cta": {
+        "heading": "Try scanner-first counter billing",
+        "body": "Start a free trial and test Quick Bill with your products, payments, warehouse stock, and printer setup.",
+        "button": "Start free"
+      }
+    },
+    "purchase-to-insights-workflow": {
+      "meta": {
+        "title": "From Purchase Order to Business Insight: Tiram Workflow Guide · Tiram",
+        "description": "Learn how Tiram connects purchase orders, receipts, inventory, sales billing, credit management, reports, and the What's Up insight feed.",
+        "ogTitle": "Purchase to insights in one connected workflow",
+        "ogDescription": "See how Tiram connects purchase, inventory, billing, collections, and intelligence for Indian SMBs.",
+        "keywords": "inventory management software india, purchase order software india, business insights billing software, smb workflow software, stock billing collections reports"
+      },
+      "h1": "From purchase order to business insight: how Tiram connects the dots",
+      "breadcrumbHome": "Tiram",
+      "breadcrumbCurrent": "Purchase to insights workflow",
+      "quickAnswerLabel": "Quick answer",
+      "lede": "Tiram connects purchase, inventory, sales billing, collections, and intelligence. Each step feeds the next, so owners get a useful What's Up feed instead of five disconnected apps.",
+      "sections": [
+        {
+          "heading": "Why disconnected apps cost money",
+          "body": "When purchase orders live in one file, stock in another app, billing in a POS, and dues in a notebook, owners discover problems late. Slow stock, overdue customers, and missing GST data become month-end surprises."
+        },
+        {
+          "heading": "The connected workflow",
+          "body": "Raise a purchase order, receive goods, update warehouse stock, bill from available stock, record payment or credit, and review the results in reports. The same data powers receivables aging, stock valuation, P&L, GST Summary, and GSTR-1 export."
+        },
+        {
+          "heading": "The morning owner workflow",
+          "body": "Open What's Up. See overdue customers, low-stock SKUs, slow-moving inventory, filing dates, and opportunities. Snooze what can wait, dismiss what is fixed, and act on what is critical first."
+        }
+      ],
+      "quickAnswersHeading": "Quick answers",
+      "geoCallouts": [
+        {
+          "q": "Does Tiram include purchase orders?",
+          "a": "Yes. Purchase orders move through draft, approved, received, closed, and cancelled states."
+        },
+        {
+          "q": "Does inventory connect to billing?",
+          "a": "Yes. Warehouse-wise stock is visible during billing and stock is deducted when sales complete."
+        },
+        {
+          "q": "What is What's Up?",
+          "a": "What's Up is Tiram's proactive insight feed for overdue credit, stock risks, due dates, and opportunities."
+        }
+      ],
+      "faqHeading": "FAQs",
+      "faq": [
+        {
+          "q": "Can I manage credit customers in the same workflow?",
+          "a": "Yes. Customer credit limits, aging buckets, payment allocation, defaulter tracking, and statement history are built in."
+        },
+        {
+          "q": "Can I run reports without exporting spreadsheets?",
+          "a": "Yes. Tiram includes sales, inventory, customer, vendor, GST, P&L, ABC, slow-stock, and custom reports."
+        },
+        {
+          "q": "Is this useful from day one?",
+          "a": "Yes. Start with products, customers, warehouses, opening stock, and billing. The deeper reports improve as more transactions flow through Tiram."
+        }
+      ],
+      "relatedHeading": "Related reading",
+      "related": [
+        {
+          "slug": "counter-billing-barcode-quick-bill",
+          "label": "Barcode-scan counter billing with Quick Bill"
+        },
+        {
+          "slug": "business-health-dashboard-indian-smb",
+          "label": "The daily business cockpit for Indian SMBs"
+        }
+      ],
+      "cta": {
+        "heading": "Run the full business loop in one app",
+        "body": "Start with purchase, inventory, billing, credit, and reports in one connected Tiram workspace.",
+        "button": "Start free"
+      }
+    },
     "business-health-dashboard-indian-smb": {
       "meta": {
         "title": "The Daily Business Cockpit for Indian SMBs: 13 Detectors That Tell You What to Fix First · Tiram",
@@ -564,21 +772,91 @@
       "comparisonHeading": "The 13 detectors: what each one catches",
       "comparisonTable": {
         "caption": "Tuned thresholds based on observed Indian SMB data. Same inputs always produce the same output — no ML, no opaque scoring.",
-        "headers": ["Detector", "Severity tier(s)", "What it catches", "Threshold"],
+        "headers": [
+          "Detector",
+          "Severity tier(s)",
+          "What it catches",
+          "Threshold"
+        ],
         "rows": [
-          ["**Overdue receivables**", "Critical / High", "Invoices past due with no payment recorded", "Critical: >₹1L overdue >60 days · High: >₹25K overdue >30 days"],
-          ["**Out-of-stock, recently-sold**", "Critical", "SKUs that sold in the last 30 days but currently show zero stock", "Any qualifying SKU"],
-          ["**Low-stock reorder**", "High / Medium", "SKUs below the configured reorder point with positive sell-through", "Below reorder point, recent sales > 0"],
-          ["**Dead-stock capital**", "Critical / Medium / Info", "Products with no stock movement for >90 days, weighted by capital locked", "Critical: >20% of inventory value · Medium: >5% · Info: >1%"],
-          ["**Revenue decline (MoM)**", "Critical / High", "Month-on-month revenue trending down", "Critical: <85% of prior month · High: <90%"],
-          ["**Margin decline**", "Critical / High", "Gross margin dropping vs the 3-month average", "Critical: 3pp drop · High: 1.5pp drop"],
-          ["**Negative cash flow**", "Critical", "Cash position trending negative over the current window", "Net cash flow < 0 over the rolling 30-day window"],
-          ["**Expense spike**", "High / Medium", "Expense category growing significantly MoM", "≥30% MoM (vs floor of ₹1,000)"],
-          ["**Credit-limit near-breach**", "High", "A customer approaching their configured credit limit", "Outstanding ≥ 90% of limit"],
-          ["**GST filing due**", "High / Medium", "GSTR-1 or GSTR-3B filing window opening", "3–5 days before each deadline (monthly or QRMP)"],
-          ["**Promote top product**", "Opportunity", "A high-margin, high-velocity SKU underrepresented in current promotion", "Top-decile margin × velocity, low recent push"],
-          ["**Re-engage inactive customer**", "Opportunity", "A previously-active customer who hasn't ordered recently", "No order >60 days, prior 90-day frequency >1/mo"],
-          ["**High-margin under-exposed**", "Opportunity", "A high-margin SKU with low sales relative to peers in its category", "Above-median margin, below-median volume in category"]
+          [
+            "**Overdue receivables**",
+            "Critical / High",
+            "Invoices past due with no payment recorded",
+            "Critical: >₹1L overdue >60 days · High: >₹25K overdue >30 days"
+          ],
+          [
+            "**Out-of-stock, recently-sold**",
+            "Critical",
+            "SKUs that sold in the last 30 days but currently show zero stock",
+            "Any qualifying SKU"
+          ],
+          [
+            "**Low-stock reorder**",
+            "High / Medium",
+            "SKUs below the configured reorder point with positive sell-through",
+            "Below reorder point, recent sales > 0"
+          ],
+          [
+            "**Dead-stock capital**",
+            "Critical / Medium / Info",
+            "Products with no stock movement for >90 days, weighted by capital locked",
+            "Critical: >20% of inventory value · Medium: >5% · Info: >1%"
+          ],
+          [
+            "**Revenue decline (MoM)**",
+            "Critical / High",
+            "Month-on-month revenue trending down",
+            "Critical: <85% of prior month · High: <90%"
+          ],
+          [
+            "**Margin decline**",
+            "Critical / High",
+            "Gross margin dropping vs the 3-month average",
+            "Critical: 3pp drop · High: 1.5pp drop"
+          ],
+          [
+            "**Negative cash flow**",
+            "Critical",
+            "Cash position trending negative over the current window",
+            "Net cash flow < 0 over the rolling 30-day window"
+          ],
+          [
+            "**Expense spike**",
+            "High / Medium",
+            "Expense category growing significantly MoM",
+            "≥30% MoM (vs floor of ₹1,000)"
+          ],
+          [
+            "**Credit-limit near-breach**",
+            "High",
+            "A customer approaching their configured credit limit",
+            "Outstanding ≥ 90% of limit"
+          ],
+          [
+            "**GST filing due**",
+            "High / Medium",
+            "GSTR-1 or GSTR-3B filing window opening",
+            "3–5 days before each deadline (monthly or QRMP)"
+          ],
+          [
+            "**Promote top product**",
+            "Opportunity",
+            "A high-margin, high-velocity SKU underrepresented in current promotion",
+            "Top-decile margin × velocity, low recent push"
+          ],
+          [
+            "**Re-engage inactive customer**",
+            "Opportunity",
+            "A previously-active customer who hasn't ordered recently",
+            "No order >60 days, prior 90-day frequency >1/mo"
+          ],
+          [
+            "**High-margin under-exposed**",
+            "Opportunity",
+            "A high-margin SKU with low sales relative to peers in its category",
+            "Above-median margin, below-median volume in category"
+          ]
         ]
       },
       "sections": [
